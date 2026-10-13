@@ -4,7 +4,7 @@
  * @author Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *

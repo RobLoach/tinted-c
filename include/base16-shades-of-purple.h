@@ -4,7 +4,7 @@
  * @author Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *

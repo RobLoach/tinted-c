@@ -4,7 +4,7 @@
  * @author Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *

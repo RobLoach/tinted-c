@@ -4,7 +4,7 @@
  * @author https://github.com/voronianski/oceanic-next-color-scheme
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *

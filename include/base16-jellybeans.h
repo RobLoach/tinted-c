@@ -4,7 +4,7 @@
  * @author FredHappyface (https://github.com/fredHappyface), converted to Base16 by https://github.com/nonetrix
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *
