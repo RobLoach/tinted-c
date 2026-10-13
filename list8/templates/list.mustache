@@ -1,6 +1,6 @@
 /**
- * base16-c: Tinted8 header includes for C.
- * https://github.com/RobLoach/base16-c
+ * tinted-c: Tinted8 header includes for C.
+ * https://github.com/RobLoach/tinted-c
  *
  * @author Rob Loach (https://github.com/RobLoach)
  *

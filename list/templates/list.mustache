@@ -1,6 +1,6 @@
 /**
- * base16-c: Base16 and Base24 header includes for C.
- * https://github.com/RobLoach/base16-c
+ * tinted-c: Base16 and Base24 header includes for C.
+ * https://github.com/RobLoach/tinted-c
  *
  * @author Rob Loach (https://github.com/RobLoach)
  *

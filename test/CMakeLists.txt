@@ -11,7 +11,7 @@ endif()
 set_target_properties(tinted_c_test PROPERTIES C_STANDARD 90)
 
 # Link to the library
-target_link_libraries(tinted_c_test base16_c)
+target_link_libraries(tinted_c_test tinted_c)
 
 # Build the test
 add_test(NAME tinted_c_test COMMAND tinted_c_test)

@@ -4,7 +4,7 @@
  * @author Gabriel Fontes (https://github.com/Misterio77)
  *
  * Template by Rob Loach (https://robloach.net)
- * base16-c: https://github.com/RobLoach/base16-c
+ * tinted-c: https://github.com/RobLoach/tinted-c
  *
  * License: MIT
  *
