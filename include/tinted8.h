@@ -27,13 +27,17 @@
  * SOFTWARE.
  */
 
-#ifndef TINTED8_C_H__
-#define TINTED8_C_H__
-
+/*
+ * The scheme includes stay outside the include guard so that a later include
+ * with TINTED_IMPLEMENTATION defined still compiles the scheme data.
+ */
 #include "tinted8-catppuccin-latte.h" /* light */
 #include "tinted8-catppuccin-mocha.h" /* dark */
 #include "tinted8-gruvbox-dark.h" /* dark */
 #include "tinted8-nord.h" /* dark */
+
+#ifndef TINTED8_C_H__
+#define TINTED8_C_H__
 
 /**
  * The total number of schemes available in tinted8_schemes.
