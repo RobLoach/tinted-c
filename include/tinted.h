@@ -27,9 +27,10 @@
  * SOFTWARE.
  */
 
-#ifndef TINTED_C_H__
-#define TINTED_C_H__
-
+/*
+ * The scheme includes stay outside the include guard so that a later include
+ * with TINTED_IMPLEMENTATION defined still compiles the scheme data.
+ */
 #include "base16-0x96f.h" /* dark */
 #include "base16-3024.h" /* dark */
 #include "base16-apathy.h" /* dark */
@@ -567,6 +568,9 @@
 #include "base24-wombat.h" /* dark */
 #include "base24-wryan.h" /* dark */
 #include "base24-zenburn.h" /* dark */
+
+#ifndef TINTED_C_H__
+#define TINTED_C_H__
 
 /**
  * The total number of schemes available in tinted_schemes.

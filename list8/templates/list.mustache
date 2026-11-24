@@ -27,12 +27,16 @@
  * SOFTWARE.
  */
 
-#ifndef TINTED8_C_H__
-#define TINTED8_C_H__
-
+/*
+ * The scheme includes stay outside the include guard so that a later include
+ * with TINTED_IMPLEMENTATION defined still compiles the scheme data.
+ */
 {{#schemes}}
 #include "{{scheme.system}}-{{scheme.slug}}.h" /* {{variant}} */
 {{/schemes}}
+
+#ifndef TINTED8_C_H__
+#define TINTED8_C_H__
 
 /**
  * The total number of schemes available in tinted8_schemes.
