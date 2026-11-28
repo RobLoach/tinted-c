@@ -29,33 +29,7 @@
  * SOFTWARE.
  */
 
-#ifndef TINTED_C_COLOR_H__
-#define TINTED_C_COLOR_H__
-
-/**
- * A single color used for Base16 or Base24.
- */
-typedef struct tinted_color {
-    unsigned char r; /** Red channel */
-    unsigned char g; /** Green channel */
-    unsigned char b; /** Blue channel */
-} tinted_color;
-
-#endif /* TINTED_C_COLOR_H__ */
-
-#ifndef TINTED_C_SCHEME_H__
-#define TINTED_C_SCHEME_H__
-
-/**
- * A Tinted Base16 or Base24 Scheme.
- */
-typedef struct tinted_scheme {
-    const char *name; /** The name of the scheme. */
-    tinted_color base[24]; /** An array of the colors for the scheme. */
-    unsigned char system; /** Which system the scheme was built for, either 16 or 24. */
-} tinted_scheme;
-
-#endif  /* TINTED_C_SCHEME_H__ */
+#include "tinted_types.h"
 
 #ifndef BASE24_later_this_evening_H__
 #define BASE24_later_this_evening_H__

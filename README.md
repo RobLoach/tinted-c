@@ -76,6 +76,19 @@ In a project with multiple compilation units, define `TINTED_IMPLEMENTATION`
 before the includes in exactly one `.c` file; every other file includes the
 same headers without it and links against that one copy of the data.
 
+### Using only the types
+
+For a library that takes schemes from its caller, include
+[`include/tinted_types.h`](include/tinted_types.h) for the `tinted_scheme`,
+`tinted_color` and `tinted8_scheme` types, without any scheme data. Every
+scheme header includes it, so keep it alongside them.
+
+``` c
+#include "tinted_types.h"
+
+void apply_scheme(const tinted_scheme* scheme);
+```
+
 ## Tinted8
 
 [Tinted8] is a newer scheme system from Tinted Theming, built around eight

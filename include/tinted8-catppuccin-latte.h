@@ -29,59 +29,7 @@
  * SOFTWARE.
  */
 
-#ifndef TINTED_C_COLOR_H__
-#define TINTED_C_COLOR_H__
-
-/**
- * A single color used for Base16 or Base24.
- */
-typedef struct tinted_color {
-    unsigned char r; /** Red channel */
-    unsigned char g; /** Green channel */
-    unsigned char b; /** Blue channel */
-} tinted_color;
-
-#endif /* TINTED_C_COLOR_H__ */
-
-#ifndef TINTED_C_TINTED8_SCHEME_H__
-#define TINTED_C_TINTED8_SCHEME_H__
-
-/**
- * The normal, bright and dim variants of a single Tinted8 palette color.
- */
-typedef struct tinted8_color_group {
-    tinted_color normal; /** The normal variant of the color. */
-    tinted_color bright; /** The bright variant of the color. */
-    tinted_color dim; /** The dim variant of the color. */
-} tinted8_color_group;
-
-/**
- * A Tinted8 Scheme.
- *
- * The scheme's `syntax` and `ui` mappings are intentionally omitted, as they
- * expand to over a hundred fixed keys each; only the palette is exposed.
- */
-typedef struct tinted8_scheme {
-    const char *name; /** The name of the scheme. */
-    const char *slug; /** The slug of the scheme. */
-    const char *author; /** The author of the scheme. */
-    const char *variant; /** Either "dark" or "light". */
-    const char *family; /** The scheme family, or an empty string. */
-    const char *style; /** The style within the family, or an empty string. */
-    tinted8_color_group black; /** The black color group. */
-    tinted8_color_group red; /** The red color group. */
-    tinted8_color_group green; /** The green color group. */
-    tinted8_color_group yellow; /** The yellow color group. */
-    tinted8_color_group blue; /** The blue color group. */
-    tinted8_color_group magenta; /** The magenta color group. */
-    tinted8_color_group cyan; /** The cyan color group. */
-    tinted8_color_group white; /** The white color group. */
-    tinted8_color_group orange; /** The orange color group. */
-    tinted8_color_group gray; /** The gray color group. */
-    tinted8_color_group brown; /** The brown color group. */
-} tinted8_scheme;
-
-#endif  /* TINTED_C_TINTED8_SCHEME_H__ */
+#include "tinted_types.h"
 
 #ifndef TINTED8_catppuccin_latte_H__
 #define TINTED8_catppuccin_latte_H__
