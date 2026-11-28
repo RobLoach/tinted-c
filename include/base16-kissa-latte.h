@@ -77,7 +77,8 @@ const tinted_scheme base16_kissa_latte = {
         { .r = 52, .g = 104, .b = 168 },
         { .r = 100, .g = 56, .b = 160 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_kissa_latte_IMPLEMENTATION_ONCE */

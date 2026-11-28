@@ -77,7 +77,8 @@ const tinted_scheme base24_jellybeans = {
         { .r = 177, .g = 216, .b = 246 },
         { .r = 251, .g = 218, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_jellybeans_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_catppuccin_frappe = {
         { .r = 133, .g = 193, .b = 220 },
         { .r = 244, .g = 184, .b = 228 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_catppuccin_frappe_IMPLEMENTATION_ONCE */

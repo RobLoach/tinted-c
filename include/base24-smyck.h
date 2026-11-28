@@ -77,7 +77,8 @@ const tinted_scheme base24_smyck = {
         { .r = 141, .g = 207, .b = 240 },
         { .r = 247, .g = 153, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_smyck_IMPLEMENTATION_ONCE */

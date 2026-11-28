@@ -77,7 +77,8 @@ const tinted_scheme base16_gigavolt = {
         { .r = 64, .g = 191, .b = 255 },
         { .r = 174, .g = 148, .b = 249 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gigavolt_IMPLEMENTATION_ONCE */

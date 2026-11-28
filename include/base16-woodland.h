@@ -77,7 +77,8 @@ const tinted_scheme base16_woodland = {
         { .r = 136, .g = 164, .b = 211 },
         { .r = 187, .g = 144, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_woodland_IMPLEMENTATION_ONCE */

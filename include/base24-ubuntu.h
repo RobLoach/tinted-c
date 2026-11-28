@@ -77,7 +77,8 @@ const tinted_scheme base24_ubuntu = {
         { .r = 114, .g = 159, .b = 207 },
         { .r = 173, .g = 127, .b = 168 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ubuntu_IMPLEMENTATION_ONCE */

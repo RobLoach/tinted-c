@@ -77,7 +77,8 @@ const tinted_scheme base24_breeze = {
         { .r = 61, .g = 174, .b = 233 },
         { .r = 142, .g = 68, .b = 173 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_breeze_IMPLEMENTATION_ONCE */

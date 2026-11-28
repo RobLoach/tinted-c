@@ -77,7 +77,8 @@ const tinted_scheme base16_precious_light_white = {
         { .r = 24, .g = 109, .b = 170 },
         { .r = 123, .g = 78, .b = 203 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_precious_light_white_IMPLEMENTATION_ONCE */

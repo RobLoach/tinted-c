@@ -77,7 +77,8 @@ const tinted_scheme base24_forest_blue = {
         { .r = 57, .g = 167, .b = 162 },
         { .r = 126, .g = 98, .b = 179 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_forest_blue_IMPLEMENTATION_ONCE */

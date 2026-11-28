@@ -77,7 +77,8 @@ const tinted_scheme base24_ic_orange_ppl = {
         { .r = 255, .g = 189, .b = 84 },
         { .r = 252, .g = 135, .b = 79 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ic_orange_ppl_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_oxocarbon_dark = {
         { .r = 51, .g = 177, .b = 255 },
         { .r = 190, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_oxocarbon_dark_IMPLEMENTATION_ONCE */

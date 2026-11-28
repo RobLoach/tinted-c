@@ -77,7 +77,8 @@ const tinted_scheme base24_slate = {
         { .r = 121, .g = 175, .b = 210 },
         { .r = 196, .g = 167, .b = 216 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_slate_IMPLEMENTATION_ONCE */

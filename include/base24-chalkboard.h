@@ -77,7 +77,8 @@ const tinted_scheme base24_chalkboard = {
         { .r = 170, .g = 170, .b = 219 },
         { .r = 219, .g = 170, .b = 218 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_chalkboard_IMPLEMENTATION_ONCE */

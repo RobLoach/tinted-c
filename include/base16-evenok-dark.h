@@ -77,7 +77,8 @@ const tinted_scheme base16_evenok_dark = {
         { .r = 0, .g = 175, .b = 242 },
         { .r = 144, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_evenok_dark_IMPLEMENTATION_ONCE */

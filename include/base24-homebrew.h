@@ -77,7 +77,8 @@ const tinted_scheme base24_homebrew = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_homebrew_IMPLEMENTATION_ONCE */

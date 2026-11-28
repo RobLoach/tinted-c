@@ -77,7 +77,8 @@ const tinted_scheme base16_paraiso = {
         { .r = 6, .g = 182, .b = 239 },
         { .r = 129, .g = 91, .b = 164 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_paraiso_IMPLEMENTATION_ONCE */

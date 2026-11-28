@@ -77,7 +77,8 @@ const tinted_scheme base16_blueish = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 255, .g = 132, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_blueish_IMPLEMENTATION_ONCE */

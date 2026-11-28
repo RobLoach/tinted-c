@@ -77,7 +77,8 @@ const tinted_scheme base24_tango_adapted = {
         { .r = 136, .g = 201, .b = 255 },
         { .r = 232, .g = 166, .b = 225 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_tango_adapted_IMPLEMENTATION_ONCE */

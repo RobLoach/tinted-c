@@ -77,7 +77,8 @@ const tinted_scheme base16_uwunicorn = {
         { .r = 106, .g = 158, .b = 181 },
         { .r = 120, .g = 163, .b = 143 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_uwunicorn_IMPLEMENTATION_ONCE */

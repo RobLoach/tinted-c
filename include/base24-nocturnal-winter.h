@@ -77,7 +77,8 @@ const tinted_scheme base24_nocturnal_winter = {
         { .r = 96, .g = 149, .b = 254 },
         { .r = 255, .g = 120, .b = 162 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_nocturnal_winter_IMPLEMENTATION_ONCE */

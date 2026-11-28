@@ -77,7 +77,8 @@ const tinted_scheme base24_idle_toes = {
         { .r = 94, .g = 183, .b = 247 },
         { .r = 255, .g = 157, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_idle_toes_IMPLEMENTATION_ONCE */

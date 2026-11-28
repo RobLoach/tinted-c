@@ -77,7 +77,8 @@ const tinted_scheme base24_piatto_light = {
         { .r = 60, .g = 94, .b = 168 },
         { .r = 164, .g = 84, .b = 178 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_piatto_light_IMPLEMENTATION_ONCE */

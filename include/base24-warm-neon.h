@@ -77,7 +77,8 @@ const tinted_scheme base24_warm_neon = {
         { .r = 122, .g = 144, .b = 213 },
         { .r = 246, .g = 116, .b = 185 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_warm_neon_IMPLEMENTATION_ONCE */

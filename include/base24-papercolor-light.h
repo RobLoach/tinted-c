@@ -77,7 +77,8 @@ const tinted_scheme base24_papercolor_light = {
         { .r = 255, .g = 135, .b = 0 },
         { .r = 95, .g = 175, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_papercolor_light_IMPLEMENTATION_ONCE */

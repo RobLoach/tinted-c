@@ -77,7 +77,8 @@ const tinted_scheme base16_tarot = {
         { .r = 110, .g = 96, .b = 128 },
         { .r = 164, .g = 87, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tarot_IMPLEMENTATION_ONCE */

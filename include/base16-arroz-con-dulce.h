@@ -77,7 +77,8 @@ const tinted_scheme base16_arroz_con_dulce = {
         { .r = 89, .g = 64, .b = 160 },
         { .r = 140, .g = 31, .b = 104 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_arroz_con_dulce_IMPLEMENTATION_ONCE */

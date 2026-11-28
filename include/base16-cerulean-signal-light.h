@@ -77,7 +77,8 @@ const tinted_scheme base16_cerulean_signal_light = {
         { .r = 0, .g = 111, .b = 168 },
         { .r = 160, .g = 0, .b = 125 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_cerulean_signal_light_IMPLEMENTATION_ONCE */

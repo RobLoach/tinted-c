@@ -77,7 +77,8 @@ const tinted_scheme base16_pastelon_de_amarillos_dark = {
         { .r = 90, .g = 159, .b = 230 },
         { .r = 217, .g = 120, .b = 207 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_pastelon_de_amarillos_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_mezcal = {
         { .r = 138, .g = 166, .b = 192 },
         { .r = 194, .g = 138, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_mezcal_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_space_gray_eighties_dull = {
         { .r = 84, .g = 133, .b = 192 },
         { .r = 191, .g = 131, .b = 192 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_space_gray_eighties_dull_IMPLEMENTATION_ONCE */

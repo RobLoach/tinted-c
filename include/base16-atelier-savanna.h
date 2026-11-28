@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_savanna = {
         { .r = 71, .g = 140, .b = 144 },
         { .r = 85, .g = 133, .b = 155 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_savanna_IMPLEMENTATION_ONCE */

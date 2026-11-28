@@ -77,7 +77,8 @@ const tinted_scheme base24_medallion = {
         { .r = 171, .g = 184, .b = 255 },
         { .r = 254, .g = 159, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_medallion_IMPLEMENTATION_ONCE */

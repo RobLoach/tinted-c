@@ -77,7 +77,8 @@ const tinted_scheme base24_espresso_libre = {
         { .r = 67, .g = 168, .b = 237 },
         { .r = 255, .g = 128, .b = 137 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_espresso_libre_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_brogrammer = {
         { .r = 83, .g = 80, .b = 185 },
         { .r = 15, .g = 125, .b = 219 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_brogrammer_IMPLEMENTATION_ONCE */

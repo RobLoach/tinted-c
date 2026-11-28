@@ -77,7 +77,8 @@ const tinted_scheme base16_dracula = {
         { .r = 189, .g = 147, .b = 249 },
         { .r = 255, .g = 121, .b = 198 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_dracula_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_tube = {
         { .r = 0, .g = 157, .b = 220 },
         { .r = 152, .g = 0, .b = 93 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tube_IMPLEMENTATION_ONCE */

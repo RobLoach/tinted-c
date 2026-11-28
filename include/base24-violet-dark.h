@@ -77,7 +77,8 @@ const tinted_scheme base24_violet_dark = {
         { .r = 32, .g = 117, .b = 199 },
         { .r = 198, .g = 27, .b = 110 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_violet_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_ayu_dark = {
         { .r = 89, .g = 194, .b = 255 },
         { .r = 210, .g = 166, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ayu_dark_IMPLEMENTATION_ONCE */

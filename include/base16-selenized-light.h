@@ -77,7 +77,8 @@ const tinted_scheme base16_selenized_light = {
         { .r = 0, .g = 109, .b = 206 },
         { .r = 130, .g = 93, .b = 192 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_selenized_light_IMPLEMENTATION_ONCE */

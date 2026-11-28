@@ -77,7 +77,8 @@ const tinted_scheme base16_github = {
         { .r = 130, .g = 80, .b = 223 },
         { .r = 207, .g = 34, .b = 46 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_github_IMPLEMENTATION_ONCE */

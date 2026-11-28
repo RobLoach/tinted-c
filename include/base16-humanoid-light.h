@@ -77,7 +77,8 @@ const tinted_scheme base16_humanoid_light = {
         { .r = 0, .g = 130, .b = 201 },
         { .r = 112, .g = 15, .b = 152 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_humanoid_light_IMPLEMENTATION_ONCE */

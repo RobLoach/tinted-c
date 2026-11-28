@@ -77,7 +77,8 @@ const tinted_scheme base24_ciapre = {
         { .r = 47, .g = 151, .b = 198 },
         { .r = 211, .g = 48, .b = 96 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ciapre_IMPLEMENTATION_ONCE */

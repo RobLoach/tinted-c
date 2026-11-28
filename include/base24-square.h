@@ -77,7 +77,8 @@ const tinted_scheme base24_square = {
         { .r = 182, .g = 222, .b = 251 },
         { .r = 173, .g = 127, .b = 168 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_square_IMPLEMENTATION_ONCE */

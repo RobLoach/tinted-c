@@ -77,7 +77,8 @@ const tinted_scheme base24_red_alert = {
         { .r = 101, .g = 169, .b = 240 },
         { .r = 221, .g = 183, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_red_alert_IMPLEMENTATION_ONCE */

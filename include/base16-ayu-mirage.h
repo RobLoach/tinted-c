@@ -77,7 +77,8 @@ const tinted_scheme base16_ayu_mirage = {
         { .r = 115, .g = 208, .b = 255 },
         { .r = 212, .g = 191, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ayu_mirage_IMPLEMENTATION_ONCE */

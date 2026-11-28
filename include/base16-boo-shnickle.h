@@ -77,7 +77,8 @@ const tinted_scheme base16_boo_shnickle = {
         { .r = 191, .g = 191, .b = 217 },
         { .r = 242, .g = 191, .b = 217 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_boo_shnickle_IMPLEMENTATION_ONCE */

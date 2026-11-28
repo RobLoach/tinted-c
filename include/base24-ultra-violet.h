@@ -77,7 +77,8 @@ const tinted_scheme base24_ultra_violet = {
         { .r = 127, .g = 235, .b = 255 },
         { .r = 230, .g = 129, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ultra_violet_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_catppuccin_macchiato = {
         { .r = 138, .g = 173, .b = 244 },
         { .r = 198, .g = 160, .b = 246 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_catppuccin_macchiato_IMPLEMENTATION_ONCE */

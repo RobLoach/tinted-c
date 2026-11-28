@@ -77,7 +77,8 @@ const tinted_scheme base16_vesper = {
         { .r = 142, .g = 170, .b = 170 },
         { .r = 214, .g = 144, .b = 148 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_vesper_IMPLEMENTATION_ONCE */

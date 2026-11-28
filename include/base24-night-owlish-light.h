@@ -77,7 +77,8 @@ const tinted_scheme base24_night_owlish_light = {
         { .r = 92, .g = 167, .b = 228 },
         { .r = 105, .g = 112, .b = 152 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_night_owlish_light_IMPLEMENTATION_ONCE */

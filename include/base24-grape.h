@@ -77,7 +77,8 @@ const tinted_scheme base24_grape = {
         { .r = 169, .g = 187, .b = 235 },
         { .r = 172, .g = 129, .b = 193 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_grape_IMPLEMENTATION_ONCE */

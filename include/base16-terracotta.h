@@ -77,7 +77,8 @@ const tinted_scheme base16_terracotta = {
         { .r = 98, .g = 85, .b = 116 },
         { .r = 141, .g = 89, .b = 104 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_terracotta_IMPLEMENTATION_ONCE */

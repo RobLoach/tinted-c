@@ -77,7 +77,8 @@ const tinted_scheme base24_mona_lisa = {
         { .r = 158, .g = 178, .b = 179 },
         { .r = 255, .g = 91, .b = 106 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_mona_lisa_IMPLEMENTATION_ONCE */

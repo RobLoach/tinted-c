@@ -77,7 +77,8 @@ const tinted_scheme base16_danqing = {
         { .r = 176, .g = 164, .b = 227 },
         { .r = 204, .g = 164, .b = 227 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_danqing_IMPLEMENTATION_ONCE */

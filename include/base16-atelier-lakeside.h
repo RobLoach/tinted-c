@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_lakeside = {
         { .r = 37, .g = 127, .b = 173 },
         { .r = 107, .g = 107, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_lakeside_IMPLEMENTATION_ONCE */

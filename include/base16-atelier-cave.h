@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_cave = {
         { .r = 87, .g = 109, .b = 219 },
         { .r = 149, .g = 90, .b = 231 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_cave_IMPLEMENTATION_ONCE */

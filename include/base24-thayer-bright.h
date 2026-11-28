@@ -77,7 +77,8 @@ const tinted_scheme base24_thayer_bright = {
         { .r = 63, .g = 120, .b = 255 },
         { .r = 158, .g = 111, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_thayer_bright_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_horizon_dark = {
         { .r = 223, .g = 82, .b = 115 },
         { .r = 176, .g = 114, .b = 209 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_horizon_dark_IMPLEMENTATION_ONCE */

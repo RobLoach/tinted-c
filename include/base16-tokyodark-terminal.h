@@ -77,7 +77,8 @@ const tinted_scheme base16_tokyodark_terminal = {
         { .r = 113, .g = 153, .b = 238 },
         { .r = 164, .g = 133, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tokyodark_terminal_IMPLEMENTATION_ONCE */

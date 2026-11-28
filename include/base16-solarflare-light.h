@@ -77,7 +77,8 @@ const tinted_scheme base16_solarflare_light = {
         { .r = 51, .g = 181, .b = 225 },
         { .r = 163, .g = 99, .b = 213 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_solarflare_light_IMPLEMENTATION_ONCE */

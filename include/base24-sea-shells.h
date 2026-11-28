@@ -77,7 +77,8 @@ const tinted_scheme base24_sea_shells = {
         { .r = 27, .g = 188, .b = 221 },
         { .r = 187, .g = 227, .b = 238 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_sea_shells_IMPLEMENTATION_ONCE */

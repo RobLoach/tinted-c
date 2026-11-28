@@ -77,7 +77,8 @@ const tinted_scheme base16_tomorrow = {
         { .r = 66, .g = 113, .b = 174 },
         { .r = 137, .g = 89, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_tomorrow_IMPLEMENTATION_ONCE */

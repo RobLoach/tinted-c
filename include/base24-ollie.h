@@ -77,7 +77,8 @@ const tinted_scheme base24_ollie = {
         { .r = 68, .g = 135, .b = 255 },
         { .r = 255, .g = 194, .b = 28 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ollie_IMPLEMENTATION_ONCE */

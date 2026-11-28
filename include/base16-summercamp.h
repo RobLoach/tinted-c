@@ -77,7 +77,8 @@ const tinted_scheme base16_summercamp = {
         { .r = 72, .g = 155, .b = 240 },
         { .r = 255, .g = 128, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_summercamp_IMPLEMENTATION_ONCE */

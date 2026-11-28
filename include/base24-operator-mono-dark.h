@@ -77,7 +77,8 @@ const tinted_scheme base24_operator_mono_dark = {
         { .r = 137, .g = 211, .b = 246 },
         { .r = 254, .g = 44, .b = 121 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_operator_mono_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_scarlet_protocol = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 188, .g = 53, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_scarlet_protocol_IMPLEMENTATION_ONCE */

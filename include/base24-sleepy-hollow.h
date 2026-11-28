@@ -77,7 +77,8 @@ const tinted_scheme base24_sleepy_hollow = {
         { .r = 128, .g = 133, .b = 239 },
         { .r = 225, .g = 194, .b = 186 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_sleepy_hollow_IMPLEMENTATION_ONCE */

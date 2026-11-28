@@ -77,7 +77,8 @@ const tinted_scheme base16_monokai = {
         { .r = 102, .g = 217, .b = 239 },
         { .r = 174, .g = 129, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_monokai_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_toy_chest = {
         { .r = 51, .g = 165, .b = 217 },
         { .r = 173, .g = 107, .b = 220 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_toy_chest_IMPLEMENTATION_ONCE */

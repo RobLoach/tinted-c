@@ -52,6 +52,7 @@ typedef struct tinted_scheme {
     const char *name; /** The name of the scheme. */
     tinted_color base[24]; /** An array of the colors for the scheme. */
     unsigned char system; /** Which system the scheme was built for, either 16 or 24. */
+    const char *variant; /** Either "dark" or "light". */
 } tinted_scheme;
 
 #endif  /* TINTED_C_SCHEME_H__ */

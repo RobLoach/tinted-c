@@ -77,7 +77,8 @@ const tinted_scheme base16_eldritch = {
         { .r = 57, .g = 221, .b = 253 },
         { .r = 164, .g = 140, .b = 242 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_eldritch_IMPLEMENTATION_ONCE */

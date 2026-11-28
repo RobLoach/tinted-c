@@ -77,7 +77,8 @@ const tinted_scheme base16_irblack = {
         { .r = 150, .g = 203, .b = 254 },
         { .r = 255, .g = 115, .b = 253 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_irblack_IMPLEMENTATION_ONCE */

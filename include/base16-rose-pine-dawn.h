@@ -77,7 +77,8 @@ const tinted_scheme base16_rose_pine_dawn = {
         { .r = 144, .g = 122, .b = 169 },
         { .r = 234, .g = 157, .b = 52 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_rose_pine_dawn_IMPLEMENTATION_ONCE */

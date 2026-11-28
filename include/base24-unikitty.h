@@ -77,7 +77,8 @@ const tinted_scheme base24_unikitty = {
         { .r = 0, .g = 116, .b = 234 },
         { .r = 253, .g = 213, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_unikitty_IMPLEMENTATION_ONCE */

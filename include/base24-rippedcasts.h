@@ -77,7 +77,8 @@ const tinted_scheme base24_rippedcasts = {
         { .r = 134, .g = 189, .b = 201 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_rippedcasts_IMPLEMENTATION_ONCE */

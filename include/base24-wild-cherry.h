@@ -77,7 +77,8 @@ const tinted_scheme base24_wild_cherry = {
         { .r = 47, .g = 139, .b = 185 },
         { .r = 174, .g = 99, .b = 107 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_wild_cherry_IMPLEMENTATION_ONCE */

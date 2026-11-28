@@ -77,7 +77,8 @@ const tinted_scheme base24_hurtado = {
         { .r = 137, .g = 189, .b = 255 },
         { .r = 191, .g = 0, .b = 192 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_hurtado_IMPLEMENTATION_ONCE */

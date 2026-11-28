@@ -77,7 +77,8 @@ const tinted_scheme base16_twilight = {
         { .r = 117, .g = 135, .b = 166 },
         { .r = 155, .g = 133, .b = 157 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_twilight_IMPLEMENTATION_ONCE */

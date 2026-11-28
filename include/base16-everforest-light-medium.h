@@ -77,7 +77,8 @@ const tinted_scheme base16_everforest_light_medium = {
         { .r = 58, .g = 148, .b = 197 },
         { .r = 223, .g = 105, .b = 186 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_everforest_light_medium_IMPLEMENTATION_ONCE */

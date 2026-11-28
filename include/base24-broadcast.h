@@ -77,7 +77,8 @@ const tinted_scheme base24_broadcast = {
         { .r = 159, .g = 206, .b = 240 },
         { .r = 255, .g = 255, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_broadcast_IMPLEMENTATION_ONCE */

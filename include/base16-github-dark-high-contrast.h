@@ -77,7 +77,8 @@ const tinted_scheme base16_github_dark_high_contrast = {
         { .r = 219, .g = 183, .b = 255 },
         { .r = 255, .g = 148, .b = 146 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_github_dark_high_contrast_IMPLEMENTATION_ONCE */

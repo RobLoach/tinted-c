@@ -77,7 +77,8 @@ const tinted_scheme base24_catppuccin_latte = {
         { .r = 32, .g = 159, .b = 181 },
         { .r = 234, .g = 118, .b = 203 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_catppuccin_latte_IMPLEMENTATION_ONCE */

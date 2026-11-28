@@ -77,7 +77,8 @@ const tinted_scheme base24_pastelon_de_amarillos_dark = {
         { .r = 229, .g = 129, .b = 220 },
         { .r = 237, .g = 125, .b = 81 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_pastelon_de_amarillos_dark_IMPLEMENTATION_ONCE */

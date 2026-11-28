@@ -77,7 +77,8 @@ const tinted_scheme base16_onedark = {
         { .r = 97, .g = 175, .b = 239 },
         { .r = 198, .g = 120, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_onedark_IMPLEMENTATION_ONCE */

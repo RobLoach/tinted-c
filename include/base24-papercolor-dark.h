@@ -77,7 +77,8 @@ const tinted_scheme base24_papercolor_dark = {
         { .r = 255, .g = 215, .b = 0 },
         { .r = 135, .g = 215, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_papercolor_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_porple = {
         { .r = 132, .g = 133, .b = 206 },
         { .r = 183, .g = 73, .b = 137 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_porple_IMPLEMENTATION_ONCE */

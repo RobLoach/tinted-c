@@ -77,7 +77,8 @@ const tinted_scheme base16_unikitty_light = {
         { .r = 119, .g = 93, .b = 255 },
         { .r = 170, .g = 23, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_unikitty_light_IMPLEMENTATION_ONCE */

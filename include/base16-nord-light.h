@@ -77,7 +77,8 @@ const tinted_scheme base16_nord_light = {
         { .r = 59, .g = 110, .b = 168 },
         { .r = 151, .g = 54, .b = 91 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_nord_light_IMPLEMENTATION_ONCE */

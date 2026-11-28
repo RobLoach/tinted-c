@@ -77,7 +77,8 @@ const tinted_scheme base16_brewer = {
         { .r = 49, .g = 130, .b = 189 },
         { .r = 117, .g = 107, .b = 177 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_brewer_IMPLEMENTATION_ONCE */

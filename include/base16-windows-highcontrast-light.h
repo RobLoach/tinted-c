@@ -77,7 +77,8 @@ const tinted_scheme base16_windows_highcontrast_light = {
         { .r = 0, .g = 0, .b = 128 },
         { .r = 128, .g = 0, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_windows_highcontrast_light_IMPLEMENTATION_ONCE */

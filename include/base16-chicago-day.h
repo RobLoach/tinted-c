@@ -77,7 +77,8 @@ const tinted_scheme base16_chicago_day = {
         { .r = 82, .g = 35, .b = 152 },
         { .r = 226, .g = 126, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_chicago_day_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_solarized_dark_patched = {
         { .r = 112, .g = 129, .b = 131 },
         { .r = 88, .g = 86, .b = 185 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_solarized_dark_patched_IMPLEMENTATION_ONCE */

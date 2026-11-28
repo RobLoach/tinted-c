@@ -77,7 +77,8 @@ const tinted_scheme base16_material_palenight = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 199, .g = 146, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_material_palenight_IMPLEMENTATION_ONCE */

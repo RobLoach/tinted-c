@@ -77,7 +77,8 @@ const tinted_scheme base16_oceanicnext = {
         { .r = 102, .g = 153, .b = 204 },
         { .r = 197, .g = 148, .b = 197 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_oceanicnext_IMPLEMENTATION_ONCE */

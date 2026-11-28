@@ -77,7 +77,8 @@ const tinted_scheme base24_chalk = {
         { .r = 111, .g = 194, .b = 239 },
         { .r = 225, .g = 163, .b = 238 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_chalk_IMPLEMENTATION_ONCE */

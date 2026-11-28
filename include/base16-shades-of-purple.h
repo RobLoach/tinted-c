@@ -77,7 +77,8 @@ const tinted_scheme base16_shades_of_purple = {
         { .r = 105, .g = 67, .b = 255 },
         { .r = 255, .g = 44, .b = 112 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_shades_of_purple_IMPLEMENTATION_ONCE */

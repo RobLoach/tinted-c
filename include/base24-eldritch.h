@@ -77,7 +77,8 @@ const tinted_scheme base24_eldritch = {
         { .r = 122, .g = 233, .b = 255 },
         { .r = 212, .g = 179, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_eldritch_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_atlas = {
         { .r = 20, .g = 116, .b = 126 },
         { .r = 154, .g = 112, .b = 164 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atlas_IMPLEMENTATION_ONCE */

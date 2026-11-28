@@ -77,7 +77,8 @@ const tinted_scheme base16_equilibrium_dark = {
         { .r = 0, .g = 141, .b = 209 },
         { .r = 106, .g = 127, .b = 210 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_equilibrium_dark_IMPLEMENTATION_ONCE */

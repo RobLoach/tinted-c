@@ -77,7 +77,8 @@ const tinted_scheme base16_0x96f = {
         { .r = 73, .g = 202, .b = 228 },
         { .r = 160, .g = 147, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_0x96f_IMPLEMENTATION_ONCE */

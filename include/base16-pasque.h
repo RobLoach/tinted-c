@@ -77,7 +77,8 @@ const tinted_scheme base16_pasque = {
         { .r = 142, .g = 125, .b = 198 },
         { .r = 149, .g = 59, .b = 157 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_pasque_IMPLEMENTATION_ONCE */

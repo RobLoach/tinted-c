@@ -77,7 +77,8 @@ const tinted_scheme base16_qualia = {
         { .r = 80, .g = 202, .b = 205 },
         { .r = 224, .g = 175, .b = 133 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_qualia_IMPLEMENTATION_ONCE */

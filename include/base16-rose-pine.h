@@ -77,7 +77,8 @@ const tinted_scheme base16_rose_pine = {
         { .r = 196, .g = 167, .b = 231 },
         { .r = 246, .g = 193, .b = 119 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_rose_pine_IMPLEMENTATION_ONCE */

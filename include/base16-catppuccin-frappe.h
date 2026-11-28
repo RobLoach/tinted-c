@@ -77,7 +77,8 @@ const tinted_scheme base16_catppuccin_frappe = {
         { .r = 140, .g = 170, .b = 238 },
         { .r = 202, .g = 158, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_catppuccin_frappe_IMPLEMENTATION_ONCE */

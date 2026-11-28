@@ -77,7 +77,8 @@ const tinted_scheme base16_still_alive = {
         { .r = 54, .g = 94, .b = 255 },
         { .r = 144, .g = 54, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_still_alive_IMPLEMENTATION_ONCE */

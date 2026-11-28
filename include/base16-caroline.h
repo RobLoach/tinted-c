@@ -77,7 +77,8 @@ const tinted_scheme base16_caroline = {
         { .r = 104, .g = 76, .b = 89 },
         { .r = 166, .g = 54, .b = 80 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_caroline_IMPLEMENTATION_ONCE */

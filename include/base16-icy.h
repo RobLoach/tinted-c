@@ -77,7 +77,8 @@ const tinted_scheme base16_icy = {
         { .r = 0, .g = 188, .b = 212 },
         { .r = 0, .g = 172, .b = 193 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_icy_IMPLEMENTATION_ONCE */

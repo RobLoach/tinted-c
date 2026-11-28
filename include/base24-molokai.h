@@ -77,7 +77,8 @@ const tinted_scheme base24_molokai = {
         { .r = 0, .g = 175, .b = 255 },
         { .r = 175, .g = 135, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_molokai_IMPLEMENTATION_ONCE */

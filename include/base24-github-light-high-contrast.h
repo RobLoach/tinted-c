@@ -77,7 +77,8 @@ const tinted_scheme base24_github_light_high_contrast = {
         { .r = 54, .g = 140, .b = 249 },
         { .r = 163, .g = 113, .b = 247 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_github_light_high_contrast_IMPLEMENTATION_ONCE */

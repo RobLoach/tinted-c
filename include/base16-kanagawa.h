@@ -77,7 +77,8 @@ const tinted_scheme base16_kanagawa = {
         { .r = 126, .g = 156, .b = 216 },
         { .r = 149, .g = 127, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_kanagawa_IMPLEMENTATION_ONCE */

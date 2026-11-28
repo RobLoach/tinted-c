@@ -77,7 +77,8 @@ const tinted_scheme base16_papel = {
         { .r = 44, .g = 108, .b = 160 },
         { .r = 155, .g = 77, .b = 142 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_papel_IMPLEMENTATION_ONCE */

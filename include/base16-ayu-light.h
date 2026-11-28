@@ -77,7 +77,8 @@ const tinted_scheme base16_ayu_light = {
         { .r = 57, .g = 158, .b = 230 },
         { .r = 163, .g = 122, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_ayu_light_IMPLEMENTATION_ONCE */

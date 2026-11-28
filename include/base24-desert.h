@@ -77,7 +77,8 @@ const tinted_scheme base24_desert = {
         { .r = 135, .g = 206, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_desert_IMPLEMENTATION_ONCE */

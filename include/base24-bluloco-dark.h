@@ -77,7 +77,8 @@ const tinted_scheme base24_bluloco_dark = {
         { .r = 24, .g = 159, .b = 253 },
         { .r = 251, .g = 87, .b = 246 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_bluloco_dark_IMPLEMENTATION_ONCE */

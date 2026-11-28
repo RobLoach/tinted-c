@@ -77,7 +77,8 @@ const tinted_scheme base16_saga = {
         { .r = 201, .g = 255, .b = 247 },
         { .r = 220, .g = 195, .b = 249 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_saga_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_vulcan = {
         { .r = 151, .g = 125, .b = 124 },
         { .r = 145, .g = 152, .b = 163 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_vulcan_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_oxocarbon_light = {
         { .r = 15, .g = 98, .b = 254 },
         { .r = 190, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_oxocarbon_light_IMPLEMENTATION_ONCE */

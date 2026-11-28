@@ -77,7 +77,8 @@ const tinted_scheme base24_japanesque = {
         { .r = 19, .g = 88, .b = 121 },
         { .r = 95, .g = 65, .b = 144 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_japanesque_IMPLEMENTATION_ONCE */

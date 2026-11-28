@@ -77,7 +77,8 @@ const tinted_scheme base16_unikitty_dark = {
         { .r = 121, .g = 106, .b = 245 },
         { .r = 187, .g = 96, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_unikitty_dark_IMPLEMENTATION_ONCE */

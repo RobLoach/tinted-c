@@ -77,7 +77,8 @@ const tinted_scheme base16_yesterday = {
         { .r = 66, .g = 113, .b = 174 },
         { .r = 137, .g = 89, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_yesterday_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_blueforest = {
         { .r = 162, .g = 207, .b = 245 },
         { .r = 0, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_blueforest_IMPLEMENTATION_ONCE */

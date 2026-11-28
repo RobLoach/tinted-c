@@ -77,7 +77,8 @@ const tinted_scheme base24_builtin_light = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_builtin_light_IMPLEMENTATION_ONCE */

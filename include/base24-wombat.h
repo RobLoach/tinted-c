@@ -77,7 +77,8 @@ const tinted_scheme base24_wombat = {
         { .r = 165, .g = 199, .b = 255 },
         { .r = 221, .g = 170, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_wombat_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_kibble = {
         { .r = 151, .g = 164, .b = 247 },
         { .r = 196, .g = 149, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_kibble_IMPLEMENTATION_ONCE */

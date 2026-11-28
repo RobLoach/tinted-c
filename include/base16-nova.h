@@ -77,7 +77,8 @@ const tinted_scheme base16_nova = {
         { .r = 131, .g = 175, .b = 229 },
         { .r = 154, .g = 147, .b = 225 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_nova_IMPLEMENTATION_ONCE */

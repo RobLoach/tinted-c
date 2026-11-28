@@ -77,7 +77,8 @@ const tinted_scheme base24_crayon_pony_fish = {
         { .r = 207, .g = 201, .b = 255 },
         { .r = 251, .g = 108, .b = 185 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_crayon_pony_fish_IMPLEMENTATION_ONCE */

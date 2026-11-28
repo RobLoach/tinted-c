@@ -77,7 +77,8 @@ const tinted_scheme base16_lichen_chartreuse_light = {
         { .r = 53, .g = 110, .b = 138 },
         { .r = 110, .g = 86, .b = 137 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_lichen_chartreuse_light_IMPLEMENTATION_ONCE */

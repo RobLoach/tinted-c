@@ -77,7 +77,8 @@ const tinted_scheme base16_tokyo_night_light = {
         { .r = 52, .g = 84, .b = 138 },
         { .r = 90, .g = 74, .b = 120 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_tokyo_night_light_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_arthur = {
         { .r = 135, .g = 206, .b = 235 },
         { .r = 153, .g = 102, .b = 0 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_arthur_IMPLEMENTATION_ONCE */

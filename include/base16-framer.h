@@ -77,7 +77,8 @@ const tinted_scheme base16_framer = {
         { .r = 32, .g = 188, .b = 252 },
         { .r = 186, .g = 140, .b = 252 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_framer_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_summerfruit_light = {
         { .r = 55, .g = 119, .b = 230 },
         { .r = 173, .g = 0, .b = 161 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_summerfruit_light_IMPLEMENTATION_ONCE */

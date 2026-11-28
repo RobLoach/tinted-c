@@ -77,7 +77,8 @@ const tinted_scheme base24_flexoki_dark = {
         { .r = 36, .g = 131, .b = 123 },
         { .r = 32, .g = 94, .b = 166 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_flexoki_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_greenscreen = {
         { .r = 0, .g = 153, .b = 0 },
         { .r = 0, .g = 187, .b = 0 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_greenscreen_IMPLEMENTATION_ONCE */

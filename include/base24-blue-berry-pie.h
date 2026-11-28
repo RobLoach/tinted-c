@@ -77,7 +77,8 @@ const tinted_scheme base24_blue_berry_pie = {
         { .r = 56, .g = 22, .b = 61 },
         { .r = 188, .g = 147, .b = 182 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_blue_berry_pie_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_grayscale_light = {
         { .r = 104, .g = 104, .b = 104 },
         { .r = 116, .g = 116, .b = 116 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_grayscale_light_IMPLEMENTATION_ONCE */

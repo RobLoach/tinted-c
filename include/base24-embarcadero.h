@@ -77,7 +77,8 @@ const tinted_scheme base24_embarcadero = {
         { .r = 128, .g = 176, .b = 240 },
         { .r = 192, .g = 144, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_embarcadero_IMPLEMENTATION_ONCE */

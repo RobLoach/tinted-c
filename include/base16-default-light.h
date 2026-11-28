@@ -77,7 +77,8 @@ const tinted_scheme base16_default_light = {
         { .r = 124, .g = 175, .b = 194 },
         { .r = 186, .g = 139, .b = 175 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_default_light_IMPLEMENTATION_ONCE */

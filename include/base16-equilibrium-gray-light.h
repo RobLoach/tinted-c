@@ -77,7 +77,8 @@ const tinted_scheme base16_equilibrium_gray_light = {
         { .r = 0, .g = 115, .b = 181 },
         { .r = 78, .g = 102, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_equilibrium_gray_light_IMPLEMENTATION_ONCE */

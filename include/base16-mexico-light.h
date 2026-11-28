@@ -77,7 +77,8 @@ const tinted_scheme base16_mexico_light = {
         { .r = 124, .g = 175, .b = 194 },
         { .r = 150, .g = 96, .b = 158 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_mexico_light_IMPLEMENTATION_ONCE */

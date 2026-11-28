@@ -77,7 +77,8 @@ const tinted_scheme base16_jellybeans = {
         { .r = 177, .g = 216, .b = 246 },
         { .r = 251, .g = 218, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_jellybeans_IMPLEMENTATION_ONCE */

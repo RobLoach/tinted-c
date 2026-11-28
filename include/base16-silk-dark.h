@@ -77,7 +77,8 @@ const tinted_scheme base16_silk_dark = {
         { .r = 70, .g = 189, .b = 221 },
         { .r = 117, .g = 107, .b = 138 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_silk_dark_IMPLEMENTATION_ONCE */

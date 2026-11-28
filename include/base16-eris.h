@@ -77,7 +77,8 @@ const tinted_scheme base16_eris = {
         { .r = 37, .g = 143, .b = 196 },
         { .r = 195, .g = 104, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_eris_IMPLEMENTATION_ONCE */

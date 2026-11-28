@@ -77,7 +77,8 @@ const tinted_scheme base16_phd = {
         { .r = 82, .g = 153, .b = 191 },
         { .r = 153, .g = 137, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_phd_IMPLEMENTATION_ONCE */

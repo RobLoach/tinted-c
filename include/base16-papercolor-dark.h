@@ -77,7 +77,8 @@ const tinted_scheme base16_papercolor_dark = {
         { .r = 95, .g = 175, .b = 215 },
         { .r = 175, .g = 135, .b = 215 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_papercolor_dark_IMPLEMENTATION_ONCE */

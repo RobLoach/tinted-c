@@ -77,7 +77,8 @@ const tinted_scheme base24_hacktober = {
         { .r = 83, .g = 137, .b = 197 },
         { .r = 231, .g = 149, .b = 165 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_hacktober_IMPLEMENTATION_ONCE */

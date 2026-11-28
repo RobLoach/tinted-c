@@ -77,7 +77,8 @@ const tinted_scheme base24_gruvbox_light = {
         { .r = 7, .g = 102, .b = 120 },
         { .r = 143, .g = 63, .b = 113 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_gruvbox_light_IMPLEMENTATION_ONCE */

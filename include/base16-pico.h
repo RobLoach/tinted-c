@@ -77,7 +77,8 @@ const tinted_scheme base16_pico = {
         { .r = 131, .g = 118, .b = 156 },
         { .r = 255, .g = 119, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_pico_IMPLEMENTATION_ONCE */

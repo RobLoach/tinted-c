@@ -77,7 +77,8 @@ const tinted_scheme base24_sundried = {
         { .r = 120, .g = 152, .b = 247 },
         { .r = 252, .g = 137, .b = 160 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_sundried_IMPLEMENTATION_ONCE */

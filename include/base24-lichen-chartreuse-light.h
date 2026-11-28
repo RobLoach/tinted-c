@@ -77,7 +77,8 @@ const tinted_scheme base24_lichen_chartreuse_light = {
         { .r = 59, .g = 109, .b = 134 },
         { .r = 138, .g = 79, .b = 103 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_lichen_chartreuse_light_IMPLEMENTATION_ONCE */

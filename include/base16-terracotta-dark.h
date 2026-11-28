@@ -77,7 +77,8 @@ const tinted_scheme base16_terracotta_dark = {
         { .r = 176, .g = 164, .b = 195 },
         { .r = 216, .g = 162, .b = 176 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_terracotta_dark_IMPLEMENTATION_ONCE */

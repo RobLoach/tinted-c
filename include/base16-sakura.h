@@ -77,7 +77,8 @@ const tinted_scheme base16_sakura = {
         { .r = 0, .g = 110, .b = 147 },
         { .r = 94, .g = 33, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_sakura_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_sandcastle = {
         { .r = 131, .g = 165, .b = 152 },
         { .r = 215, .g = 95, .b = 95 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_sandcastle_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_ayu_light = {
         { .r = 71, .g = 138, .b = 204 },
         { .r = 181, .g = 149, .b = 214 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_ayu_light_IMPLEMENTATION_ONCE */

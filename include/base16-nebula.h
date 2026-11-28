@@ -77,7 +77,8 @@ const tinted_scheme base16_nebula = {
         { .r = 77, .g = 107, .b = 182 },
         { .r = 113, .g = 108, .b = 174 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_nebula_IMPLEMENTATION_ONCE */

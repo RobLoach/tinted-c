@@ -77,7 +77,8 @@ const tinted_scheme base16_dirtysea = {
         { .r = 0, .g = 115, .b = 0 },
         { .r = 0, .g = 0, .b = 144 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_dirtysea_IMPLEMENTATION_ONCE */

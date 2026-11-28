@@ -77,7 +77,8 @@ const tinted_scheme base24_fish_tank = {
         { .r = 177, .g = 189, .b = 249 },
         { .r = 253, .g = 164, .b = 204 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_fish_tank_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_batman = {
         { .r = 144, .g = 148, .b = 149 },
         { .r = 154, .g = 153, .b = 157 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_batman_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_swamp_dark = {
         { .r = 193, .g = 102, .b = 107 },
         { .r = 145, .g = 80, .b = 108 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_swamp_dark_IMPLEMENTATION_ONCE */

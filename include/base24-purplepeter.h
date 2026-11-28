@@ -77,7 +77,8 @@ const tinted_scheme base24_purplepeter = {
         { .r = 121, .g = 218, .b = 237 },
         { .r = 185, .g = 145, .b = 212 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_purplepeter_IMPLEMENTATION_ONCE */

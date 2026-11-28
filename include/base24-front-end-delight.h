@@ -77,7 +77,8 @@ const tinted_scheme base24_front_end_delight = {
         { .r = 51, .g = 147, .b = 201 },
         { .r = 231, .g = 94, .b = 78 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_front_end_delight_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_penumbra_dark = {
         { .r = 87, .g = 148, .b = 208 },
         { .r = 148, .g = 129, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_penumbra_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_ic_green_ppl = {
         { .r = 46, .g = 250, .b = 235 },
         { .r = 80, .g = 250, .b = 250 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ic_green_ppl_IMPLEMENTATION_ONCE */

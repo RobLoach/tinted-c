@@ -77,7 +77,8 @@ const tinted_scheme base16_darcula = {
         { .r = 152, .g = 118, .b = 170 },
         { .r = 204, .g = 120, .b = 50 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_darcula_IMPLEMENTATION_ONCE */

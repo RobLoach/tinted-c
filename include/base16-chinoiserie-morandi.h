@@ -77,7 +77,8 @@ const tinted_scheme base16_chinoiserie_morandi = {
         { .r = 131, .g = 158, .b = 201 },
         { .r = 152, .g = 161, .b = 216 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_chinoiserie_morandi_IMPLEMENTATION_ONCE */

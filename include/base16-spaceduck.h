@@ -77,7 +77,8 @@ const tinted_scheme base16_spaceduck = {
         { .r = 122, .g = 92, .b = 204 },
         { .r = 179, .g = 161, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_spaceduck_IMPLEMENTATION_ONCE */

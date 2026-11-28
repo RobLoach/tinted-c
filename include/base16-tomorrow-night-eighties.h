@@ -77,7 +77,8 @@ const tinted_scheme base16_tomorrow_night_eighties = {
         { .r = 102, .g = 153, .b = 204 },
         { .r = 204, .g = 153, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tomorrow_night_eighties_IMPLEMENTATION_ONCE */

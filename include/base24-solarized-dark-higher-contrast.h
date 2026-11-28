@@ -77,7 +77,8 @@ const tinted_scheme base24_solarized_dark_higher_contrast = {
         { .r = 23, .g = 141, .b = 199 },
         { .r = 225, .g = 77, .b = 142 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_solarized_dark_higher_contrast_IMPLEMENTATION_ONCE */
