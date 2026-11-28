@@ -84,10 +84,86 @@ typedef struct tinted8_color_group {
 } tinted8_color_group;
 
 /**
+ * A background and foreground color pair for a Tinted8 UI role.
+ */
+typedef struct tinted8_ui_colors {
+    tinted_color background; /** The background color. */
+    tinted_color foreground; /** The foreground color. */
+} tinted8_ui_colors;
+
+/**
+ * The colors for each Tinted8 UI role, named after the Styling spec's `ui` keys.
+ *
+ * Each is the scheme's own color, or the Tinted8 builder's default for it.
+ *
+ * @see https://github.com/tinted-theming/home/blob/main/specs/tinted8/styling.md
+ */
+typedef struct tinted8_ui {
+    struct {
+        tinted_color normal;
+    } accent; /** The primary accent, for focus and active indications. */
+    struct {
+        tinted_color normal;
+    } border; /** Generic borders and dividers. */
+    struct {
+        tinted8_ui_colors dark;
+        tinted8_ui_colors light;
+        tinted8_ui_colors normal;
+    } chrome; /** App chrome, such as sidebars, tab bars, status bars and toolbars. */
+    struct {
+        tinted8_ui_colors muted;
+        tinted8_ui_colors normal;
+    } cursor; /** The text cursor. */
+    tinted_color deprecated; /** Deprecated or outdated elements. */
+    struct {
+        tinted8_ui_colors dark;
+        tinted8_ui_colors light;
+        tinted8_ui_colors normal;
+    } global; /** The general background and text. Dark is the recessed surface and light the raised one, whatever the variant. */
+    tinted8_ui_colors gutter; /** The gutter and line numbers. */
+    struct {
+        tinted8_ui_colors button;
+        tinted8_ui_colors line;
+        tinted8_ui_colors search;
+        struct {
+            tinted_color background;
+            tinted_color foreground;
+            tinted8_ui_colors active;
+        } text;
+    } highlight; /** Highlighted buttons, lines, search matches and text. */
+    struct {
+        tinted_color background;
+        struct {
+            tinted_color background;
+        } active;
+    } indent_guide; /** Indentation guides. */
+    struct {
+        tinted8_ui_colors normal;
+    } link; /** Links and interactive text. */
+    struct {
+        tinted_color background;
+        tinted_color foreground;
+        struct {
+            tinted_color background;
+        } inactive;
+    } selection; /** Selected items. */
+    struct {
+        tinted_color error;
+        tinted_color info;
+        tinted_color success;
+        tinted_color warning;
+    } status; /** Status and badge colors. */
+    tinted8_ui_colors tooltip; /** Tooltips and hover popovers. */
+    struct {
+        tinted_color foreground;
+    } whitespace; /** Whitespace and invisible character markers. */
+} tinted8_ui;
+
+/**
  * A Tinted8 Scheme.
  *
- * The scheme's `syntax` and `ui` mappings are intentionally omitted, as they
- * expand to over a hundred fixed keys each; only the palette is exposed.
+ * The scheme's `syntax` mapping is intentionally omitted, as it expands to
+ * over a hundred fixed keys; the palette and `ui` colors are exposed.
  */
 typedef struct tinted8_scheme {
     const char *name; /** The name of the scheme. */
@@ -107,6 +183,7 @@ typedef struct tinted8_scheme {
     tinted8_color_group orange; /** The orange color group. */
     tinted8_color_group gray; /** The gray color group. */
     tinted8_color_group brown; /** The brown color group. */
+    tinted8_ui ui; /** The colors for each UI role. */
 } tinted8_scheme;
 
 #endif  /* TINTED_C_TINTED8_SCHEME_H__ */

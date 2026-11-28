@@ -108,6 +108,111 @@ const tinted8_scheme tinted8_catppuccin_mocha = {
         .normal = { .r = 202, .g = 127, .b = 69 },
         .bright = { .r = 216, .g = 160, .b = 117 },
         .dim = { .r = 167, .g = 97, .b = 42 }
+    },
+    .ui = {
+        .accent = {
+            .normal = { .r = 148, .g = 226, .b = 213 }
+        },
+        .border = {
+            .normal = { .r = 80, .g = 83, .b = 101 }
+        },
+        .chrome = {
+            .dark = {
+                .background = { .r = 24, .g = 24, .b = 37 },
+                .foreground = { .r = 151, .g = 171, .b = 237 }
+            },
+            .light = {
+                .background = { .r = 80, .g = 83, .b = 101 },
+                .foreground = { .r = 255, .g = 255, .b = 255 }
+            },
+            .normal = {
+                .background = { .r = 53, .g = 53, .b = 84 },
+                .foreground = { .r = 205, .g = 214, .b = 244 }
+            }
+        },
+        .cursor = {
+            .muted = {
+                .background = { .r = 140, .g = 143, .b = 164 },
+                .foreground = { .r = 80, .g = 83, .b = 101 }
+            },
+            .normal = {
+                .background = { .r = 205, .g = 214, .b = 244 },
+                .foreground = { .r = 30, .g = 30, .b = 46 }
+            }
+        },
+        .deprecated = { .r = 202, .g = 127, .b = 69 },
+        .global = {
+            .dark = {
+                .background = { .r = 24, .g = 24, .b = 37 },
+                .foreground = { .r = 151, .g = 171, .b = 237 }
+            },
+            .light = {
+                .background = { .r = 53, .g = 53, .b = 84 },
+                .foreground = { .r = 255, .g = 255, .b = 255 }
+            },
+            .normal = {
+                .background = { .r = 30, .g = 30, .b = 46 },
+                .foreground = { .r = 205, .g = 214, .b = 244 }
+            }
+        },
+        .gutter = {
+            .background = { .r = 30, .g = 30, .b = 46 },
+            .foreground = { .r = 151, .g = 171, .b = 237 }
+        },
+        .highlight = {
+            .button = {
+                .background = { .r = 53, .g = 53, .b = 84 },
+                .foreground = { .r = 205, .g = 214, .b = 244 }
+            },
+            .line = {
+                .background = { .r = 80, .g = 83, .b = 101 },
+                .foreground = { .r = 151, .g = 171, .b = 237 }
+            },
+            .search = {
+                .background = { .r = 53, .g = 53, .b = 84 },
+                .foreground = { .r = 249, .g = 226, .b = 175 }
+            },
+            .text = {
+                .background = { .r = 80, .g = 83, .b = 101 },
+                .foreground = { .r = 205, .g = 214, .b = 244 },
+                .active = {
+                    .background = { .r = 108, .g = 112, .b = 134 },
+                    .foreground = { .r = 205, .g = 214, .b = 244 }
+                }
+            }
+        },
+        .indent_guide = {
+            .background = { .r = 53, .g = 53, .b = 84 },
+            .active = {
+                .background = { .r = 80, .g = 83, .b = 101 }
+            }
+        },
+        .link = {
+            .normal = {
+                .background = { .r = 30, .g = 30, .b = 46 },
+                .foreground = { .r = 148, .g = 226, .b = 213 }
+            }
+        },
+        .selection = {
+            .background = { .r = 53, .g = 53, .b = 84 },
+            .foreground = { .r = 205, .g = 214, .b = 244 },
+            .inactive = {
+                .background = { .r = 53, .g = 53, .b = 84 }
+            }
+        },
+        .status = {
+            .error = { .r = 243, .g = 139, .b = 168 },
+            .info = { .r = 250, .g = 179, .b = 135 },
+            .success = { .r = 166, .g = 227, .b = 161 },
+            .warning = { .r = 249, .g = 226, .b = 175 }
+        },
+        .tooltip = {
+            .background = { .r = 24, .g = 24, .b = 37 },
+            .foreground = { .r = 205, .g = 214, .b = 244 }
+        },
+        .whitespace = {
+            .foreground = { .r = 108, .g = 112, .b = 134 }
+        }
     }
 };
 

@@ -108,6 +108,111 @@ const tinted8_scheme tinted8_nord = {
         .normal = { .r = 161, .g = 102, .b = 60 },
         .bright = { .r = 197, .g = 132, .b = 85 },
         .dim = { .r = 119, .g = 73, .b = 41 }
+    },
+    .ui = {
+        .accent = {
+            .normal = { .r = 136, .g = 192, .b = 208 }
+        },
+        .border = {
+            .normal = { .r = 59, .g = 66, .b = 82 }
+        },
+        .chrome = {
+            .dark = {
+                .background = { .r = 20, .g = 23, .b = 29 },
+                .foreground = { .r = 216, .g = 222, .b = 233 }
+            },
+            .light = {
+                .background = { .r = 71, .g = 81, .b = 101 },
+                .foreground = { .r = 236, .g = 239, .b = 244 }
+            },
+            .normal = {
+                .background = { .r = 70, .g = 81, .b = 101 },
+                .foreground = { .r = 229, .g = 233, .b = 240 }
+            }
+        },
+        .cursor = {
+            .muted = {
+                .background = { .r = 128, .g = 141, .b = 167 },
+                .foreground = { .r = 71, .g = 81, .b = 101 }
+            },
+            .normal = {
+                .background = { .r = 229, .g = 233, .b = 240 },
+                .foreground = { .r = 46, .g = 52, .b = 64 }
+            }
+        },
+        .deprecated = { .r = 161, .g = 102, .b = 60 },
+        .global = {
+            .dark = {
+                .background = { .r = 20, .g = 23, .b = 29 },
+                .foreground = { .r = 216, .g = 222, .b = 233 }
+            },
+            .light = {
+                .background = { .r = 70, .g = 81, .b = 101 },
+                .foreground = { .r = 236, .g = 239, .b = 244 }
+            },
+            .normal = {
+                .background = { .r = 46, .g = 52, .b = 64 },
+                .foreground = { .r = 229, .g = 233, .b = 240 }
+            }
+        },
+        .gutter = {
+            .background = { .r = 46, .g = 52, .b = 64 },
+            .foreground = { .r = 67, .g = 76, .b = 94 }
+        },
+        .highlight = {
+            .button = {
+                .background = { .r = 70, .g = 81, .b = 101 },
+                .foreground = { .r = 229, .g = 233, .b = 240 }
+            },
+            .line = {
+                .background = { .r = 67, .g = 76, .b = 94 },
+                .foreground = { .r = 216, .g = 222, .b = 233 }
+            },
+            .search = {
+                .background = { .r = 70, .g = 81, .b = 101 },
+                .foreground = { .r = 235, .g = 203, .b = 139 }
+            },
+            .text = {
+                .background = { .r = 71, .g = 81, .b = 101 },
+                .foreground = { .r = 229, .g = 233, .b = 240 },
+                .active = {
+                    .background = { .r = 97, .g = 110, .b = 136 },
+                    .foreground = { .r = 229, .g = 233, .b = 240 }
+                }
+            }
+        },
+        .indent_guide = {
+            .background = { .r = 67, .g = 76, .b = 94 },
+            .active = {
+                .background = { .r = 97, .g = 110, .b = 136 }
+            }
+        },
+        .link = {
+            .normal = {
+                .background = { .r = 46, .g = 52, .b = 64 },
+                .foreground = { .r = 136, .g = 192, .b = 208 }
+            }
+        },
+        .selection = {
+            .background = { .r = 70, .g = 81, .b = 101 },
+            .foreground = { .r = 229, .g = 233, .b = 240 },
+            .inactive = {
+                .background = { .r = 70, .g = 81, .b = 101 }
+            }
+        },
+        .status = {
+            .error = { .r = 191, .g = 97, .b = 106 },
+            .info = { .r = 235, .g = 203, .b = 139 },
+            .success = { .r = 163, .g = 190, .b = 140 },
+            .warning = { .r = 235, .g = 203, .b = 139 }
+        },
+        .tooltip = {
+            .background = { .r = 20, .g = 23, .b = 29 },
+            .foreground = { .r = 229, .g = 233, .b = 240 }
+        },
+        .whitespace = {
+            .foreground = { .r = 97, .g = 110, .b = 136 }
+        }
     }
 };
 

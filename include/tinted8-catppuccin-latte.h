@@ -108,6 +108,111 @@ const tinted8_scheme tinted8_catppuccin_latte = {
         .normal = { .r = 74, .g = 41, .b = 25 },
         .bright = { .r = 123, .g = 65, .b = 37 },
         .dim = { .r = 29, .g = 16, .b = 9 }
+    },
+    .ui = {
+        .accent = {
+            .normal = { .r = 23, .g = 146, .b = 153 }
+        },
+        .border = {
+            .normal = { .r = 121, .g = 127, .b = 150 }
+        },
+        .chrome = {
+            .dark = {
+                .background = { .r = 190, .g = 193, .b = 203 },
+                .foreground = { .r = 50, .g = 52, .b = 70 }
+            },
+            .light = {
+                .background = { .r = 220, .g = 224, .b = 232 },
+                .foreground = { .r = 108, .g = 111, .b = 133 }
+            },
+            .normal = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 76, .g = 79, .b = 105 }
+            }
+        },
+        .cursor = {
+            .muted = {
+                .background = { .r = 121, .g = 127, .b = 150 },
+                .foreground = { .r = 190, .g = 193, .b = 203 }
+            },
+            .normal = {
+                .background = { .r = 76, .g = 79, .b = 105 },
+                .foreground = { .r = 220, .g = 224, .b = 232 }
+            }
+        },
+        .deprecated = { .r = 74, .g = 41, .b = 25 },
+        .global = {
+            .dark = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 108, .g = 111, .b = 133 }
+            },
+            .light = {
+                .background = { .r = 255, .g = 255, .b = 255 },
+                .foreground = { .r = 50, .g = 52, .b = 70 }
+            },
+            .normal = {
+                .background = { .r = 220, .g = 224, .b = 232 },
+                .foreground = { .r = 76, .g = 79, .b = 105 }
+            }
+        },
+        .gutter = {
+            .background = { .r = 220, .g = 224, .b = 232 },
+            .foreground = { .r = 108, .g = 111, .b = 133 }
+        },
+        .highlight = {
+            .button = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 76, .g = 79, .b = 105 }
+            },
+            .line = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 108, .g = 111, .b = 133 }
+            },
+            .search = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 223, .g = 142, .b = 29 }
+            },
+            .text = {
+                .background = { .r = 182, .g = 191, .b = 209 },
+                .foreground = { .r = 76, .g = 79, .b = 105 },
+                .active = {
+                    .background = { .r = 156, .g = 160, .b = 176 },
+                    .foreground = { .r = 76, .g = 79, .b = 105 }
+                }
+            }
+        },
+        .indent_guide = {
+            .background = { .r = 182, .g = 191, .b = 209 },
+            .active = {
+                .background = { .r = 190, .g = 193, .b = 203 }
+            }
+        },
+        .link = {
+            .normal = {
+                .background = { .r = 220, .g = 224, .b = 232 },
+                .foreground = { .r = 23, .g = 146, .b = 153 }
+            }
+        },
+        .selection = {
+            .background = { .r = 182, .g = 191, .b = 209 },
+            .foreground = { .r = 76, .g = 79, .b = 105 },
+            .inactive = {
+                .background = { .r = 182, .g = 191, .b = 209 }
+            }
+        },
+        .status = {
+            .error = { .r = 210, .g = 15, .b = 57 },
+            .info = { .r = 254, .g = 100, .b = 11 },
+            .success = { .r = 64, .g = 160, .b = 43 },
+            .warning = { .r = 223, .g = 142, .b = 29 }
+        },
+        .tooltip = {
+            .background = { .r = 255, .g = 255, .b = 255 },
+            .foreground = { .r = 76, .g = 79, .b = 105 }
+        },
+        .whitespace = {
+            .foreground = { .r = 156, .g = 160, .b = 176 }
+        }
     }
 };
 

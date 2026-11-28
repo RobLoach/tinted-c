@@ -108,6 +108,111 @@ const tinted8_scheme tinted8_{{scheme.slug-underscored}} = {
         .normal = { .r = {{palette.brown.normal.rgb.r}}, .g = {{palette.brown.normal.rgb.g}}, .b = {{palette.brown.normal.rgb.b}} },
         .bright = { .r = {{palette.brown.bright.rgb.r}}, .g = {{palette.brown.bright.rgb.g}}, .b = {{palette.brown.bright.rgb.b}} },
         .dim = { .r = {{palette.brown.dim.rgb.r}}, .g = {{palette.brown.dim.rgb.g}}, .b = {{palette.brown.dim.rgb.b}} }
+    },
+    .ui = {
+        .accent = {
+            .normal = { .r = {{ui.accent.normal.rgb.r}}, .g = {{ui.accent.normal.rgb.g}}, .b = {{ui.accent.normal.rgb.b}} }
+        },
+        .border = {
+            .normal = { .r = {{ui.border.normal.rgb.r}}, .g = {{ui.border.normal.rgb.g}}, .b = {{ui.border.normal.rgb.b}} }
+        },
+        .chrome = {
+            .dark = {
+                .background = { .r = {{ui.chrome.background.dark.rgb.r}}, .g = {{ui.chrome.background.dark.rgb.g}}, .b = {{ui.chrome.background.dark.rgb.b}} },
+                .foreground = { .r = {{ui.chrome.foreground.dark.rgb.r}}, .g = {{ui.chrome.foreground.dark.rgb.g}}, .b = {{ui.chrome.foreground.dark.rgb.b}} }
+            },
+            .light = {
+                .background = { .r = {{ui.chrome.background.light.rgb.r}}, .g = {{ui.chrome.background.light.rgb.g}}, .b = {{ui.chrome.background.light.rgb.b}} },
+                .foreground = { .r = {{ui.chrome.foreground.light.rgb.r}}, .g = {{ui.chrome.foreground.light.rgb.g}}, .b = {{ui.chrome.foreground.light.rgb.b}} }
+            },
+            .normal = {
+                .background = { .r = {{ui.chrome.background.normal.rgb.r}}, .g = {{ui.chrome.background.normal.rgb.g}}, .b = {{ui.chrome.background.normal.rgb.b}} },
+                .foreground = { .r = {{ui.chrome.foreground.normal.rgb.r}}, .g = {{ui.chrome.foreground.normal.rgb.g}}, .b = {{ui.chrome.foreground.normal.rgb.b}} }
+            }
+        },
+        .cursor = {
+            .muted = {
+                .background = { .r = {{ui.cursor.muted.background.rgb.r}}, .g = {{ui.cursor.muted.background.rgb.g}}, .b = {{ui.cursor.muted.background.rgb.b}} },
+                .foreground = { .r = {{ui.cursor.muted.foreground.rgb.r}}, .g = {{ui.cursor.muted.foreground.rgb.g}}, .b = {{ui.cursor.muted.foreground.rgb.b}} }
+            },
+            .normal = {
+                .background = { .r = {{ui.cursor.normal.background.rgb.r}}, .g = {{ui.cursor.normal.background.rgb.g}}, .b = {{ui.cursor.normal.background.rgb.b}} },
+                .foreground = { .r = {{ui.cursor.normal.foreground.rgb.r}}, .g = {{ui.cursor.normal.foreground.rgb.g}}, .b = {{ui.cursor.normal.foreground.rgb.b}} }
+            }
+        },
+        .deprecated = { .r = {{ui.deprecated.rgb.r}}, .g = {{ui.deprecated.rgb.g}}, .b = {{ui.deprecated.rgb.b}} },
+        .global = {
+            .dark = {
+                .background = { .r = {{ui.global.background.dark.rgb.r}}, .g = {{ui.global.background.dark.rgb.g}}, .b = {{ui.global.background.dark.rgb.b}} },
+                .foreground = { .r = {{ui.global.foreground.dark.rgb.r}}, .g = {{ui.global.foreground.dark.rgb.g}}, .b = {{ui.global.foreground.dark.rgb.b}} }
+            },
+            .light = {
+                .background = { .r = {{ui.global.background.light.rgb.r}}, .g = {{ui.global.background.light.rgb.g}}, .b = {{ui.global.background.light.rgb.b}} },
+                .foreground = { .r = {{ui.global.foreground.light.rgb.r}}, .g = {{ui.global.foreground.light.rgb.g}}, .b = {{ui.global.foreground.light.rgb.b}} }
+            },
+            .normal = {
+                .background = { .r = {{ui.global.background.normal.rgb.r}}, .g = {{ui.global.background.normal.rgb.g}}, .b = {{ui.global.background.normal.rgb.b}} },
+                .foreground = { .r = {{ui.global.foreground.normal.rgb.r}}, .g = {{ui.global.foreground.normal.rgb.g}}, .b = {{ui.global.foreground.normal.rgb.b}} }
+            }
+        },
+        .gutter = {
+            .background = { .r = {{ui.gutter.background.rgb.r}}, .g = {{ui.gutter.background.rgb.g}}, .b = {{ui.gutter.background.rgb.b}} },
+            .foreground = { .r = {{ui.gutter.foreground.rgb.r}}, .g = {{ui.gutter.foreground.rgb.g}}, .b = {{ui.gutter.foreground.rgb.b}} }
+        },
+        .highlight = {
+            .button = {
+                .background = { .r = {{ui.highlight.button.background.rgb.r}}, .g = {{ui.highlight.button.background.rgb.g}}, .b = {{ui.highlight.button.background.rgb.b}} },
+                .foreground = { .r = {{ui.highlight.button.foreground.rgb.r}}, .g = {{ui.highlight.button.foreground.rgb.g}}, .b = {{ui.highlight.button.foreground.rgb.b}} }
+            },
+            .line = {
+                .background = { .r = {{ui.highlight.line.background.rgb.r}}, .g = {{ui.highlight.line.background.rgb.g}}, .b = {{ui.highlight.line.background.rgb.b}} },
+                .foreground = { .r = {{ui.highlight.line.foreground.rgb.r}}, .g = {{ui.highlight.line.foreground.rgb.g}}, .b = {{ui.highlight.line.foreground.rgb.b}} }
+            },
+            .search = {
+                .background = { .r = {{ui.highlight.search.background.rgb.r}}, .g = {{ui.highlight.search.background.rgb.g}}, .b = {{ui.highlight.search.background.rgb.b}} },
+                .foreground = { .r = {{ui.highlight.search.foreground.rgb.r}}, .g = {{ui.highlight.search.foreground.rgb.g}}, .b = {{ui.highlight.search.foreground.rgb.b}} }
+            },
+            .text = {
+                .background = { .r = {{ui.highlight.text.background.rgb.r}}, .g = {{ui.highlight.text.background.rgb.g}}, .b = {{ui.highlight.text.background.rgb.b}} },
+                .foreground = { .r = {{ui.highlight.text.foreground.rgb.r}}, .g = {{ui.highlight.text.foreground.rgb.g}}, .b = {{ui.highlight.text.foreground.rgb.b}} },
+                .active = {
+                    .background = { .r = {{ui.highlight.text.active-background.rgb.r}}, .g = {{ui.highlight.text.active-background.rgb.g}}, .b = {{ui.highlight.text.active-background.rgb.b}} },
+                    .foreground = { .r = {{ui.highlight.text.active-foreground.rgb.r}}, .g = {{ui.highlight.text.active-foreground.rgb.g}}, .b = {{ui.highlight.text.active-foreground.rgb.b}} }
+                }
+            }
+        },
+        .indent_guide = {
+            .background = { .r = {{ui.indent-guide.background.rgb.r}}, .g = {{ui.indent-guide.background.rgb.g}}, .b = {{ui.indent-guide.background.rgb.b}} },
+            .active = {
+                .background = { .r = {{ui.indent-guide.active-background.rgb.r}}, .g = {{ui.indent-guide.active-background.rgb.g}}, .b = {{ui.indent-guide.active-background.rgb.b}} }
+            }
+        },
+        .link = {
+            .normal = {
+                .background = { .r = {{ui.link.normal.background.rgb.r}}, .g = {{ui.link.normal.background.rgb.g}}, .b = {{ui.link.normal.background.rgb.b}} },
+                .foreground = { .r = {{ui.link.normal.foreground.rgb.r}}, .g = {{ui.link.normal.foreground.rgb.g}}, .b = {{ui.link.normal.foreground.rgb.b}} }
+            }
+        },
+        .selection = {
+            .background = { .r = {{ui.selection.background.rgb.r}}, .g = {{ui.selection.background.rgb.g}}, .b = {{ui.selection.background.rgb.b}} },
+            .foreground = { .r = {{ui.selection.foreground.rgb.r}}, .g = {{ui.selection.foreground.rgb.g}}, .b = {{ui.selection.foreground.rgb.b}} },
+            .inactive = {
+                .background = { .r = {{ui.selection.inactive-background.rgb.r}}, .g = {{ui.selection.inactive-background.rgb.g}}, .b = {{ui.selection.inactive-background.rgb.b}} }
+            }
+        },
+        .status = {
+            .error = { .r = {{ui.status.error.rgb.r}}, .g = {{ui.status.error.rgb.g}}, .b = {{ui.status.error.rgb.b}} },
+            .info = { .r = {{ui.status.info.rgb.r}}, .g = {{ui.status.info.rgb.g}}, .b = {{ui.status.info.rgb.b}} },
+            .success = { .r = {{ui.status.success.rgb.r}}, .g = {{ui.status.success.rgb.g}}, .b = {{ui.status.success.rgb.b}} },
+            .warning = { .r = {{ui.status.warning.rgb.r}}, .g = {{ui.status.warning.rgb.g}}, .b = {{ui.status.warning.rgb.b}} }
+        },
+        .tooltip = {
+            .background = { .r = {{ui.tooltip.background.rgb.r}}, .g = {{ui.tooltip.background.rgb.g}}, .b = {{ui.tooltip.background.rgb.b}} },
+            .foreground = { .r = {{ui.tooltip.foreground.rgb.r}}, .g = {{ui.tooltip.foreground.rgb.g}}, .b = {{ui.tooltip.foreground.rgb.b}} }
+        },
+        .whitespace = {
+            .foreground = { .r = {{ui.whitespace.foreground.rgb.r}}, .g = {{ui.whitespace.foreground.rgb.g}}, .b = {{ui.whitespace.foreground.rgb.b}} }
+        }
     }
 };
 
