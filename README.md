@@ -80,8 +80,8 @@ same headers without it and links against that one copy of the data.
 
 For a library that takes schemes from its caller, include
 [`include/tinted_types.h`](include/tinted_types.h) for the `tinted_scheme`,
-`tinted_color` and `tinted8_scheme` types, without any scheme data. It mixes
-with the scheme headers in any order.
+`tinted_color` and `tinted8_scheme` types, without any scheme data. Every
+scheme header includes it, so keep it alongside them.
 
 ``` c
 #include "tinted_types.h"

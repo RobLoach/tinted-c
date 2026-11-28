@@ -2,8 +2,8 @@
  * tinted-c: The Base16, Base24 and Tinted8 scheme types, without any schemes.
  * https://github.com/RobLoach/tinted-c
  *
- * Include this to use the types without pulling in any scheme data. The
- * guards match the generated scheme headers, so they mix in any order.
+ * Every scheme header includes this. Include it directly to use the types
+ * without pulling in any scheme data.
  *
  * License: MIT
  *
