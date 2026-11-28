@@ -49,6 +49,7 @@ extern const tinted_scheme base16_material;
 
 const tinted_scheme base16_material = {
     .name = "Material",
+    .slug = "material",
     .base = {
         { .r = 38, .g = 50, .b = 56 },
         { .r = 46, .g = 60, .b = 67 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_material = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 199, .g = 146, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_material_IMPLEMENTATION_ONCE */

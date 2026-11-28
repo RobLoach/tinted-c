@@ -49,6 +49,7 @@ extern const tinted_scheme base24_rippedcasts;
 
 const tinted_scheme base24_rippedcasts = {
     .name = "Rippedcasts",
+    .slug = "rippedcasts",
     .base = {
         { .r = 43, .g = 43, .b = 43 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_rippedcasts = {
         { .r = 134, .g = 189, .b = 201 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_rippedcasts_IMPLEMENTATION_ONCE */

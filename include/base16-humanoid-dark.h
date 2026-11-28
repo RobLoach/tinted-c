@@ -49,6 +49,7 @@ extern const tinted_scheme base16_humanoid_dark;
 
 const tinted_scheme base16_humanoid_dark = {
     .name = "Humanoid dark",
+    .slug = "humanoid-dark",
     .base = {
         { .r = 35, .g = 38, .b = 41 },
         { .r = 51, .g = 59, .b = 61 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_humanoid_dark = {
         { .r = 0, .g = 166, .b = 251 },
         { .r = 241, .g = 94, .b = 227 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_humanoid_dark_IMPLEMENTATION_ONCE */

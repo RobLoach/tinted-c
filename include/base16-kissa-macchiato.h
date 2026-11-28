@@ -49,6 +49,7 @@ extern const tinted_scheme base16_kissa_macchiato;
 
 const tinted_scheme base16_kissa_macchiato = {
     .name = "Kissa Macchiato",
+    .slug = "kissa-macchiato",
     .base = {
         { .r = 31, .g = 28, .b = 22 },
         { .r = 53, .g = 50, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_kissa_macchiato = {
         { .r = 127, .g = 168, .b = 212 },
         { .r = 176, .g = 148, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_kissa_macchiato_IMPLEMENTATION_ONCE */

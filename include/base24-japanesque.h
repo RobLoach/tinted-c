@@ -49,6 +49,7 @@ extern const tinted_scheme base24_japanesque;
 
 const tinted_scheme base24_japanesque = {
     .name = "Japanesque",
+    .slug = "japanesque",
     .base = {
         { .r = 29, .g = 29, .b = 29 },
         { .r = 52, .g = 56, .b = 53 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_japanesque = {
         { .r = 19, .g = 88, .b = 121 },
         { .r = 95, .g = 65, .b = 144 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_japanesque_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ultra_violet;
 
 const tinted_scheme base24_ultra_violet = {
     .name = "Ultra Violet",
+    .slug = "ultra-violet",
     .base = {
         { .r = 36, .g = 39, .b = 40 },
         { .r = 35, .g = 38, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ultra_violet = {
         { .r = 127, .g = 235, .b = 255 },
         { .r = 230, .g = 129, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ultra_violet_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_da_one_ocean;
 
 const tinted_scheme base16_da_one_ocean = {
     .name = "Da One Ocean",
+    .slug = "da-one-ocean",
     .base = {
         { .r = 23, .g = 23, .b = 38 },
         { .r = 34, .g = 39, .b = 61 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_da_one_ocean = {
         { .r = 107, .g = 184, .b = 255 },
         { .r = 231, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_da_one_ocean_IMPLEMENTATION_ONCE */

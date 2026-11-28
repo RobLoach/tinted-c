@@ -49,6 +49,7 @@ extern const tinted_scheme base24_fideloper;
 
 const tinted_scheme base24_fideloper = {
     .name = "Fideloper",
+    .slug = "fideloper",
     .base = {
         { .r = 40, .g = 47, .b = 50 },
         { .r = 40, .g = 47, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_fideloper = {
         { .r = 124, .g = 132, .b = 196 },
         { .r = 91, .g = 93, .b = 178 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_fideloper_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_lavandula;
 
 const tinted_scheme base24_lavandula = {
     .name = "Lavandula",
+    .slug = "lavandula",
     .base = {
         { .r = 5, .g = 0, .b = 20 },
         { .r = 35, .g = 0, .b = 69 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_lavandula = {
         { .r = 142, .g = 134, .b = 223 },
         { .r = 166, .g = 117, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_lavandula_IMPLEMENTATION_ONCE */

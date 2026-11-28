@@ -49,6 +49,7 @@ extern const tinted_scheme base16_rose_pine_dawn;
 
 const tinted_scheme base16_rose_pine_dawn = {
     .name = "Rosé Pine Dawn",
+    .slug = "rose-pine-dawn",
     .base = {
         { .r = 250, .g = 244, .b = 237 },
         { .r = 255, .g = 250, .b = 243 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_rose_pine_dawn = {
         { .r = 144, .g = 122, .b = 169 },
         { .r = 234, .g = 157, .b = 52 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_rose_pine_dawn_IMPLEMENTATION_ONCE */

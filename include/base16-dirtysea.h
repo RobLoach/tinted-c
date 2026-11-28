@@ -49,6 +49,7 @@ extern const tinted_scheme base16_dirtysea;
 
 const tinted_scheme base16_dirtysea = {
     .name = "dirtysea",
+    .slug = "dirtysea",
     .base = {
         { .r = 224, .g = 224, .b = 224 },
         { .r = 208, .g = 218, .b = 208 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_dirtysea = {
         { .r = 0, .g = 115, .b = 0 },
         { .r = 0, .g = 0, .b = 144 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_dirtysea_IMPLEMENTATION_ONCE */

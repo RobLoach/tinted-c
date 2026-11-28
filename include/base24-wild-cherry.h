@@ -49,6 +49,7 @@ extern const tinted_scheme base24_wild_cherry;
 
 const tinted_scheme base24_wild_cherry = {
     .name = "Wild Cherry",
+    .slug = "wild-cherry",
     .base = {
         { .r = 31, .g = 22, .b = 38 },
         { .r = 0, .g = 5, .b = 6 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_wild_cherry = {
         { .r = 47, .g = 139, .b = 185 },
         { .r = 174, .g = 99, .b = 107 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_wild_cherry_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_github;
 
 const tinted_scheme base16_github = {
     .name = "Github",
+    .slug = "github",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 246, .g = 248, .b = 250 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_github = {
         { .r = 130, .g = 80, .b = 223 },
         { .r = 207, .g = 34, .b = 46 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_github_IMPLEMENTATION_ONCE */

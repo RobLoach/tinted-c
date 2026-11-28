@@ -49,6 +49,7 @@ extern const tinted_scheme base16_google_dark;
 
 const tinted_scheme base16_google_dark = {
     .name = "Google Dark",
+    .slug = "google-dark",
     .base = {
         { .r = 29, .g = 31, .b = 33 },
         { .r = 40, .g = 42, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_google_dark = {
         { .r = 57, .g = 113, .b = 237 },
         { .r = 163, .g = 106, .b = 199 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_google_dark_IMPLEMENTATION_ONCE */

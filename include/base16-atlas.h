@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atlas;
 
 const tinted_scheme base16_atlas = {
     .name = "Atlas",
+    .slug = "atlas",
     .base = {
         { .r = 0, .g = 38, .b = 53 },
         { .r = 0, .g = 56, .b = 77 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atlas = {
         { .r = 20, .g = 116, .b = 126 },
         { .r = 154, .g = 112, .b = 164 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atlas_IMPLEMENTATION_ONCE */

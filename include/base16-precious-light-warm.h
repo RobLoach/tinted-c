@@ -49,6 +49,7 @@ extern const tinted_scheme base16_precious_light_warm;
 
 const tinted_scheme base16_precious_light_warm = {
     .name = "Precious Light Warm",
+    .slug = "precious-light-warm",
     .base = {
         { .r = 255, .g = 245, .b = 229 },
         { .r = 236, .g = 228, .b = 214 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_precious_light_warm = {
         { .r = 36, .g = 109, .b = 165 },
         { .r = 122, .g = 80, .b = 198 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_precious_light_warm_IMPLEMENTATION_ONCE */

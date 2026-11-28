@@ -49,6 +49,7 @@ extern const tinted_scheme base24_jet_brains_darcula;
 
 const tinted_scheme base24_jet_brains_darcula = {
     .name = "Jet Brains Darcula",
+    .slug = "jet-brains-darcula",
     .base = {
         { .r = 32, .g = 32, .b = 32 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_jet_brains_darcula = {
         { .r = 109, .g = 157, .b = 241 },
         { .r = 251, .g = 130, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_jet_brains_darcula_IMPLEMENTATION_ONCE */

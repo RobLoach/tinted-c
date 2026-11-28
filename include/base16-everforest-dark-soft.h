@@ -49,6 +49,7 @@ extern const tinted_scheme base16_everforest_dark_soft;
 
 const tinted_scheme base16_everforest_dark_soft = {
     .name = "Everforest Dark Soft",
+    .slug = "everforest-dark-soft",
     .base = {
         { .r = 51, .g = 60, .b = 67 },
         { .r = 58, .g = 70, .b = 76 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_everforest_dark_soft = {
         { .r = 127, .g = 187, .b = 179 },
         { .r = 214, .g = 153, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_everforest_dark_soft_IMPLEMENTATION_ONCE */

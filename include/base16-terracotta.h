@@ -49,6 +49,7 @@ extern const tinted_scheme base16_terracotta;
 
 const tinted_scheme base16_terracotta = {
     .name = "Terracotta",
+    .slug = "terracotta",
     .base = {
         { .r = 239, .g = 234, .b = 232 },
         { .r = 223, .g = 214, .b = 209 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_terracotta = {
         { .r = 98, .g = 85, .b = 116 },
         { .r = 141, .g = 89, .b = 104 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_terracotta_IMPLEMENTATION_ONCE */

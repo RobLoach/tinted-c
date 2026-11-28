@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gruber;
 
 const tinted_scheme base16_gruber = {
     .name = "Gruber",
+    .slug = "gruber",
     .base = {
         { .r = 24, .g = 24, .b = 24 },
         { .r = 69, .g = 61, .b = 65 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gruber = {
         { .r = 150, .g = 166, .b = 200 },
         { .r = 158, .g = 149, .b = 199 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_gruber_IMPLEMENTATION_ONCE */

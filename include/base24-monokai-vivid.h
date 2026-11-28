@@ -49,6 +49,7 @@ extern const tinted_scheme base24_monokai_vivid;
 
 const tinted_scheme base24_monokai_vivid = {
     .name = "Monokai Vivid",
+    .slug = "monokai-vivid",
     .base = {
         { .r = 18, .g = 18, .b = 18 },
         { .r = 50, .g = 50, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_monokai_vivid = {
         { .r = 4, .g = 66, .b = 254 },
         { .r = 242, .g = 0, .b = 245 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_monokai_vivid_IMPLEMENTATION_ONCE */

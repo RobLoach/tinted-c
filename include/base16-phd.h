@@ -49,6 +49,7 @@ extern const tinted_scheme base16_phd;
 
 const tinted_scheme base16_phd = {
     .name = "PhD",
+    .slug = "phd",
     .base = {
         { .r = 6, .g = 18, .b = 41 },
         { .r = 42, .g = 52, .b = 72 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_phd = {
         { .r = 82, .g = 153, .b = 191 },
         { .r = 153, .g = 137, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_phd_IMPLEMENTATION_ONCE */

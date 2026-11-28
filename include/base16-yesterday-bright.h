@@ -49,6 +49,7 @@ extern const tinted_scheme base16_yesterday_bright;
 
 const tinted_scheme base16_yesterday_bright = {
     .name = "Yesterday Bright",
+    .slug = "yesterday-bright",
     .base = {
         { .r = 52, .g = 61, .b = 70 },
         { .r = 79, .g = 91, .b = 102 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_yesterday_bright = {
         { .r = 122, .g = 166, .b = 218 },
         { .r = 195, .g = 151, .b = 216 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_yesterday_bright_IMPLEMENTATION_ONCE */

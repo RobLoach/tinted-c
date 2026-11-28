@@ -49,6 +49,7 @@ extern const tinted_scheme base16_railscasts;
 
 const tinted_scheme base16_railscasts = {
     .name = "Railscasts",
+    .slug = "railscasts",
     .base = {
         { .r = 43, .g = 43, .b = 43 },
         { .r = 39, .g = 41, .b = 53 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_railscasts = {
         { .r = 109, .g = 156, .b = 190 },
         { .r = 182, .g = 179, .b = 235 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_railscasts_IMPLEMENTATION_ONCE */

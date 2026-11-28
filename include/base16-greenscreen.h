@@ -49,6 +49,7 @@ extern const tinted_scheme base16_greenscreen;
 
 const tinted_scheme base16_greenscreen = {
     .name = "Green Screen",
+    .slug = "greenscreen",
     .base = {
         { .r = 0, .g = 17, .b = 0 },
         { .r = 0, .g = 51, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_greenscreen = {
         { .r = 0, .g = 153, .b = 0 },
         { .r = 0, .g = 187, .b = 0 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_greenscreen_IMPLEMENTATION_ONCE */

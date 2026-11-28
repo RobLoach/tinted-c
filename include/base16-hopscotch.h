@@ -49,6 +49,7 @@ extern const tinted_scheme base16_hopscotch;
 
 const tinted_scheme base16_hopscotch = {
     .name = "Hopscotch",
+    .slug = "hopscotch",
     .base = {
         { .r = 50, .g = 41, .b = 49 },
         { .r = 67, .g = 59, .b = 66 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_hopscotch = {
         { .r = 18, .g = 144, .b = 191 },
         { .r = 200, .g = 94, .b = 124 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_hopscotch_IMPLEMENTATION_ONCE */

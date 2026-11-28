@@ -49,6 +49,7 @@ extern const tinted_scheme base16_humanoid_light;
 
 const tinted_scheme base16_humanoid_light = {
     .name = "Humanoid light",
+    .slug = "humanoid-light",
     .base = {
         { .r = 248, .g = 248, .b = 242 },
         { .r = 239, .g = 239, .b = 233 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_humanoid_light = {
         { .r = 0, .g = 130, .b = 201 },
         { .r = 112, .g = 15, .b = 152 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_humanoid_light_IMPLEMENTATION_ONCE */

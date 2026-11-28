@@ -49,6 +49,7 @@ extern const tinted_scheme base16_linux_vt;
 
 const tinted_scheme base16_linux_vt = {
     .name = "Linux VT",
+    .slug = "linux-vt",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 51, .g = 51, .b = 51 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_linux_vt = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_linux_vt_IMPLEMENTATION_ONCE */

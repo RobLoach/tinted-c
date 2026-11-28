@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_plateau;
 
 const tinted_scheme base16_atelier_plateau = {
     .name = "Atelier Plateau",
+    .slug = "atelier-plateau",
     .base = {
         { .r = 27, .g = 24, .b = 24 },
         { .r = 41, .g = 36, .b = 36 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_plateau = {
         { .r = 114, .g = 114, .b = 202 },
         { .r = 132, .g = 100, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_plateau_IMPLEMENTATION_ONCE */

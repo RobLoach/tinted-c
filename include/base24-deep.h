@@ -49,6 +49,7 @@ extern const tinted_scheme base24_deep;
 
 const tinted_scheme base24_deep = {
     .name = "deep",
+    .slug = "deep",
     .base = {
         { .r = 8, .g = 8, .b = 8 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_deep = {
         { .r = 159, .g = 168, .b = 254 },
         { .r = 224, .g = 153, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_deep_IMPLEMENTATION_ONCE */

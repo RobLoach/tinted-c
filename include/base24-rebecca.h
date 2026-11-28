@@ -49,6 +49,7 @@ extern const tinted_scheme base24_rebecca;
 
 const tinted_scheme base24_rebecca = {
     .name = "Rebecca",
+    .slug = "rebecca",
     .base = {
         { .r = 41, .g = 42, .b = 68 },
         { .r = 18, .g = 19, .b = 29 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_rebecca = {
         { .r = 105, .g = 191, .b = 250 },
         { .r = 192, .g = 127, .b = 248 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_rebecca_IMPLEMENTATION_ONCE */

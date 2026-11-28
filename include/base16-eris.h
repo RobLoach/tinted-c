@@ -49,6 +49,7 @@ extern const tinted_scheme base16_eris;
 
 const tinted_scheme base16_eris = {
     .name = "eris",
+    .slug = "eris",
     .base = {
         { .r = 10, .g = 9, .b = 32 },
         { .r = 19, .g = 19, .b = 58 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_eris = {
         { .r = 37, .g = 143, .b = 196 },
         { .r = 195, .g = 104, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_eris_IMPLEMENTATION_ONCE */

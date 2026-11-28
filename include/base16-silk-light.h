@@ -49,6 +49,7 @@ extern const tinted_scheme base16_silk_light;
 
 const tinted_scheme base16_silk_light = {
     .name = "Silk Light",
+    .slug = "silk-light",
     .base = {
         { .r = 233, .g = 241, .b = 239 },
         { .r = 204, .g = 212, .b = 211 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_silk_light = {
         { .r = 57, .g = 170, .b = 201 },
         { .r = 110, .g = 101, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_silk_light_IMPLEMENTATION_ONCE */

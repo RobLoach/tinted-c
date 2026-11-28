@@ -49,6 +49,7 @@ extern const tinted_scheme base24_obsidian;
 
 const tinted_scheme base24_obsidian = {
     .name = "Obsidian",
+    .slug = "obsidian",
     .base = {
         { .r = 39, .g = 48, .b = 50 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_obsidian = {
         { .r = 160, .g = 214, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_obsidian_IMPLEMENTATION_ONCE */

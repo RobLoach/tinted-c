@@ -49,6 +49,7 @@ extern const tinted_scheme base16_shapeshifter;
 
 const tinted_scheme base16_shapeshifter = {
     .name = "Shapeshifter",
+    .slug = "shapeshifter",
     .base = {
         { .r = 249, .g = 249, .b = 249 },
         { .r = 224, .g = 224, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_shapeshifter = {
         { .r = 59, .g = 72, .b = 227 },
         { .r = 249, .g = 150, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_shapeshifter_IMPLEMENTATION_ONCE */

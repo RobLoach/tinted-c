@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_plateau_light;
 
 const tinted_scheme base16_atelier_plateau_light = {
     .name = "Atelier Plateau Light",
+    .slug = "atelier-plateau-light",
     .base = {
         { .r = 244, .g = 236, .b = 236 },
         { .r = 231, .g = 223, .b = 223 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_plateau_light = {
         { .r = 114, .g = 114, .b = 202 },
         { .r = 132, .g = 100, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_plateau_light_IMPLEMENTATION_ONCE */

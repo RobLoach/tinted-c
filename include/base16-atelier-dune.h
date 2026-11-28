@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_dune;
 
 const tinted_scheme base16_atelier_dune = {
     .name = "Atelier Dune",
+    .slug = "atelier-dune",
     .base = {
         { .r = 32, .g = 32, .b = 29 },
         { .r = 41, .g = 40, .b = 36 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_dune = {
         { .r = 102, .g = 132, .b = 225 },
         { .r = 184, .g = 84, .b = 212 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_dune_IMPLEMENTATION_ONCE */

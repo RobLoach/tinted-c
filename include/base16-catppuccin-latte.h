@@ -49,6 +49,7 @@ extern const tinted_scheme base16_catppuccin_latte;
 
 const tinted_scheme base16_catppuccin_latte = {
     .name = "Catppuccin Latte",
+    .slug = "catppuccin-latte",
     .base = {
         { .r = 239, .g = 241, .b = 245 },
         { .r = 230, .g = 233, .b = 239 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_catppuccin_latte = {
         { .r = 30, .g = 102, .b = 245 },
         { .r = 136, .g = 57, .b = 239 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_catppuccin_latte_IMPLEMENTATION_ONCE */

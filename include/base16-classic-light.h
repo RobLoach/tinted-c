@@ -49,6 +49,7 @@ extern const tinted_scheme base16_classic_light;
 
 const tinted_scheme base16_classic_light = {
     .name = "Classic Light",
+    .slug = "classic-light",
     .base = {
         { .r = 245, .g = 245, .b = 245 },
         { .r = 224, .g = 224, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_classic_light = {
         { .r = 106, .g = 159, .b = 181 },
         { .r = 170, .g = 117, .b = 159 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_classic_light_IMPLEMENTATION_ONCE */

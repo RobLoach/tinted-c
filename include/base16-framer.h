@@ -49,6 +49,7 @@ extern const tinted_scheme base16_framer;
 
 const tinted_scheme base16_framer = {
     .name = "Framer",
+    .slug = "framer",
     .base = {
         { .r = 24, .g = 24, .b = 24 },
         { .r = 21, .g = 21, .b = 21 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_framer = {
         { .r = 32, .g = 188, .b = 252 },
         { .r = 186, .g = 140, .b = 252 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_framer_IMPLEMENTATION_ONCE */

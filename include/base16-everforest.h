@@ -49,6 +49,7 @@ extern const tinted_scheme base16_everforest;
 
 const tinted_scheme base16_everforest = {
     .name = "Everforest",
+    .slug = "everforest",
     .base = {
         { .r = 45, .g = 53, .b = 59 },
         { .r = 52, .g = 63, .b = 68 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_everforest = {
         { .r = 127, .g = 187, .b = 179 },
         { .r = 214, .g = 153, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_everforest_IMPLEMENTATION_ONCE */

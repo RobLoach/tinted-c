@@ -49,6 +49,7 @@ extern const tinted_scheme base24_fish_tank;
 
 const tinted_scheme base24_fish_tank = {
     .name = "Fish Tank",
+    .slug = "fish-tank",
     .base = {
         { .r = 34, .g = 36, .b = 54 },
         { .r = 3, .g = 6, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_fish_tank = {
         { .r = 177, .g = 189, .b = 249 },
         { .r = 253, .g = 164, .b = 204 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_fish_tank_IMPLEMENTATION_ONCE */

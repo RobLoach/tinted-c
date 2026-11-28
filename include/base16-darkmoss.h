@@ -49,6 +49,7 @@ extern const tinted_scheme base16_darkmoss;
 
 const tinted_scheme base16_darkmoss = {
     .name = "darkmoss",
+    .slug = "darkmoss",
     .base = {
         { .r = 23, .g = 30, .b = 31 },
         { .r = 37, .g = 44, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_darkmoss = {
         { .r = 73, .g = 128, .b = 145 },
         { .r = 155, .g = 192, .b = 200 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_darkmoss_IMPLEMENTATION_ONCE */

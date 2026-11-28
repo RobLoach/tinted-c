@@ -49,6 +49,7 @@ extern const tinted_scheme base24_space_gray_eighties_dull;
 
 const tinted_scheme base24_space_gray_eighties_dull = {
     .name = "Space Gray Eighties Dull",
+    .slug = "space-gray-eighties-dull",
     .base = {
         { .r = 33, .g = 33, .b = 33 },
         { .r = 21, .g = 23, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_space_gray_eighties_dull = {
         { .r = 84, .g = 133, .b = 192 },
         { .r = 191, .g = 131, .b = 192 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_space_gray_eighties_dull_IMPLEMENTATION_ONCE */

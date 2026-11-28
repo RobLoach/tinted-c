@@ -49,6 +49,7 @@ extern const tinted_scheme base24_hacktober;
 
 const tinted_scheme base24_hacktober = {
     .name = "Hacktober",
+    .slug = "hacktober",
     .base = {
         { .r = 20, .g = 20, .b = 20 },
         { .r = 25, .g = 25, .b = 24 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_hacktober = {
         { .r = 83, .g = 137, .b = 197 },
         { .r = 231, .g = 149, .b = 165 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_hacktober_IMPLEMENTATION_ONCE */

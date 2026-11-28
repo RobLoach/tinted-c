@@ -49,6 +49,7 @@ extern const tinted_scheme base24_blue_berry_pie;
 
 const tinted_scheme base24_blue_berry_pie = {
     .name = "Blue Berry Pie",
+    .slug = "blue-berry-pie",
     .base = {
         { .r = 28, .g = 11, .b = 40 },
         { .r = 10, .g = 75, .b = 97 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_blue_berry_pie = {
         { .r = 56, .g = 22, .b = 61 },
         { .r = 188, .g = 147, .b = 182 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_blue_berry_pie_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_espresso;
 
 const tinted_scheme base16_espresso = {
     .name = "Espresso",
+    .slug = "espresso",
     .base = {
         { .r = 45, .g = 45, .b = 45 },
         { .r = 57, .g = 57, .b = 57 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_espresso = {
         { .r = 108, .g = 153, .b = 187 },
         { .r = 209, .g = 151, .b = 217 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_espresso_IMPLEMENTATION_ONCE */

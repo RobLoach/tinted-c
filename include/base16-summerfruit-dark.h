@@ -49,6 +49,7 @@ extern const tinted_scheme base16_summerfruit_dark;
 
 const tinted_scheme base16_summerfruit_dark = {
     .name = "Summerfruit Dark",
+    .slug = "summerfruit-dark",
     .base = {
         { .r = 21, .g = 21, .b = 21 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_summerfruit_dark = {
         { .r = 55, .g = 119, .b = 230 },
         { .r = 173, .g = 0, .b = 161 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_summerfruit_dark_IMPLEMENTATION_ONCE */

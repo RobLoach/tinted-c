@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_lakeside_light;
 
 const tinted_scheme base16_atelier_lakeside_light = {
     .name = "Atelier Lakeside Light",
+    .slug = "atelier-lakeside-light",
     .base = {
         { .r = 235, .g = 248, .b = 255 },
         { .r = 193, .g = 228, .b = 246 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_lakeside_light = {
         { .r = 37, .g = 127, .b = 173 },
         { .r = 107, .g = 107, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_lakeside_light_IMPLEMENTATION_ONCE */

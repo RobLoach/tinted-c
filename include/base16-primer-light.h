@@ -49,6 +49,7 @@ extern const tinted_scheme base16_primer_light;
 
 const tinted_scheme base16_primer_light = {
     .name = "Primer Light",
+    .slug = "primer-light",
     .base = {
         { .r = 250, .g = 251, .b = 252 },
         { .r = 225, .g = 228, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_primer_light = {
         { .r = 3, .g = 102, .b = 214 },
         { .r = 234, .g = 74, .b = 170 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_primer_light_IMPLEMENTATION_ONCE */

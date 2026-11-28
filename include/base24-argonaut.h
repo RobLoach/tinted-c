@@ -49,6 +49,7 @@ extern const tinted_scheme base24_argonaut;
 
 const tinted_scheme base24_argonaut = {
     .name = "Argonaut",
+    .slug = "argonaut",
     .base = {
         { .r = 13, .g = 15, .b = 24 },
         { .r = 34, .g = 34, .b = 34 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_argonaut = {
         { .r = 0, .g = 146, .b = 255 },
         { .r = 154, .g = 95, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_argonaut_IMPLEMENTATION_ONCE */

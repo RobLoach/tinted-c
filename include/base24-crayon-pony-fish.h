@@ -49,6 +49,7 @@ extern const tinted_scheme base24_crayon_pony_fish;
 
 const tinted_scheme base24_crayon_pony_fish = {
     .name = "Crayon Pony Fish",
+    .slug = "crayon-pony-fish",
     .base = {
         { .r = 20, .g = 6, .b = 7 },
         { .r = 42, .g = 26, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_crayon_pony_fish = {
         { .r = 207, .g = 201, .b = 255 },
         { .r = 251, .g = 108, .b = 185 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_crayon_pony_fish_IMPLEMENTATION_ONCE */

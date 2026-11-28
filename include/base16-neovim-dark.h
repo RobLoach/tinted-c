@@ -49,6 +49,7 @@ extern const tinted_scheme base16_neovim_dark;
 
 const tinted_scheme base16_neovim_dark = {
     .name = "Neovim Dark",
+    .slug = "neovim-dark",
     .base = {
         { .r = 20, .g = 22, .b = 27 },
         { .r = 7, .g = 8, .b = 13 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_neovim_dark = {
         { .r = 166, .g = 219, .b = 255 },
         { .r = 255, .g = 202, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_neovim_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_windows_95_light;
 
 const tinted_scheme base16_windows_95_light = {
     .name = "Windows 95 Light",
+    .slug = "windows-95-light",
     .base = {
         { .r = 252, .g = 252, .b = 252 },
         { .r = 224, .g = 224, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_windows_95_light = {
         { .r = 0, .g = 0, .b = 168 },
         { .r = 168, .g = 0, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_windows_95_light_IMPLEMENTATION_ONCE */

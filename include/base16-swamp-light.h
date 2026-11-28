@@ -49,6 +49,7 @@ extern const tinted_scheme base16_swamp_light;
 
 const tinted_scheme base16_swamp_light = {
     .name = "Swamp Light",
+    .slug = "swamp-light",
     .base = {
         { .r = 241, .g = 227, .b = 209 },
         { .r = 221, .g = 206, .b = 188 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_swamp_light = {
         { .r = 191, .g = 121, .b = 121 },
         { .r = 158, .g = 85, .b = 129 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_swamp_light_IMPLEMENTATION_ONCE */

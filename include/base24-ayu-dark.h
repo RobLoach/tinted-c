@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ayu_dark;
 
 const tinted_scheme base24_ayu_dark = {
     .name = "Ayu Dark",
+    .slug = "ayu-dark",
     .base = {
         { .r = 11, .g = 14, .b = 20 },
         { .r = 19, .g = 23, .b = 33 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ayu_dark = {
         { .r = 115, .g = 184, .b = 255 },
         { .r = 221, .g = 188, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ayu_dark_IMPLEMENTATION_ONCE */

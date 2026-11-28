@@ -49,6 +49,7 @@ extern const tinted_scheme base24_mission_brogue;
 
 const tinted_scheme base24_mission_brogue = {
     .name = "Mission Brogue",
+    .slug = "mission-brogue",
     .base = {
         { .r = 40, .g = 49, .b = 57 },
         { .r = 59, .g = 73, .b = 84 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_mission_brogue = {
         { .r = 195, .g = 217, .b = 253 },
         { .r = 227, .g = 195, .b = 230 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_mission_brogue_IMPLEMENTATION_ONCE */

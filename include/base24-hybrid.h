@@ -49,6 +49,7 @@ extern const tinted_scheme base24_hybrid;
 
 const tinted_scheme base24_hybrid = {
     .name = "Hybrid",
+    .slug = "hybrid",
     .base = {
         { .r = 22, .g = 23, .b = 24 },
         { .r = 42, .g = 46, .b = 51 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_hybrid = {
         { .r = 75, .g = 107, .b = 136 },
         { .r = 110, .g = 79, .b = 121 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_hybrid_IMPLEMENTATION_ONCE */

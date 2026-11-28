@@ -49,6 +49,7 @@ extern const tinted_scheme base24_lab_fox;
 
 const tinted_scheme base24_lab_fox = {
     .name = "Lab Fox",
+    .slug = "lab-fox",
     .base = {
         { .r = 46, .g = 46, .b = 46 },
         { .r = 46, .g = 46, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_lab_fox = {
         { .r = 219, .g = 80, .b = 31 },
         { .r = 68, .g = 16, .b = 144 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_lab_fox_IMPLEMENTATION_ONCE */

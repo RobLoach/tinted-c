@@ -49,6 +49,7 @@ extern const tinted_scheme base24_spiderman;
 
 const tinted_scheme base24_spiderman = {
     .name = "Spiderman",
+    .slug = "spiderman",
     .base = {
         { .r = 27, .g = 29, .b = 30 },
         { .r = 27, .g = 29, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_spiderman = {
         { .r = 29, .g = 79, .b = 255 },
         { .r = 115, .g = 123, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_spiderman_IMPLEMENTATION_ONCE */

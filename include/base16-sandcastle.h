@@ -49,6 +49,7 @@ extern const tinted_scheme base16_sandcastle;
 
 const tinted_scheme base16_sandcastle = {
     .name = "Sandcastle",
+    .slug = "sandcastle",
     .base = {
         { .r = 40, .g = 44, .b = 52 },
         { .r = 44, .g = 50, .b = 59 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_sandcastle = {
         { .r = 131, .g = 165, .b = 152 },
         { .r = 215, .g = 95, .b = 95 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_sandcastle_IMPLEMENTATION_ONCE */

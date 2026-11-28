@@ -49,6 +49,7 @@ extern const tinted_scheme base16_black_metal_mayhem;
 
 const tinted_scheme base16_black_metal_mayhem = {
     .name = "Black Metal (Mayhem)",
+    .slug = "black-metal-mayhem",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 18, .g = 18, .b = 18 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_black_metal_mayhem = {
         { .r = 136, .g = 136, .b = 136 },
         { .r = 153, .g = 153, .b = 153 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_black_metal_mayhem_IMPLEMENTATION_ONCE */

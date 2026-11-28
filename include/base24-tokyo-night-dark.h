@@ -49,6 +49,7 @@ extern const tinted_scheme base24_tokyo_night_dark;
 
 const tinted_scheme base24_tokyo_night_dark = {
     .name = "Tokyo Night Dark",
+    .slug = "tokyo-night-dark",
     .base = {
         { .r = 26, .g = 27, .b = 38 },
         { .r = 22, .g = 22, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_tokyo_night_dark = {
         { .r = 137, .g = 221, .b = 255 },
         { .r = 187, .g = 154, .b = 247 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_tokyo_night_dark_IMPLEMENTATION_ONCE */

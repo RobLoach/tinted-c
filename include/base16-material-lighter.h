@@ -49,6 +49,7 @@ extern const tinted_scheme base16_material_lighter;
 
 const tinted_scheme base16_material_lighter = {
     .name = "Material Lighter",
+    .slug = "material-lighter",
     .base = {
         { .r = 250, .g = 250, .b = 250 },
         { .r = 231, .g = 234, .b = 236 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_material_lighter = {
         { .r = 97, .g = 130, .b = 184 },
         { .r = 124, .g = 77, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_material_lighter_IMPLEMENTATION_ONCE */

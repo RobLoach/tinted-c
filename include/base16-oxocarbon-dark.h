@@ -49,6 +49,7 @@ extern const tinted_scheme base16_oxocarbon_dark;
 
 const tinted_scheme base16_oxocarbon_dark = {
     .name = "Oxocarbon Dark",
+    .slug = "oxocarbon-dark",
     .base = {
         { .r = 22, .g = 22, .b = 22 },
         { .r = 38, .g = 38, .b = 38 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_oxocarbon_dark = {
         { .r = 51, .g = 177, .b = 255 },
         { .r = 190, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_oxocarbon_dark_IMPLEMENTATION_ONCE */

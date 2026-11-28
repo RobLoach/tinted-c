@@ -49,6 +49,7 @@ extern const tinted_scheme base24_homebrew;
 
 const tinted_scheme base24_homebrew = {
     .name = "Homebrew",
+    .slug = "homebrew",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_homebrew = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_homebrew_IMPLEMENTATION_ONCE */

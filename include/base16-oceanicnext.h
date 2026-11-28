@@ -49,6 +49,7 @@ extern const tinted_scheme base16_oceanicnext;
 
 const tinted_scheme base16_oceanicnext = {
     .name = "OceanicNext",
+    .slug = "oceanicnext",
     .base = {
         { .r = 27, .g = 43, .b = 52 },
         { .r = 52, .g = 61, .b = 70 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_oceanicnext = {
         { .r = 102, .g = 153, .b = 204 },
         { .r = 197, .g = 148, .b = 197 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_oceanicnext_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_lime;
 
 const tinted_scheme base16_lime = {
     .name = "lime",
+    .slug = "lime",
     .base = {
         { .r = 26, .g = 26, .b = 47 },
         { .r = 32, .g = 32, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_lime = {
         { .r = 43, .g = 146, .b = 111 },
         { .r = 27, .g = 130, .b = 95 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_lime_IMPLEMENTATION_ONCE */

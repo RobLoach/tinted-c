@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pencil_light;
 
 const tinted_scheme base24_pencil_light = {
     .name = "Pencil Light",
+    .slug = "pencil-light",
     .base = {
         { .r = 241, .g = 241, .b = 241 },
         { .r = 33, .g = 33, .b = 33 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pencil_light = {
         { .r = 32, .g = 187, .b = 252 },
         { .r = 104, .g = 85, .b = 222 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_pencil_light_IMPLEMENTATION_ONCE */

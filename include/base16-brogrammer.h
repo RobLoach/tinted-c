@@ -49,6 +49,7 @@ extern const tinted_scheme base16_brogrammer;
 
 const tinted_scheme base16_brogrammer = {
     .name = "Brogrammer",
+    .slug = "brogrammer",
     .base = {
         { .r = 31, .g = 31, .b = 31 },
         { .r = 248, .g = 17, .b = 24 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_brogrammer = {
         { .r = 83, .g = 80, .b = 185 },
         { .r = 15, .g = 125, .b = 219 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_brogrammer_IMPLEMENTATION_ONCE */

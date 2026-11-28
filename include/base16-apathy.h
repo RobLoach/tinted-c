@@ -49,6 +49,7 @@ extern const tinted_scheme base16_apathy;
 
 const tinted_scheme base16_apathy = {
     .name = "Apathy",
+    .slug = "apathy",
     .base = {
         { .r = 3, .g = 26, .b = 22 },
         { .r = 11, .g = 52, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_apathy = {
         { .r = 150, .g = 136, .b = 62 },
         { .r = 76, .g = 150, .b = 62 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_apathy_IMPLEMENTATION_ONCE */

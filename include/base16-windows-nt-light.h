@@ -49,6 +49,7 @@ extern const tinted_scheme base16_windows_nt_light;
 
 const tinted_scheme base16_windows_nt_light = {
     .name = "Windows NT Light",
+    .slug = "windows-nt-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 234, .g = 234, .b = 234 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_windows_nt_light = {
         { .r = 0, .g = 0, .b = 128 },
         { .r = 128, .g = 0, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_windows_nt_light_IMPLEMENTATION_ONCE */

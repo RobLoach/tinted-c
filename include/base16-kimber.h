@@ -49,6 +49,7 @@ extern const tinted_scheme base16_kimber;
 
 const tinted_scheme base16_kimber = {
     .name = "Kimber",
+    .slug = "kimber",
     .base = {
         { .r = 34, .g = 34, .b = 34 },
         { .r = 49, .g = 49, .b = 49 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_kimber = {
         { .r = 83, .g = 124, .b = 156 },
         { .r = 134, .g = 202, .b = 205 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_kimber_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_zenbones;
 
 const tinted_scheme base16_zenbones = {
     .name = "Zenbones",
+    .slug = "zenbones",
     .base = {
         { .r = 25, .g = 25, .b = 25 },
         { .r = 222, .g = 110, .b = 124 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_zenbones = {
         { .r = 207, .g = 134, .b = 193 },
         { .r = 101, .g = 184, .b = 193 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_zenbones_IMPLEMENTATION_ONCE */

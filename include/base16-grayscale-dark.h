@@ -49,6 +49,7 @@ extern const tinted_scheme base16_grayscale_dark;
 
 const tinted_scheme base16_grayscale_dark = {
     .name = "Grayscale Dark",
+    .slug = "grayscale-dark",
     .base = {
         { .r = 16, .g = 16, .b = 16 },
         { .r = 37, .g = 37, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_grayscale_dark = {
         { .r = 104, .g = 104, .b = 104 },
         { .r = 116, .g = 116, .b = 116 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_grayscale_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cerulean_signal_light;
 
 const tinted_scheme base16_cerulean_signal_light = {
     .name = "Cerulean Signal Light",
+    .slug = "cerulean-signal-light",
     .base = {
         { .r = 247, .g = 249, .b = 252 },
         { .r = 238, .g = 244, .b = 251 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cerulean_signal_light = {
         { .r = 0, .g = 111, .b = 168 },
         { .r = 160, .g = 0, .b = 125 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_cerulean_signal_light_IMPLEMENTATION_ONCE */

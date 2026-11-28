@@ -49,6 +49,7 @@ extern const tinted_scheme base24_oceanic_material;
 
 const tinted_scheme base24_oceanic_material = {
     .name = "Oceanic Material",
+    .slug = "oceanic-material",
     .base = {
         { .r = 28, .g = 38, .b = 43 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_oceanic_material = {
         { .r = 83, .g = 164, .b = 243 },
         { .r = 169, .g = 77, .b = 187 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_oceanic_material_IMPLEMENTATION_ONCE */

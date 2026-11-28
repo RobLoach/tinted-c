@@ -49,6 +49,7 @@ extern const tinted_scheme base24_sundried;
 
 const tinted_scheme base24_sundried = {
     .name = "Sundried",
+    .slug = "sundried",
     .base = {
         { .r = 26, .g = 24, .b = 24 },
         { .r = 48, .g = 43, .b = 42 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_sundried = {
         { .r = 120, .g = 152, .b = 247 },
         { .r = 252, .g = 137, .b = 160 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_sundried_IMPLEMENTATION_ONCE */

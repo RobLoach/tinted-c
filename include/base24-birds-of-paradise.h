@@ -49,6 +49,7 @@ extern const tinted_scheme base24_birds_of_paradise;
 
 const tinted_scheme base24_birds_of_paradise = {
     .name = "Birds Of Paradise",
+    .slug = "birds-of-paradise",
     .base = {
         { .r = 42, .g = 30, .b = 29 },
         { .r = 87, .g = 61, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_birds_of_paradise = {
         { .r = 184, .g = 211, .b = 237 },
         { .r = 208, .g = 157, .b = 202 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_birds_of_paradise_IMPLEMENTATION_ONCE */

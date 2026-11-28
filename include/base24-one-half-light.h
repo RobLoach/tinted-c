@@ -49,6 +49,7 @@ extern const tinted_scheme base24_one_half_light;
 
 const tinted_scheme base24_one_half_light = {
     .name = "One Half Light",
+    .slug = "one-half-light",
     .base = {
         { .r = 42, .g = 43, .b = 50 },
         { .r = 55, .g = 57, .b = 66 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_one_half_light = {
         { .r = 97, .g = 175, .b = 239 },
         { .r = 197, .g = 119, .b = 221 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_one_half_light_IMPLEMENTATION_ONCE */

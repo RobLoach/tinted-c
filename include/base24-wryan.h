@@ -49,6 +49,7 @@ extern const tinted_scheme base24_wryan;
 
 const tinted_scheme base24_wryan = {
     .name = "Wryan",
+    .slug = "wryan",
     .base = {
         { .r = 16, .g = 16, .b = 16 },
         { .r = 51, .g = 51, .b = 51 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_wryan = {
         { .r = 71, .g = 122, .b = 179 },
         { .r = 126, .g = 98, .b = 179 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_wryan_IMPLEMENTATION_ONCE */

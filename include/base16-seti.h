@@ -49,6 +49,7 @@ extern const tinted_scheme base16_seti;
 
 const tinted_scheme base16_seti = {
     .name = "Seti UI",
+    .slug = "seti",
     .base = {
         { .r = 21, .g = 23, .b = 24 },
         { .r = 40, .g = 42, .b = 43 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_seti = {
         { .r = 85, .g = 181, .b = 219 },
         { .r = 160, .g = 116, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_seti_IMPLEMENTATION_ONCE */

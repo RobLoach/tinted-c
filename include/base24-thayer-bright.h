@@ -49,6 +49,7 @@ extern const tinted_scheme base24_thayer_bright;
 
 const tinted_scheme base24_thayer_bright = {
     .name = "Thayer Bright",
+    .slug = "thayer-bright",
     .base = {
         { .r = 27, .g = 29, .b = 30 },
         { .r = 27, .g = 29, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_thayer_bright = {
         { .r = 63, .g = 120, .b = 255 },
         { .r = 158, .g = 111, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_thayer_bright_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_google_light;
 
 const tinted_scheme base16_google_light = {
     .name = "Google Light",
+    .slug = "google-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 224, .g = 224, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_google_light = {
         { .r = 57, .g = 113, .b = 237 },
         { .r = 163, .g = 106, .b = 199 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_google_light_IMPLEMENTATION_ONCE */

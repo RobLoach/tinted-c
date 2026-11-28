@@ -49,6 +49,7 @@ extern const tinted_scheme base16_digital_rain;
 
 const tinted_scheme base16_digital_rain = {
     .name = "Digital Rain",
+    .slug = "digital-rain",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 74, .g = 128, .b = 108 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_digital_rain = {
         { .r = 84, .g = 130, .b = 175 },
         { .r = 148, .g = 114, .b = 180 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_digital_rain_IMPLEMENTATION_ONCE */

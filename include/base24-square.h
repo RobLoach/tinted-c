@@ -49,6 +49,7 @@ extern const tinted_scheme base24_square;
 
 const tinted_scheme base24_square = {
     .name = "Square",
+    .slug = "square",
     .base = {
         { .r = 26, .g = 26, .b = 26 },
         { .r = 5, .g = 5, .b = 5 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_square = {
         { .r = 182, .g = 222, .b = 251 },
         { .r = 173, .g = 127, .b = 168 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_square_IMPLEMENTATION_ONCE */

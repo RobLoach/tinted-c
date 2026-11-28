@@ -49,6 +49,7 @@ extern const tinted_scheme base16_edge_light;
 
 const tinted_scheme base16_edge_light = {
     .name = "Edge Light",
+    .slug = "edge-light",
     .base = {
         { .r = 250, .g = 250, .b = 250 },
         { .r = 227, .g = 229, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_edge_light = {
         { .r = 101, .g = 135, .b = 191 },
         { .r = 184, .g = 112, .b = 206 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_edge_light_IMPLEMENTATION_ONCE */

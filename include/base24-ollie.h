@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ollie;
 
 const tinted_scheme base24_ollie = {
     .name = "Ollie",
+    .slug = "ollie",
     .base = {
         { .r = 33, .g = 32, .b = 36 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ollie = {
         { .r = 68, .g = 135, .b = 255 },
         { .r = 255, .g = 194, .b = 28 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ollie_IMPLEMENTATION_ONCE */

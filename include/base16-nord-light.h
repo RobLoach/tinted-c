@@ -49,6 +49,7 @@ extern const tinted_scheme base16_nord_light;
 
 const tinted_scheme base16_nord_light = {
     .name = "Nord Light",
+    .slug = "nord-light",
     .base = {
         { .r = 229, .g = 233, .b = 240 },
         { .r = 194, .g = 208, .b = 231 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_nord_light = {
         { .r = 59, .g = 110, .b = 168 },
         { .r = 151, .g = 54, .b = 91 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_nord_light_IMPLEMENTATION_ONCE */

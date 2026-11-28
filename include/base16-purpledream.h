@@ -49,6 +49,7 @@ extern const tinted_scheme base16_purpledream;
 
 const tinted_scheme base16_purpledream = {
     .name = "Purpledream",
+    .slug = "purpledream",
     .base = {
         { .r = 16, .g = 5, .b = 16 },
         { .r = 48, .g = 32, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_purpledream = {
         { .r = 0, .g = 160, .b = 240 },
         { .r = 176, .g = 0, .b = 208 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_purpledream_IMPLEMENTATION_ONCE */

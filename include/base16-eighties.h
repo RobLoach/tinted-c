@@ -49,6 +49,7 @@ extern const tinted_scheme base16_eighties;
 
 const tinted_scheme base16_eighties = {
     .name = "Eighties",
+    .slug = "eighties",
     .base = {
         { .r = 45, .g = 45, .b = 45 },
         { .r = 57, .g = 57, .b = 57 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_eighties = {
         { .r = 102, .g = 153, .b = 204 },
         { .r = 204, .g = 153, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_eighties_IMPLEMENTATION_ONCE */

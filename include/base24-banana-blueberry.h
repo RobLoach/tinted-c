@@ -49,6 +49,7 @@ extern const tinted_scheme base24_banana_blueberry;
 
 const tinted_scheme base24_banana_blueberry = {
     .name = "Banana Blueberry",
+    .slug = "banana-blueberry",
     .base = {
         { .r = 25, .g = 19, .b = 34 },
         { .r = 22, .g = 20, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_banana_blueberry = {
         { .r = 145, .g = 255, .b = 243 },
         { .r = 218, .g = 112, .b = 213 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_banana_blueberry_IMPLEMENTATION_ONCE */

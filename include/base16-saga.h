@@ -49,6 +49,7 @@ extern const tinted_scheme base16_saga;
 
 const tinted_scheme base16_saga = {
     .name = "SAGA",
+    .slug = "saga",
     .base = {
         { .r = 5, .g = 8, .b = 10 },
         { .r = 10, .g = 16, .b = 20 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_saga = {
         { .r = 201, .g = 255, .b = 247 },
         { .r = 220, .g = 195, .b = 249 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_saga_IMPLEMENTATION_ONCE */

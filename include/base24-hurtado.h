@@ -49,6 +49,7 @@ extern const tinted_scheme base24_hurtado;
 
 const tinted_scheme base24_hurtado = {
     .name = "Hurtado",
+    .slug = "hurtado",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 87, .g = 87, .b = 87 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_hurtado = {
         { .r = 137, .g = 189, .b = 255 },
         { .r = 191, .g = 0, .b = 192 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_hurtado_IMPLEMENTATION_ONCE */

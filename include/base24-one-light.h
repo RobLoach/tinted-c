@@ -49,6 +49,7 @@ extern const tinted_scheme base24_one_light;
 
 const tinted_scheme base24_one_light = {
     .name = "One Light",
+    .slug = "one-light",
     .base = {
         { .r = 231, .g = 231, .b = 233 },
         { .r = 223, .g = 223, .b = 225 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_one_light = {
         { .r = 112, .g = 154, .b = 245 },
         { .r = 208, .g = 47, .b = 205 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_one_light_IMPLEMENTATION_ONCE */

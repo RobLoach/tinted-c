@@ -49,6 +49,7 @@ extern const tinted_scheme base16_mellow_purple;
 
 const tinted_scheme base16_mellow_purple = {
     .name = "Mellow Purple",
+    .slug = "mellow-purple",
     .base = {
         { .r = 30, .g = 5, .b = 40 },
         { .r = 26, .g = 9, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_mellow_purple = {
         { .r = 85, .g = 0, .b = 104 },
         { .r = 137, .g = 145, .b = 187 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_mellow_purple_IMPLEMENTATION_ONCE */

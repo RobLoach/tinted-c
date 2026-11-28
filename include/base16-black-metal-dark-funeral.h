@@ -49,6 +49,7 @@ extern const tinted_scheme base16_black_metal_dark_funeral;
 
 const tinted_scheme base16_black_metal_dark_funeral = {
     .name = "Black Metal (Dark Funeral)",
+    .slug = "black-metal-dark-funeral",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 18, .g = 18, .b = 18 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_black_metal_dark_funeral = {
         { .r = 136, .g = 136, .b = 136 },
         { .r = 153, .g = 153, .b = 153 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_black_metal_dark_funeral_IMPLEMENTATION_ONCE */

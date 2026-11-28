@@ -49,6 +49,7 @@ extern const tinted_scheme base24_red_planet;
 
 const tinted_scheme base24_red_planet = {
     .name = "Red Planet",
+    .slug = "red-planet",
     .base = {
         { .r = 34, .g = 34, .b = 34 },
         { .r = 32, .g = 31, .b = 31 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_red_planet = {
         { .r = 96, .g = 130, .b = 126 },
         { .r = 222, .g = 72, .b = 115 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_red_planet_IMPLEMENTATION_ONCE */

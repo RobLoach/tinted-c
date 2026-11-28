@@ -49,6 +49,7 @@ extern const tinted_scheme base24_mona_lisa;
 
 const tinted_scheme base24_mona_lisa = {
     .name = "Mona Lisa",
+    .slug = "mona-lisa",
     .base = {
         { .r = 17, .g = 11, .b = 13 },
         { .r = 52, .g = 26, .b = 13 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_mona_lisa = {
         { .r = 158, .g = 178, .b = 179 },
         { .r = 255, .g = 91, .b = 106 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_mona_lisa_IMPLEMENTATION_ONCE */

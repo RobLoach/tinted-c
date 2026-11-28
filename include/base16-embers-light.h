@@ -49,6 +49,7 @@ extern const tinted_scheme base16_embers_light;
 
 const tinted_scheme base16_embers_light = {
     .name = "Embers Light",
+    .slug = "embers-light",
     .base = {
         { .r = 219, .g = 214, .b = 209 },
         { .r = 190, .g = 182, .b = 174 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_embers_light = {
         { .r = 109, .g = 87, .b = 130 },
         { .r = 130, .g = 87, .b = 109 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_embers_light_IMPLEMENTATION_ONCE */

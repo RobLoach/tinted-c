@@ -49,6 +49,7 @@ extern const tinted_scheme base16_ia_dark;
 
 const tinted_scheme base16_ia_dark = {
     .name = "iA Dark",
+    .slug = "ia-dark",
     .base = {
         { .r = 26, .g = 26, .b = 26 },
         { .r = 34, .g = 34, .b = 34 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_ia_dark = {
         { .r = 142, .g = 204, .b = 221 },
         { .r = 185, .g = 142, .b = 178 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_ia_dark_IMPLEMENTATION_ONCE */

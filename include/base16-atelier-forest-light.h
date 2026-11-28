@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_forest_light;
 
 const tinted_scheme base16_atelier_forest_light = {
     .name = "Atelier Forest Light",
+    .slug = "atelier-forest-light",
     .base = {
         { .r = 241, .g = 239, .b = 238 },
         { .r = 230, .g = 226, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_forest_light = {
         { .r = 64, .g = 126, .b = 231 },
         { .r = 102, .g = 102, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_forest_light_IMPLEMENTATION_ONCE */

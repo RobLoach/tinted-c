@@ -49,6 +49,7 @@ extern const tinted_scheme base16_nova;
 
 const tinted_scheme base16_nova = {
     .name = "Nova",
+    .slug = "nova",
     .base = {
         { .r = 60, .g = 76, .b = 85 },
         { .r = 85, .g = 104, .b = 115 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_nova = {
         { .r = 131, .g = 175, .b = 229 },
         { .r = 154, .g = 147, .b = 225 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_nova_IMPLEMENTATION_ONCE */

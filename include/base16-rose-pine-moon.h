@@ -49,6 +49,7 @@ extern const tinted_scheme base16_rose_pine_moon;
 
 const tinted_scheme base16_rose_pine_moon = {
     .name = "Rosé Pine Moon",
+    .slug = "rose-pine-moon",
     .base = {
         { .r = 35, .g = 33, .b = 54 },
         { .r = 42, .g = 39, .b = 63 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_rose_pine_moon = {
         { .r = 196, .g = 167, .b = 231 },
         { .r = 246, .g = 193, .b = 119 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_rose_pine_moon_IMPLEMENTATION_ONCE */

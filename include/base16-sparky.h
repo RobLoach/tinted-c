@@ -49,6 +49,7 @@ extern const tinted_scheme base16_sparky;
 
 const tinted_scheme base16_sparky = {
     .name = "Sparky",
+    .slug = "sparky",
     .base = {
         { .r = 7, .g = 43, .b = 49 },
         { .r = 0, .g = 49, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_sparky = {
         { .r = 70, .g = 152, .b = 203 },
         { .r = 213, .g = 158, .b = 215 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_sparky_IMPLEMENTATION_ONCE */

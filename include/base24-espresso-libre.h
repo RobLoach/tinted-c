@@ -49,6 +49,7 @@ extern const tinted_scheme base24_espresso_libre;
 
 const tinted_scheme base24_espresso_libre = {
     .name = "Espresso Libre",
+    .slug = "espresso-libre",
     .base = {
         { .r = 42, .g = 33, .b = 28 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_espresso_libre = {
         { .r = 67, .g = 168, .b = 237 },
         { .r = 255, .g = 128, .b = 137 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_espresso_libre_IMPLEMENTATION_ONCE */

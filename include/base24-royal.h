@@ -49,6 +49,7 @@ extern const tinted_scheme base24_royal;
 
 const tinted_scheme base24_royal = {
     .name = "Royal",
+    .slug = "royal",
     .base = {
         { .r = 16, .g = 8, .b = 20 },
         { .r = 36, .g = 31, .b = 42 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_royal = {
         { .r = 143, .g = 185, .b = 249 },
         { .r = 164, .g = 121, .b = 226 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_royal_IMPLEMENTATION_ONCE */

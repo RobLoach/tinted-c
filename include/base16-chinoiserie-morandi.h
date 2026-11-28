@@ -49,6 +49,7 @@ extern const tinted_scheme base16_chinoiserie_morandi;
 
 const tinted_scheme base16_chinoiserie_morandi = {
     .name = "Chinoiserie Morandi",
+    .slug = "chinoiserie-morandi",
     .base = {
         { .r = 29, .g = 29, .b = 29 },
         { .r = 40, .g = 40, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_chinoiserie_morandi = {
         { .r = 131, .g = 158, .b = 201 },
         { .r = 152, .g = 161, .b = 216 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_chinoiserie_morandi_IMPLEMENTATION_ONCE */

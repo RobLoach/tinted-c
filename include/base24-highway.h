@@ -49,6 +49,7 @@ extern const tinted_scheme base24_highway;
 
 const tinted_scheme base24_highway = {
     .name = "Highway",
+    .slug = "highway",
     .base = {
         { .r = 33, .g = 34, .b = 36 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_highway = {
         { .r = 79, .g = 194, .b = 253 },
         { .r = 222, .g = 0, .b = 112 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_highway_IMPLEMENTATION_ONCE */

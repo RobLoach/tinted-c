@@ -49,6 +49,7 @@ extern const tinted_scheme base24_purple_rain;
 
 const tinted_scheme base24_purple_rain = {
     .name = "Purple Rain",
+    .slug = "purple-rain",
     .base = {
         { .r = 32, .g = 8, .b = 74 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_purple_rain = {
         { .r = 0, .g = 165, .b = 255 },
         { .r = 171, .g = 122, .b = 239 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_purple_rain_IMPLEMENTATION_ONCE */

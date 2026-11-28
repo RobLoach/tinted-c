@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cyberpunk;
 
 const tinted_scheme base16_cyberpunk = {
     .name = "Cyberpunk",
+    .slug = "cyberpunk",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 43, .g = 43, .b = 43 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cyberpunk = {
         { .r = 76, .g = 131, .b = 255 },
         { .r = 255, .g = 20, .b = 147 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_cyberpunk_IMPLEMENTATION_ONCE */

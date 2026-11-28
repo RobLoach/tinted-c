@@ -49,6 +49,7 @@ extern const tinted_scheme base16_helios;
 
 const tinted_scheme base16_helios = {
     .name = "Helios",
+    .slug = "helios",
     .base = {
         { .r = 29, .g = 32, .b = 33 },
         { .r = 56, .g = 60, .b = 62 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_helios = {
         { .r = 30, .g = 139, .b = 172 },
         { .r = 190, .g = 66, .b = 100 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_helios_IMPLEMENTATION_ONCE */

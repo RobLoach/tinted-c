@@ -49,6 +49,7 @@ extern const tinted_scheme base16_paraiso;
 
 const tinted_scheme base16_paraiso = {
     .name = "Paraiso",
+    .slug = "paraiso",
     .base = {
         { .r = 47, .g = 30, .b = 46 },
         { .r = 65, .g = 50, .b = 63 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_paraiso = {
         { .r = 6, .g = 182, .b = 239 },
         { .r = 129, .g = 91, .b = 164 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_paraiso_IMPLEMENTATION_ONCE */

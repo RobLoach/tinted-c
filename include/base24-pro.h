@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pro;
 
 const tinted_scheme base24_pro = {
     .name = "Pro",
+    .slug = "pro",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pro = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_pro_IMPLEMENTATION_ONCE */

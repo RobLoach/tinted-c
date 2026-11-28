@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tokyo_city_light;
 
 const tinted_scheme base16_tokyo_city_light = {
     .name = "Tokyo City Light",
+    .slug = "tokyo-city-light",
     .base = {
         { .r = 251, .g = 251, .b = 253 },
         { .r = 246, .g = 246, .b = 248 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tokyo_city_light = {
         { .r = 52, .g = 84, .b = 138 },
         { .r = 90, .g = 74, .b = 120 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_tokyo_city_light_IMPLEMENTATION_ONCE */

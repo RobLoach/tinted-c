@@ -49,6 +49,7 @@ extern const tinted_scheme base24_wez;
 
 const tinted_scheme base24_wez = {
     .name = "Wez",
+    .slug = "wez",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_wez = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_wez_IMPLEMENTATION_ONCE */

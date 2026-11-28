@@ -49,6 +49,7 @@ extern const tinted_scheme base16_da_one_black;
 
 const tinted_scheme base16_da_one_black = {
     .name = "Da One Black",
+    .slug = "da-one-black",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 40, .g = 40, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_da_one_black = {
         { .r = 107, .g = 184, .b = 255 },
         { .r = 231, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_da_one_black_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_warm_neon;
 
 const tinted_scheme base24_warm_neon = {
     .name = "Warm Neon",
+    .slug = "warm-neon",
     .base = {
         { .r = 63, .g = 63, .b = 63 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_warm_neon = {
         { .r = 122, .g = 144, .b = 213 },
         { .r = 246, .g = 116, .b = 185 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_warm_neon_IMPLEMENTATION_ONCE */

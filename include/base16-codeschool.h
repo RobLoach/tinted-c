@@ -49,6 +49,7 @@ extern const tinted_scheme base16_codeschool;
 
 const tinted_scheme base16_codeschool = {
     .name = "Codeschool",
+    .slug = "codeschool",
     .base = {
         { .r = 35, .g = 44, .b = 49 },
         { .r = 28, .g = 54, .b = 87 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_codeschool = {
         { .r = 72, .g = 77, .b = 121 },
         { .r = 197, .g = 152, .b = 32 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_codeschool_IMPLEMENTATION_ONCE */

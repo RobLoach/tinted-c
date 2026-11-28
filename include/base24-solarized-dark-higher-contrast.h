@@ -49,6 +49,7 @@ extern const tinted_scheme base24_solarized_dark_higher_contrast;
 
 const tinted_scheme base24_solarized_dark_higher_contrast = {
     .name = "Solarized Dark Higher Contrast",
+    .slug = "solarized-dark-higher-contrast",
     .base = {
         { .r = 0, .g = 30, .b = 38 },
         { .r = 0, .g = 39, .b = 49 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_solarized_dark_higher_contrast = {
         { .r = 23, .g = 141, .b = 199 },
         { .r = 225, .g = 77, .b = 142 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_solarized_dark_higher_contrast_IMPLEMENTATION_ONCE */

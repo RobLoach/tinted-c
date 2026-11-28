@@ -49,6 +49,7 @@ extern const tinted_scheme base16_kissa_latte;
 
 const tinted_scheme base16_kissa_latte = {
     .name = "Kissa Latte",
+    .slug = "kissa-latte",
     .base = {
         { .r = 245, .g = 244, .b = 240 },
         { .r = 232, .g = 231, .b = 227 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_kissa_latte = {
         { .r = 52, .g = 104, .b = 168 },
         { .r = 100, .g = 56, .b = 160 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_kissa_latte_IMPLEMENTATION_ONCE */

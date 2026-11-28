@@ -49,6 +49,7 @@ extern const tinted_scheme base16_brushtrees;
 
 const tinted_scheme base16_brushtrees = {
     .name = "Brush Trees",
+    .slug = "brushtrees",
     .base = {
         { .r = 227, .g = 239, .b = 239 },
         { .r = 201, .g = 219, .b = 220 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_brushtrees = {
         { .r = 134, .g = 140, .b = 179 },
         { .r = 179, .g = 134, .b = 178 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_brushtrees_IMPLEMENTATION_ONCE */

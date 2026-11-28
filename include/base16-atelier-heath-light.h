@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_heath_light;
 
 const tinted_scheme base16_atelier_heath_light = {
     .name = "Atelier Heath Light",
+    .slug = "atelier-heath-light",
     .base = {
         { .r = 247, .g = 243, .b = 247 },
         { .r = 216, .g = 202, .b = 216 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_heath_light = {
         { .r = 81, .g = 106, .b = 236 },
         { .r = 123, .g = 89, .b = 192 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_heath_light_IMPLEMENTATION_ONCE */

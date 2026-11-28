@@ -49,6 +49,7 @@ extern const tinted_scheme base24_sea_shells;
 
 const tinted_scheme base24_sea_shells = {
     .name = "Sea Shells",
+    .slug = "sea-shells",
     .base = {
         { .r = 8, .g = 19, .b = 26 },
         { .r = 23, .g = 56, .b = 76 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_sea_shells = {
         { .r = 27, .g = 188, .b = 221 },
         { .r = 187, .g = 227, .b = 238 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_sea_shells_IMPLEMENTATION_ONCE */

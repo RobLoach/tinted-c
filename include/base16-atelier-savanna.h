@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_savanna;
 
 const tinted_scheme base16_atelier_savanna = {
     .name = "Atelier Savanna",
+    .slug = "atelier-savanna",
     .base = {
         { .r = 23, .g = 28, .b = 25 },
         { .r = 35, .g = 42, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_savanna = {
         { .r = 71, .g = 140, .b = 144 },
         { .r = 85, .g = 133, .b = 155 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_savanna_IMPLEMENTATION_ONCE */

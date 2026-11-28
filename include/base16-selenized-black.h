@@ -49,6 +49,7 @@ extern const tinted_scheme base16_selenized_black;
 
 const tinted_scheme base16_selenized_black = {
     .name = "selenized-black",
+    .slug = "selenized-black",
     .base = {
         { .r = 24, .g = 24, .b = 24 },
         { .r = 37, .g = 37, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_selenized_black = {
         { .r = 54, .g = 138, .b = 235 },
         { .r = 165, .g = 128, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_selenized_black_IMPLEMENTATION_ONCE */

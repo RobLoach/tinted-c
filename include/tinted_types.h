@@ -42,6 +42,19 @@ typedef struct tinted_color {
 
 #endif /* TINTED_C_COLOR_H__ */
 
+#ifndef TINTED_C_VARIANT_H__
+#define TINTED_C_VARIANT_H__
+
+/**
+ * Whether a scheme is dark, with light text, or light, with dark text.
+ */
+typedef enum tinted_variant {
+    TINTED_VARIANT_DARK = 0, /** A dark background with light text. */
+    TINTED_VARIANT_LIGHT = 1 /** A light background with dark text. */
+} tinted_variant;
+
+#endif /* TINTED_C_VARIANT_H__ */
+
 #ifndef TINTED_C_SCHEME_H__
 #define TINTED_C_SCHEME_H__
 
@@ -50,8 +63,10 @@ typedef struct tinted_color {
  */
 typedef struct tinted_scheme {
     const char *name; /** The name of the scheme. */
+    const char *slug; /** The slug of the scheme, a stable identifier like "catppuccin-mocha". */
     tinted_color base[24]; /** An array of the colors for the scheme. */
     unsigned char system; /** Which system the scheme was built for, either 16 or 24. */
+    tinted_variant variant; /** Whether the scheme is dark or light. */
 } tinted_scheme;
 
 #endif  /* TINTED_C_SCHEME_H__ */
@@ -78,7 +93,7 @@ typedef struct tinted8_scheme {
     const char *name; /** The name of the scheme. */
     const char *slug; /** The slug of the scheme. */
     const char *author; /** The author of the scheme. */
-    const char *variant; /** Either "dark" or "light". */
+    tinted_variant variant; /** Whether the scheme is dark or light. */
     const char *family; /** The scheme family, or an empty string. */
     const char *style; /** The style within the family, or an empty string. */
     tinted8_color_group black; /** The black color group. */

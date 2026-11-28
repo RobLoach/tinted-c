@@ -49,6 +49,7 @@ extern const tinted_scheme base24_{{scheme-slug-underscored}};
 
 const tinted_scheme base24_{{scheme-slug-underscored}} = {
     .name = "{{scheme-name}}",
+    .slug = "{{scheme-slug}}",
     .base = {
         { .r = {{base00-rgb-r}}, .g = {{base00-rgb-g}}, .b = {{base00-rgb-b}} },
         { .r = {{base01-rgb-r}}, .g = {{base01-rgb-g}}, .b = {{base01-rgb-b}} },
@@ -77,7 +78,8 @@ const tinted_scheme base24_{{scheme-slug-underscored}} = {
         { .r = {{base16-rgb-r}}, .g = {{base16-rgb-g}}, .b = {{base16-rgb-b}} },
         { .r = {{base17-rgb-r}}, .g = {{base17-rgb-g}}, .b = {{base17-rgb-b}} }
     },
-    .system = 24
+    .system = 24,
+    .variant = {{#scheme-is-light-variant}}TINTED_VARIANT_LIGHT{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}TINTED_VARIANT_DARK{{/scheme-is-light-variant}}
 };
 
 #endif  /* BASE24_{{scheme-slug-underscored}}_IMPLEMENTATION_ONCE */

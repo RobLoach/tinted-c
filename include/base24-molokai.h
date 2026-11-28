@@ -49,6 +49,7 @@ extern const tinted_scheme base24_molokai;
 
 const tinted_scheme base24_molokai = {
     .name = "Molokai",
+    .slug = "molokai",
     .base = {
         { .r = 18, .g = 18, .b = 18 },
         { .r = 18, .g = 18, .b = 18 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_molokai = {
         { .r = 0, .g = 175, .b = 255 },
         { .r = 175, .g = 135, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_molokai_IMPLEMENTATION_ONCE */

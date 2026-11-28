@@ -49,6 +49,7 @@ extern const tinted_scheme base16_windows_10;
 
 const tinted_scheme base16_windows_10 = {
     .name = "Windows 10",
+    .slug = "windows-10",
     .base = {
         { .r = 12, .g = 12, .b = 12 },
         { .r = 47, .g = 47, .b = 47 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_windows_10 = {
         { .r = 59, .g = 120, .b = 255 },
         { .r = 180, .g = 0, .b = 158 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_windows_10_IMPLEMENTATION_ONCE */

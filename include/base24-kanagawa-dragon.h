@@ -49,6 +49,7 @@ extern const tinted_scheme base24_kanagawa_dragon;
 
 const tinted_scheme base24_kanagawa_dragon = {
     .name = "Kanagawa Dragon",
+    .slug = "kanagawa-dragon",
     .base = {
         { .r = 24, .g = 22, .b = 22 },
         { .r = 40, .g = 39, .b = 39 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_kanagawa_dragon = {
         { .r = 127, .g = 180, .b = 202 },
         { .r = 147, .g = 138, .b = 169 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_kanagawa_dragon_IMPLEMENTATION_ONCE */

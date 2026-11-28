@@ -49,6 +49,7 @@ extern const tinted_scheme base16_primer_dark_dimmed;
 
 const tinted_scheme base16_primer_dark_dimmed = {
     .name = "Primer Dark Dimmed",
+    .slug = "primer-dark-dimmed",
     .base = {
         { .r = 28, .g = 33, .b = 40 },
         { .r = 55, .g = 62, .b = 71 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_primer_dark_dimmed = {
         { .r = 83, .g = 155, .b = 245 },
         { .r = 226, .g = 117, .b = 173 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_primer_dark_dimmed_IMPLEMENTATION_ONCE */

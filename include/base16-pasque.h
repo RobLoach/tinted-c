@@ -49,6 +49,7 @@ extern const tinted_scheme base16_pasque;
 
 const tinted_scheme base16_pasque = {
     .name = "Pasque",
+    .slug = "pasque",
     .base = {
         { .r = 39, .g = 28, .b = 58 },
         { .r = 16, .g = 3, .b = 35 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_pasque = {
         { .r = 142, .g = 125, .b = 198 },
         { .r = 149, .g = 59, .b = 157 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_pasque_IMPLEMENTATION_ONCE */

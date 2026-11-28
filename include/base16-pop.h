@@ -49,6 +49,7 @@ extern const tinted_scheme base16_pop;
 
 const tinted_scheme base16_pop = {
     .name = "Pop",
+    .slug = "pop",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_pop = {
         { .r = 14, .g = 90, .b = 148 },
         { .r = 179, .g = 30, .b = 141 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_pop_IMPLEMENTATION_ONCE */

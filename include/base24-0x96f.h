@@ -49,6 +49,7 @@ extern const tinted_scheme base24_0x96f;
 
 const tinted_scheme base24_0x96f = {
     .name = "0x96f",
+    .slug = "0x96f",
     .base = {
         { .r = 38, .g = 36, .b = 39 },
         { .r = 59, .g = 57, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_0x96f = {
         { .r = 100, .g = 210, .b = 232 },
         { .r = 174, .g = 163, .b = 230 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_0x96f_IMPLEMENTATION_ONCE */

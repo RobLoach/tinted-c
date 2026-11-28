@@ -49,6 +49,7 @@ extern const tinted_scheme base16_blueish;
 
 const tinted_scheme base16_blueish = {
     .name = "Blueish",
+    .slug = "blueish",
     .base = {
         { .r = 24, .g = 36, .b = 48 },
         { .r = 36, .g = 60, .b = 84 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_blueish = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 255, .g = 132, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_blueish_IMPLEMENTATION_ONCE */

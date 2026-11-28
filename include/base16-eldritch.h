@@ -49,6 +49,7 @@ extern const tinted_scheme base16_eldritch;
 
 const tinted_scheme base16_eldritch = {
     .name = "Eldritch",
+    .slug = "eldritch",
     .base = {
         { .r = 33, .g = 35, .b = 55 },
         { .r = 50, .g = 52, .b = 73 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_eldritch = {
         { .r = 57, .g = 221, .b = 253 },
         { .r = 164, .g = 140, .b = 242 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_eldritch_IMPLEMENTATION_ONCE */

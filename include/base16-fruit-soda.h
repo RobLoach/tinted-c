@@ -49,6 +49,7 @@ extern const tinted_scheme base16_fruit_soda;
 
 const tinted_scheme base16_fruit_soda = {
     .name = "Fruit Soda",
+    .slug = "fruit-soda",
     .base = {
         { .r = 241, .g = 236, .b = 241 },
         { .r = 224, .g = 222, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_fruit_soda = {
         { .r = 41, .g = 49, .b = 223 },
         { .r = 97, .g = 31, .b = 206 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_fruit_soda_IMPLEMENTATION_ONCE */

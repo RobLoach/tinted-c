@@ -49,6 +49,7 @@ extern const tinted_scheme base24_tango_half_adapted;
 
 const tinted_scheme base24_tango_half_adapted = {
     .name = "Tango Half Adapted",
+    .slug = "tango-half-adapted",
     .base = {
         { .r = 254, .g = 255, .b = 255 },
         { .r = 241, .g = 241, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_tango_half_adapted = {
         { .r = 117, .g = 190, .b = 255 },
         { .r = 215, .g = 152, .b = 208 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_tango_half_adapted_IMPLEMENTATION_ONCE */

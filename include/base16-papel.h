@@ -49,6 +49,7 @@ extern const tinted_scheme base16_papel;
 
 const tinted_scheme base16_papel = {
     .name = "Papel",
+    .slug = "papel",
     .base = {
         { .r = 245, .g = 239, .b = 226 },
         { .r = 142, .g = 133, .b = 118 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_papel = {
         { .r = 44, .g = 108, .b = 160 },
         { .r = 155, .g = 77, .b = 142 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_papel_IMPLEMENTATION_ONCE */

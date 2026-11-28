@@ -49,6 +49,7 @@ extern const tinted_scheme base24_smyck;
 
 const tinted_scheme base24_smyck = {
     .name = "Smyck",
+    .slug = "smyck",
     .base = {
         { .r = 27, .g = 27, .b = 27 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_smyck = {
         { .r = 141, .g = 207, .b = 240 },
         { .r = 247, .g = 153, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_smyck_IMPLEMENTATION_ONCE */

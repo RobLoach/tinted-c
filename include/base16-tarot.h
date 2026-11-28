@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tarot;
 
 const tinted_scheme base16_tarot = {
     .name = "tarot",
+    .slug = "tarot",
     .base = {
         { .r = 14, .g = 9, .b = 29 },
         { .r = 42, .g = 21, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tarot = {
         { .r = 110, .g = 96, .b = 128 },
         { .r = 164, .g = 87, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tarot_IMPLEMENTATION_ONCE */

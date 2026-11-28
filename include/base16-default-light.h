@@ -49,6 +49,7 @@ extern const tinted_scheme base16_default_light;
 
 const tinted_scheme base16_default_light = {
     .name = "Default Light",
+    .slug = "default-light",
     .base = {
         { .r = 248, .g = 248, .b = 248 },
         { .r = 232, .g = 232, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_default_light = {
         { .r = 124, .g = 175, .b = 194 },
         { .r = 186, .g = 139, .b = 175 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_default_light_IMPLEMENTATION_ONCE */

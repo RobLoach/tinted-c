@@ -49,6 +49,7 @@ extern const tinted_scheme base16_lichen_chartreuse_dark;
 
 const tinted_scheme base16_lichen_chartreuse_dark = {
     .name = "Lichen Chartreuse Dark",
+    .slug = "lichen-chartreuse-dark",
     .base = {
         { .r = 21, .g = 22, .b = 19 },
         { .r = 28, .g = 30, .b = 26 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_lichen_chartreuse_dark = {
         { .r = 120, .g = 173, .b = 196 },
         { .r = 191, .g = 166, .b = 212 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_lichen_chartreuse_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_idle_toes;
 
 const tinted_scheme base24_idle_toes = {
     .name = "Idle Toes",
+    .slug = "idle-toes",
     .base = {
         { .r = 50, .g = 50, .b = 50 },
         { .r = 50, .g = 50, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_idle_toes = {
         { .r = 94, .g = 183, .b = 247 },
         { .r = 255, .g = 157, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_idle_toes_IMPLEMENTATION_ONCE */

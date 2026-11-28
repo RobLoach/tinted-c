@@ -49,6 +49,7 @@ extern const tinted_scheme base16_equilibrium_gray_dark;
 
 const tinted_scheme base16_equilibrium_gray_dark = {
     .name = "Equilibrium Gray Dark",
+    .slug = "equilibrium-gray-dark",
     .base = {
         { .r = 17, .g = 17, .b = 17 },
         { .r = 27, .g = 27, .b = 27 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_equilibrium_gray_dark = {
         { .r = 0, .g = 141, .b = 209 },
         { .r = 106, .g = 127, .b = 210 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_equilibrium_gray_dark_IMPLEMENTATION_ONCE */

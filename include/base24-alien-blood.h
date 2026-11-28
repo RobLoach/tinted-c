@@ -49,6 +49,7 @@ extern const tinted_scheme base24_alien_blood;
 
 const tinted_scheme base24_alien_blood = {
     .name = "Alien Blood",
+    .slug = "alien-blood",
     .base = {
         { .r = 15, .g = 22, .b = 15 },
         { .r = 17, .g = 38, .b = 21 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_alien_blood = {
         { .r = 0, .g = 169, .b = 223 },
         { .r = 0, .g = 88, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_alien_blood_IMPLEMENTATION_ONCE */

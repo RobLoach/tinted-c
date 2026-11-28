@@ -49,6 +49,7 @@ extern const tinted_scheme base16_shadesmear_dark;
 
 const tinted_scheme base16_shadesmear_dark = {
     .name = "ShadeSmear Dark",
+    .slug = "shadesmear-dark",
     .base = {
         { .r = 35, .g = 35, .b = 35 },
         { .r = 28, .g = 28, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_shadesmear_dark = {
         { .r = 55, .g = 99, .b = 136 },
         { .r = 215, .g = 171, .b = 84 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_shadesmear_dark_IMPLEMENTATION_ONCE */

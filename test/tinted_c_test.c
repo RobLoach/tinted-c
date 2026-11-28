@@ -41,6 +41,8 @@ int main() {
         assert(tinted_schemes[i] != NULL);
         assert(tinted_schemes[i]->name != NULL);
         assert(tinted_schemes[i]->system == 16 || tinted_schemes[i]->system == 24);
+        assert(tinted_schemes[i]->slug != NULL && tinted_schemes[i]->slug[0] != 0);
+        assert(tinted_schemes[i]->variant == TINTED_VARIANT_DARK || tinted_schemes[i]->variant == TINTED_VARIANT_LIGHT);
     }
     printf("Schemes: %d\n", TINTED_COUNT);
 
@@ -62,7 +64,7 @@ int main() {
         assert(tinted8_schemes[i] != NULL);
         assert(tinted8_schemes[i]->name != NULL);
         assert(tinted8_schemes[i]->slug != NULL);
-        assert(tinted8_schemes[i]->variant != NULL);
+        assert(tinted8_schemes[i]->variant == TINTED_VARIANT_DARK || tinted8_schemes[i]->variant == TINTED_VARIANT_LIGHT);
     }
     printf("Tinted8 Schemes: %d\n", TINTED8_COUNT);
 

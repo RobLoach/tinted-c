@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tube;
 
 const tinted_scheme base16_tube = {
     .name = "London Tube",
+    .slug = "tube",
     .base = {
         { .r = 35, .g = 31, .b = 32 },
         { .r = 28, .g = 63, .b = 149 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tube = {
         { .r = 0, .g = 157, .b = 220 },
         { .r = 152, .g = 0, .b = 93 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tube_IMPLEMENTATION_ONCE */

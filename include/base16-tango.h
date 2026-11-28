@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tango;
 
 const tinted_scheme base16_tango = {
     .name = "Tango",
+    .slug = "tango",
     .base = {
         { .r = 46, .g = 52, .b = 54 },
         { .r = 138, .g = 226, .b = 52 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tango = {
         { .r = 52, .g = 101, .b = 164 },
         { .r = 117, .g = 80, .b = 123 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tango_IMPLEMENTATION_ONCE */

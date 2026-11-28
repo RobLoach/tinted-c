@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tokyodark_terminal;
 
 const tinted_scheme base16_tokyodark_terminal = {
     .name = "Tokyodark Terminal",
+    .slug = "tokyodark-terminal",
     .base = {
         { .r = 17, .g = 18, .b = 29 },
         { .r = 26, .g = 27, .b = 42 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tokyodark_terminal = {
         { .r = 113, .g = 153, .b = 238 },
         { .r = 164, .g = 133, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tokyodark_terminal_IMPLEMENTATION_ONCE */

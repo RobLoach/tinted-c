@@ -49,6 +49,7 @@ extern const tinted_scheme base16_github_dark_high_contrast;
 
 const tinted_scheme base16_github_dark_high_contrast = {
     .name = "Github Dark High Contrast",
+    .slug = "github-dark-high-contrast",
     .base = {
         { .r = 10, .g = 12, .b = 16 },
         { .r = 39, .g = 43, .b = 51 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_github_dark_high_contrast = {
         { .r = 219, .g = 183, .b = 255 },
         { .r = 255, .g = 148, .b = 146 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_github_dark_high_contrast_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_embarcadero;
 
 const tinted_scheme base24_embarcadero = {
     .name = "Embarcadero",
+    .slug = "embarcadero",
     .base = {
         { .r = 37, .g = 42, .b = 47 },
         { .r = 67, .g = 71, .b = 76 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_embarcadero = {
         { .r = 128, .g = 176, .b = 240 },
         { .r = 192, .g = 144, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_embarcadero_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_default_dark;
 
 const tinted_scheme base16_default_dark = {
     .name = "Default Dark",
+    .slug = "default-dark",
     .base = {
         { .r = 24, .g = 24, .b = 24 },
         { .r = 40, .g = 40, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_default_dark = {
         { .r = 124, .g = 175, .b = 194 },
         { .r = 186, .g = 139, .b = 175 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_default_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_batman;
 
 const tinted_scheme base24_batman = {
     .name = "Batman",
+    .slug = "batman",
     .base = {
         { .r = 27, .g = 29, .b = 30 },
         { .r = 27, .g = 29, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_batman = {
         { .r = 144, .g = 148, .b = 149 },
         { .r = 154, .g = 153, .b = 157 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_batman_IMPLEMENTATION_ONCE */

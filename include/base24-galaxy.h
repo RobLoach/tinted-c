@@ -49,6 +49,7 @@ extern const tinted_scheme base24_galaxy;
 
 const tinted_scheme base24_galaxy = {
     .name = "Galaxy",
+    .slug = "galaxy",
     .base = {
         { .r = 28, .g = 40, .b = 54 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_galaxy = {
         { .r = 88, .g = 156, .b = 245 },
         { .r = 231, .g = 85, .b = 152 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_galaxy_IMPLEMENTATION_ONCE */

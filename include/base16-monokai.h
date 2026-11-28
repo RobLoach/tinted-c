@@ -49,6 +49,7 @@ extern const tinted_scheme base16_monokai;
 
 const tinted_scheme base16_monokai = {
     .name = "Monokai",
+    .slug = "monokai",
     .base = {
         { .r = 39, .g = 40, .b = 34 },
         { .r = 56, .g = 56, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_monokai = {
         { .r = 102, .g = 217, .b = 239 },
         { .r = 174, .g = 129, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_monokai_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_apprentice;
 
 const tinted_scheme base16_apprentice = {
     .name = "Apprentice",
+    .slug = "apprentice",
     .base = {
         { .r = 38, .g = 38, .b = 38 },
         { .r = 48, .g = 48, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_apprentice = {
         { .r = 95, .g = 135, .b = 175 },
         { .r = 95, .g = 95, .b = 135 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_apprentice_IMPLEMENTATION_ONCE */

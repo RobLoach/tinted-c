@@ -49,6 +49,7 @@ extern const tinted_scheme base24_challenger_deep;
 
 const tinted_scheme base24_challenger_deep = {
     .name = "Challenger Deep",
+    .slug = "challenger-deep",
     .base = {
         { .r = 30, .g = 28, .b = 49 },
         { .r = 20, .g = 17, .b = 39 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_challenger_deep = {
         { .r = 145, .g = 221, .b = 255 },
         { .r = 201, .g = 145, .b = 225 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_challenger_deep_IMPLEMENTATION_ONCE */

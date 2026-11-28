@@ -49,6 +49,7 @@ extern const tinted_scheme base24_builtin_solarized_dark;
 
 const tinted_scheme base24_builtin_solarized_dark = {
     .name = "Builtin Solarized Dark",
+    .slug = "builtin-solarized-dark",
     .base = {
         { .r = 0, .g = 43, .b = 54 },
         { .r = 7, .g = 54, .b = 66 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_builtin_solarized_dark = {
         { .r = 131, .g = 148, .b = 150 },
         { .r = 108, .g = 113, .b = 196 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_builtin_solarized_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_mezcal;
 
 const tinted_scheme base16_mezcal = {
     .name = "Mezcal",
+    .slug = "mezcal",
     .base = {
         { .r = 19, .g = 17, .b = 14 },
         { .r = 34, .g = 31, .b = 20 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_mezcal = {
         { .r = 138, .g = 166, .b = 192 },
         { .r = 194, .g = 138, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_mezcal_IMPLEMENTATION_ONCE */

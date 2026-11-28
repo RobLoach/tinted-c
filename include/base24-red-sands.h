@@ -49,6 +49,7 @@ extern const tinted_scheme base24_red_sands;
 
 const tinted_scheme base24_red_sands = {
     .name = "Red Sands",
+    .slug = "red-sands",
     .base = {
         { .r = 121, .g = 36, .b = 30 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_red_sands = {
         { .r = 0, .g = 113, .b = 174 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_red_sands_IMPLEMENTATION_ONCE */

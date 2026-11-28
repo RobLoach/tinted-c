@@ -49,6 +49,7 @@ extern const tinted_scheme base24_scarlet_protocol;
 
 const tinted_scheme base24_scarlet_protocol = {
     .name = "Scarlet Protocol",
+    .slug = "scarlet-protocol",
     .base = {
         { .r = 27, .g = 21, .b = 60 },
         { .r = 16, .g = 17, .b = 22 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_scarlet_protocol = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 188, .g = 53, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_scarlet_protocol_IMPLEMENTATION_ONCE */

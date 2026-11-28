@@ -49,6 +49,7 @@ extern const tinted_scheme base16_irblack;
 
 const tinted_scheme base16_irblack = {
     .name = "IR Black",
+    .slug = "irblack",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 36, .g = 36, .b = 34 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_irblack = {
         { .r = 150, .g = 203, .b = 254 },
         { .r = 255, .g = 115, .b = 253 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_irblack_IMPLEMENTATION_ONCE */

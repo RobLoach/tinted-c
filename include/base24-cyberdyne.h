@@ -49,6 +49,7 @@ extern const tinted_scheme base24_cyberdyne;
 
 const tinted_scheme base24_cyberdyne = {
     .name = "Cyberdyne",
+    .slug = "cyberdyne",
     .base = {
         { .r = 21, .g = 17, .b = 68 },
         { .r = 8, .g = 8, .b = 8 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_cyberdyne = {
         { .r = 193, .g = 227, .b = 254 },
         { .r = 255, .g = 177, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_cyberdyne_IMPLEMENTATION_ONCE */

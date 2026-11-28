@@ -49,6 +49,7 @@ extern const tinted_scheme base16_precious_dark_fifteen;
 
 const tinted_scheme base16_precious_dark_fifteen = {
     .name = "Precious Dark Fifteen",
+    .slug = "precious-dark-fifteen",
     .base = {
         { .r = 35, .g = 38, .b = 43 },
         { .r = 48, .g = 51, .b = 55 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_precious_dark_fifteen = {
         { .r = 102, .g = 176, .b = 239 },
         { .r = 183, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_precious_dark_fifteen_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_front_end_delight;
 
 const tinted_scheme base24_front_end_delight = {
     .name = "Front End Delight",
+    .slug = "front-end-delight",
     .base = {
         { .r = 27, .g = 27, .b = 29 },
         { .r = 36, .g = 36, .b = 38 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_front_end_delight = {
         { .r = 51, .g = 147, .b = 201 },
         { .r = 231, .g = 94, .b = 78 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_front_end_delight_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_red_alert;
 
 const tinted_scheme base24_red_alert = {
     .name = "Red Alert",
+    .slug = "red-alert",
     .base = {
         { .r = 118, .g = 36, .b = 35 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_red_alert = {
         { .r = 101, .g = 169, .b = 240 },
         { .r = 221, .g = 183, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_red_alert_IMPLEMENTATION_ONCE */

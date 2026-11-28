@@ -49,6 +49,7 @@ extern const tinted_scheme base24_nocturnal_winter;
 
 const tinted_scheme base24_nocturnal_winter = {
     .name = "Nocturnal Winter",
+    .slug = "nocturnal-winter",
     .base = {
         { .r = 13, .g = 13, .b = 23 },
         { .r = 76, .g = 76, .b = 76 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_nocturnal_winter = {
         { .r = 96, .g = 149, .b = 254 },
         { .r = 255, .g = 120, .b = 162 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_nocturnal_winter_IMPLEMENTATION_ONCE */

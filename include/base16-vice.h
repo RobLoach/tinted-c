@@ -49,6 +49,7 @@ extern const tinted_scheme base16_vice;
 
 const tinted_scheme base16_vice = {
     .name = "vice",
+    .slug = "vice",
     .base = {
         { .r = 23, .g = 25, .b = 30 },
         { .r = 34, .g = 38, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_vice = {
         { .r = 0, .g = 234, .b = 255 },
         { .r = 0, .g = 246, .b = 217 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_vice_IMPLEMENTATION_ONCE */

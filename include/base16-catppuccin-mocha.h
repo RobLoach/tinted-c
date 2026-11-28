@@ -49,6 +49,7 @@ extern const tinted_scheme base16_catppuccin_mocha;
 
 const tinted_scheme base16_catppuccin_mocha = {
     .name = "Catppuccin Mocha",
+    .slug = "catppuccin-mocha",
     .base = {
         { .r = 30, .g = 30, .b = 46 },
         { .r = 24, .g = 24, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_catppuccin_mocha = {
         { .r = 137, .g = 180, .b = 250 },
         { .r = 203, .g = 166, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_catppuccin_mocha_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_bosque;
 
 const tinted_scheme base16_bosque = {
     .name = "Bosque",
+    .slug = "bosque",
     .base = {
         { .r = 14, .g = 20, .b = 16 },
         { .r = 22, .g = 33, .b = 26 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_bosque = {
         { .r = 109, .g = 174, .b = 158 },
         { .r = 184, .g = 148, .b = 208 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_bosque_IMPLEMENTATION_ONCE */

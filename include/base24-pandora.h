@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pandora;
 
 const tinted_scheme base24_pandora = {
     .name = "Pandora",
+    .slug = "pandora",
     .base = {
         { .r = 19, .g = 29, .b = 66 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pandora = {
         { .r = 35, .g = 215, .b = 215 },
         { .r = 255, .g = 55, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_pandora_IMPLEMENTATION_ONCE */
