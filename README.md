@@ -118,6 +118,15 @@ int main() {
 }
 ```
 
+Each scheme also has `ui`, the colors for every Tinted8 UI role, named after
+the [Styling spec](https://github.com/tinted-theming/home/blob/main/specs/tinted8/styling.md)'s
+`ui` keys. Each is the scheme's own color, or the builder's default for it:
+
+``` c
+tinted_color background = tinted8_gruvbox_dark.ui.global.normal.background;
+tinted_color accent = tinted8_gruvbox_dark.ui.accent.normal;
+```
+
 The aggregate [`include/tinted8.h`](include/tinted8.h) header includes every
 Tinted8 scheme, along with a `tinted8_schemes` array and a `TINTED8_COUNT`
 constant, mirroring `tinted.h`. Note that only a handful of Tinted8 schemes
