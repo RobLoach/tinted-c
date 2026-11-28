@@ -77,7 +77,8 @@ const tinted_scheme base16_mountain = {
         { .r = 143, .g = 138, .b = 172 },
         { .r = 172, .g = 138, .b = 172 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_mountain_IMPLEMENTATION_ONCE */

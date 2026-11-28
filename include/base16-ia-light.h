@@ -77,7 +77,8 @@ const tinted_scheme base16_ia_light = {
         { .r = 72, .g = 186, .b = 194 },
         { .r = 169, .g = 69, .b = 152 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_ia_light_IMPLEMENTATION_ONCE */

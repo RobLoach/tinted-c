@@ -77,7 +77,8 @@ const tinted_scheme base24_alien_blood = {
         { .r = 0, .g = 169, .b = 223 },
         { .r = 0, .g = 88, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_alien_blood_IMPLEMENTATION_ONCE */

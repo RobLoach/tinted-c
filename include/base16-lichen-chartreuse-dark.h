@@ -77,7 +77,8 @@ const tinted_scheme base16_lichen_chartreuse_dark = {
         { .r = 120, .g = 173, .b = 196 },
         { .r = 191, .g = 166, .b = 212 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_lichen_chartreuse_dark_IMPLEMENTATION_ONCE */

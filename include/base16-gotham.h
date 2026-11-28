@@ -77,7 +77,8 @@ const tinted_scheme base16_gotham = {
         { .r = 25, .g = 84, .b = 102 },
         { .r = 136, .g = 140, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gotham_IMPLEMENTATION_ONCE */

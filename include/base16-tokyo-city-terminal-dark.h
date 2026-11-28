@@ -77,7 +77,8 @@ const tinted_scheme base16_tokyo_city_terminal_dark = {
         { .r = 83, .g = 154, .b = 252 },
         { .r = 182, .g = 45, .b = 101 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tokyo_city_terminal_dark_IMPLEMENTATION_ONCE */

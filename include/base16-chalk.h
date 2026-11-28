@@ -77,7 +77,8 @@ const tinted_scheme base16_chalk = {
         { .r = 111, .g = 194, .b = 239 },
         { .r = 225, .g = 163, .b = 238 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_chalk_IMPLEMENTATION_ONCE */

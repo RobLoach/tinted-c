@@ -77,7 +77,8 @@ const tinted_scheme base16_measured_light = {
         { .r = 1, .g = 88, .b = 173 },
         { .r = 102, .g = 69, .b = 194 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_measured_light_IMPLEMENTATION_ONCE */

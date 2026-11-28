@@ -77,7 +77,8 @@ const tinted_scheme base24_jet_brains_darcula = {
         { .r = 109, .g = 157, .b = 241 },
         { .r = 251, .g = 130, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_jet_brains_darcula_IMPLEMENTATION_ONCE */

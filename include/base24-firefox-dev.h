@@ -77,7 +77,8 @@ const tinted_scheme base24_firefox_dev = {
         { .r = 0, .g = 111, .b = 192 },
         { .r = 162, .g = 0, .b = 218 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_firefox_dev_IMPLEMENTATION_ONCE */

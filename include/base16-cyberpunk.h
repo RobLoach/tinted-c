@@ -77,7 +77,8 @@ const tinted_scheme base16_cyberpunk = {
         { .r = 76, .g = 131, .b = 255 },
         { .r = 255, .g = 20, .b = 147 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_cyberpunk_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_aztec = {
         { .r = 91, .g = 74, .b = 159 },
         { .r = 136, .g = 62, .b = 159 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_aztec_IMPLEMENTATION_ONCE */

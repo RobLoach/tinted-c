@@ -77,7 +77,8 @@ const tinted_scheme base24_0x96f = {
         { .r = 100, .g = 210, .b = 232 },
         { .r = 174, .g = 163, .b = 230 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_0x96f_IMPLEMENTATION_ONCE */

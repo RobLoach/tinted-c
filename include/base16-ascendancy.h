@@ -81,7 +81,8 @@ const tinted_scheme base16_ascendancy = {
         { .r = 69, .g = 133, .b = 136 },
         { .r = 250, .g = 189, .b = 47 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ascendancy_IMPLEMENTATION_ONCE */

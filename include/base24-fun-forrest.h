@@ -77,7 +77,8 @@ const tinted_scheme base24_fun_forrest = {
         { .r = 124, .g = 201, .b = 206 },
         { .r = 209, .g = 99, .b = 73 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_fun_forrest_IMPLEMENTATION_ONCE */

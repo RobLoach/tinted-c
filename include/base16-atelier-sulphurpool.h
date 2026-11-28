@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_sulphurpool = {
         { .r = 61, .g = 143, .b = 209 },
         { .r = 102, .g = 121, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_sulphurpool_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_argonaut = {
         { .r = 0, .g = 146, .b = 255 },
         { .r = 154, .g = 95, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_argonaut_IMPLEMENTATION_ONCE */

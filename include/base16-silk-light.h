@@ -77,7 +77,8 @@ const tinted_scheme base16_silk_light = {
         { .r = 57, .g = 170, .b = 201 },
         { .r = 110, .g = 101, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_silk_light_IMPLEMENTATION_ONCE */

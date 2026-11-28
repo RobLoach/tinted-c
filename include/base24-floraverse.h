@@ -77,7 +77,8 @@ const tinted_scheme base24_floraverse = {
         { .r = 64, .g = 164, .b = 207 },
         { .r = 241, .g = 42, .b = 174 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_floraverse_IMPLEMENTATION_ONCE */

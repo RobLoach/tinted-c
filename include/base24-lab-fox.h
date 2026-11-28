@@ -77,7 +77,8 @@ const tinted_scheme base24_lab_fox = {
         { .r = 219, .g = 80, .b = 31 },
         { .r = 68, .g = 16, .b = 144 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_lab_fox_IMPLEMENTATION_ONCE */

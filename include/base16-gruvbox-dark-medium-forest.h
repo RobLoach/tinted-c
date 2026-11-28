@@ -77,7 +77,8 @@ const tinted_scheme base16_gruvbox_dark_medium_forest = {
         { .r = 184, .g = 187, .b = 38 },
         { .r = 150, .g = 189, .b = 162 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gruvbox_dark_medium_forest_IMPLEMENTATION_ONCE */

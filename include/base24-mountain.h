@@ -77,7 +77,8 @@ const tinted_scheme base24_mountain = {
         { .r = 163, .g = 158, .b = 196 },
         { .r = 196, .g = 158, .b = 196 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_mountain_IMPLEMENTATION_ONCE */

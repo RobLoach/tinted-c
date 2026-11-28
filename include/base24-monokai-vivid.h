@@ -77,7 +77,8 @@ const tinted_scheme base24_monokai_vivid = {
         { .r = 4, .g = 66, .b = 254 },
         { .r = 242, .g = 0, .b = 245 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_monokai_vivid_IMPLEMENTATION_ONCE */

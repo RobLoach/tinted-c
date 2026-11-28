@@ -77,7 +77,8 @@ const tinted_scheme base16_pinky = {
         { .r = 0, .g = 255, .b = 255 },
         { .r = 0, .g = 127, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_pinky_IMPLEMENTATION_ONCE */

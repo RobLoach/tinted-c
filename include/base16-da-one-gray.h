@@ -77,7 +77,8 @@ const tinted_scheme base16_da_one_gray = {
         { .r = 107, .g = 184, .b = 255 },
         { .r = 231, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_da_one_gray_IMPLEMENTATION_ONCE */

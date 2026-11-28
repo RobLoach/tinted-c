@@ -77,7 +77,8 @@ const tinted_scheme base24_one_half_light = {
         { .r = 97, .g = 175, .b = 239 },
         { .r = 197, .g = 119, .b = 221 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_one_half_light_IMPLEMENTATION_ONCE */

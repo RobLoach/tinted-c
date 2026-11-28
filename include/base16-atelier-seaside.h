@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_seaside = {
         { .r = 61, .g = 98, .b = 245 },
         { .r = 173, .g = 43, .b = 238 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_seaside_IMPLEMENTATION_ONCE */

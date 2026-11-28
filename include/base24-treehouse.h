@@ -77,7 +77,8 @@ const tinted_scheme base24_treehouse = {
         { .r = 133, .g = 207, .b = 236 },
         { .r = 224, .g = 75, .b = 90 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_treehouse_IMPLEMENTATION_ONCE */

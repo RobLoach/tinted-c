@@ -77,7 +77,8 @@ const tinted_scheme base16_measured_dark = {
         { .r = 136, .g = 176, .b = 218 },
         { .r = 179, .g = 155, .b = 224 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_measured_dark_IMPLEMENTATION_ONCE */

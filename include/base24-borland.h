@@ -77,7 +77,8 @@ const tinted_scheme base24_borland = {
         { .r = 181, .g = 220, .b = 254 },
         { .r = 255, .g = 156, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_borland_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_github_light_colorblind = {
         { .r = 130, .g = 80, .b = 223 },
         { .r = 179, .g = 89, .b = 0 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_github_light_colorblind_IMPLEMENTATION_ONCE */

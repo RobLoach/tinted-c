@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_forest = {
         { .r = 64, .g = 126, .b = 231 },
         { .r = 102, .g = 102, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_forest_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_shapeshifter = {
         { .r = 59, .g = 72, .b = 227 },
         { .r = 249, .g = 150, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_shapeshifter_IMPLEMENTATION_ONCE */

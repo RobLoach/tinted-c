@@ -77,7 +77,8 @@ const tinted_scheme base24_blazer = {
         { .r = 189, .g = 189, .b = 219 },
         { .r = 219, .g = 189, .b = 219 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_blazer_IMPLEMENTATION_ONCE */

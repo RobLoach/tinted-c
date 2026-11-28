@@ -77,7 +77,8 @@ const tinted_scheme base24_deep_oceanic_next = {
         { .r = 92, .g = 174, .b = 255 },
         { .r = 183, .g = 136, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_deep_oceanic_next_IMPLEMENTATION_ONCE */

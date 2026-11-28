@@ -77,7 +77,8 @@ const tinted_scheme base16_moonlight = {
         { .r = 64, .g = 255, .b = 255 },
         { .r = 185, .g = 148, .b = 241 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_moonlight_IMPLEMENTATION_ONCE */

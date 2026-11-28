@@ -77,7 +77,8 @@ const tinted_scheme base16_fruit_soda = {
         { .r = 41, .g = 49, .b = 223 },
         { .r = 97, .g = 31, .b = 206 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_fruit_soda_IMPLEMENTATION_ONCE */

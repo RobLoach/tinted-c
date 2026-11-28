@@ -77,7 +77,8 @@ const tinted_scheme base24_paul_millr = {
         { .r = 112, .g = 154, .b = 237 },
         { .r = 219, .g = 103, .b = 230 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_paul_millr_IMPLEMENTATION_ONCE */

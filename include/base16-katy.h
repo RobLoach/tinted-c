@@ -77,7 +77,8 @@ const tinted_scheme base16_katy = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 199, .g = 146, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_katy_IMPLEMENTATION_ONCE */

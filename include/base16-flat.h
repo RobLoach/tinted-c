@@ -77,7 +77,8 @@ const tinted_scheme base16_flat = {
         { .r = 52, .g = 152, .b = 219 },
         { .r = 155, .g = 89, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_flat_IMPLEMENTATION_ONCE */

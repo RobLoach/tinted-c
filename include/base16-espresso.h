@@ -77,7 +77,8 @@ const tinted_scheme base16_espresso = {
         { .r = 108, .g = 153, .b = 187 },
         { .r = 209, .g = 151, .b = 217 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_espresso_IMPLEMENTATION_ONCE */

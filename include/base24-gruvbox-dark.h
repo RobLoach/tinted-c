@@ -77,7 +77,8 @@ const tinted_scheme base24_gruvbox_dark = {
         { .r = 131, .g = 165, .b = 152 },
         { .r = 211, .g = 134, .b = 155 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_gruvbox_dark_IMPLEMENTATION_ONCE */

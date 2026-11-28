@@ -77,7 +77,8 @@ const tinted_scheme base24_later_this_evening = {
         { .r = 101, .g = 153, .b = 213 },
         { .r = 170, .g = 82, .b = 213 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_later_this_evening_IMPLEMENTATION_ONCE */

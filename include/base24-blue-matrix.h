@@ -77,7 +77,8 @@ const tinted_scheme base24_blue_matrix = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 213, .g = 130, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_blue_matrix_IMPLEMENTATION_ONCE */

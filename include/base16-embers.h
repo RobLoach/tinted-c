@@ -77,7 +77,8 @@ const tinted_scheme base16_embers = {
         { .r = 109, .g = 87, .b = 130 },
         { .r = 130, .g = 87, .b = 109 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_embers_IMPLEMENTATION_ONCE */

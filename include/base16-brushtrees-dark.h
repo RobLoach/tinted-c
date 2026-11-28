@@ -77,7 +77,8 @@ const tinted_scheme base16_brushtrees_dark = {
         { .r = 134, .g = 140, .b = 179 },
         { .r = 179, .g = 134, .b = 178 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_brushtrees_dark_IMPLEMENTATION_ONCE */

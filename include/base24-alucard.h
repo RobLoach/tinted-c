@@ -77,7 +77,8 @@ const tinted_scheme base24_alucard = {
         { .r = 120, .g = 98, .b = 208 },
         { .r = 191, .g = 24, .b = 90 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_alucard_IMPLEMENTATION_ONCE */

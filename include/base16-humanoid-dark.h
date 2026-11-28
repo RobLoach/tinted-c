@@ -77,7 +77,8 @@ const tinted_scheme base16_humanoid_dark = {
         { .r = 0, .g = 166, .b = 251 },
         { .r = 241, .g = 94, .b = 227 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_humanoid_dark_IMPLEMENTATION_ONCE */

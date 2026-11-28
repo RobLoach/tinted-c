@@ -77,7 +77,8 @@ const tinted_scheme base16_primer_dark_dimmed = {
         { .r = 83, .g = 155, .b = 245 },
         { .r = 226, .g = 117, .b = 173 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_primer_dark_dimmed_IMPLEMENTATION_ONCE */

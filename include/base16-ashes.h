@@ -77,7 +77,8 @@ const tinted_scheme base16_ashes = {
         { .r = 174, .g = 149, .b = 199 },
         { .r = 199, .g = 149, .b = 174 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ashes_IMPLEMENTATION_ONCE */

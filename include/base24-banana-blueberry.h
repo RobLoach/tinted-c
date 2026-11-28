@@ -77,7 +77,8 @@ const tinted_scheme base24_banana_blueberry = {
         { .r = 145, .g = 255, .b = 243 },
         { .r = 218, .g = 112, .b = 213 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_banana_blueberry_IMPLEMENTATION_ONCE */

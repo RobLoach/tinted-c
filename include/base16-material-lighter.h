@@ -77,7 +77,8 @@ const tinted_scheme base16_material_lighter = {
         { .r = 97, .g = 130, .b = 184 },
         { .r = 124, .g = 77, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_material_lighter_IMPLEMENTATION_ONCE */

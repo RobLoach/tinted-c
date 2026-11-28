@@ -77,7 +77,8 @@ const tinted_scheme base16_pop = {
         { .r = 14, .g = 90, .b = 148 },
         { .r = 179, .g = 30, .b = 141 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_pop_IMPLEMENTATION_ONCE */

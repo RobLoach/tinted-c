@@ -77,7 +77,8 @@ const tinted_scheme base24_github_dark_dimmed = {
         { .r = 83, .g = 155, .b = 245 },
         { .r = 176, .g = 131, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_github_dark_dimmed_IMPLEMENTATION_ONCE */

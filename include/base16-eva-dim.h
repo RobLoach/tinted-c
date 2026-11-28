@@ -77,7 +77,8 @@ const tinted_scheme base16_eva_dim = {
         { .r = 26, .g = 225, .b = 220 },
         { .r = 156, .g = 108, .b = 211 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_eva_dim_IMPLEMENTATION_ONCE */

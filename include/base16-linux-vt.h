@@ -77,7 +77,8 @@ const tinted_scheme base16_linux_vt = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_linux_vt_IMPLEMENTATION_ONCE */

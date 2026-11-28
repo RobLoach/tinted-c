@@ -77,7 +77,8 @@ const tinted_scheme base24_material = {
         { .r = 83, .g = 164, .b = 243 },
         { .r = 169, .g = 77, .b = 187 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_material_IMPLEMENTATION_ONCE */

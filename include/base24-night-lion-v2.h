@@ -77,7 +77,8 @@ const tinted_scheme base24_night_lion_v2 = {
         { .r = 98, .g = 202, .b = 231 },
         { .r = 255, .g = 154, .b = 245 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_night_lion_v2_IMPLEMENTATION_ONCE */

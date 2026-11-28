@@ -77,7 +77,8 @@ const tinted_scheme base16_harmonic16_light = {
         { .r = 139, .g = 86, .b = 191 },
         { .r = 191, .g = 86, .b = 139 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_harmonic16_light_IMPLEMENTATION_ONCE */

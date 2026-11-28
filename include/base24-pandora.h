@@ -77,7 +77,8 @@ const tinted_scheme base24_pandora = {
         { .r = 35, .g = 215, .b = 215 },
         { .r = 255, .g = 55, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_pandora_IMPLEMENTATION_ONCE */

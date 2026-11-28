@@ -77,7 +77,8 @@ const tinted_scheme base16_gruvbox_dark_pale = {
         { .r = 131, .g = 173, .b = 173 },
         { .r = 212, .g = 133, .b = 173 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gruvbox_dark_pale_IMPLEMENTATION_ONCE */

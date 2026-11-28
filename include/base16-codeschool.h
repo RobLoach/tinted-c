@@ -77,7 +77,8 @@ const tinted_scheme base16_codeschool = {
         { .r = 72, .g = 77, .b = 121 },
         { .r = 197, .g = 152, .b = 32 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_codeschool_IMPLEMENTATION_ONCE */

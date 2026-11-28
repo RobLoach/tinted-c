@@ -77,7 +77,8 @@ const tinted_scheme base24_birds_of_paradise = {
         { .r = 184, .g = 211, .b = 237 },
         { .r = 208, .g = 157, .b = 202 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_birds_of_paradise_IMPLEMENTATION_ONCE */

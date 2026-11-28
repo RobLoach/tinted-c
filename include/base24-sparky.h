@@ -77,7 +77,8 @@ const tinted_scheme base24_sparky = {
         { .r = 105, .g = 179, .b = 231 },
         { .r = 249, .g = 159, .b = 201 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_sparky_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_gruvbox_material_dark_medium = {
         { .r = 125, .g = 174, .b = 163 },
         { .r = 211, .g = 134, .b = 155 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gruvbox_material_dark_medium_IMPLEMENTATION_ONCE */

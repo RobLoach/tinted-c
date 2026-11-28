@@ -77,7 +77,8 @@ const tinted_scheme base24_red_sands = {
         { .r = 0, .g = 113, .b = 174 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_red_sands_IMPLEMENTATION_ONCE */

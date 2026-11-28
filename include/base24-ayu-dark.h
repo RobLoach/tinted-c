@@ -77,7 +77,8 @@ const tinted_scheme base24_ayu_dark = {
         { .r = 115, .g = 184, .b = 255 },
         { .r = 221, .g = 188, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_ayu_dark_IMPLEMENTATION_ONCE */

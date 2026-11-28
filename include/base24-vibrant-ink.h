@@ -77,7 +77,8 @@ const tinted_scheme base24_vibrant_ink = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 255, .g = 0, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_vibrant_ink_IMPLEMENTATION_ONCE */

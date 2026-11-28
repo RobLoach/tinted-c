@@ -77,7 +77,8 @@ const tinted_scheme base24_flat = {
         { .r = 60, .g = 125, .b = 210 },
         { .r = 130, .g = 48, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_flat_IMPLEMENTATION_ONCE */

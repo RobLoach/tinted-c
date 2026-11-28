@@ -77,7 +77,8 @@ const tinted_scheme base16_xcode_dusk = {
         { .r = 121, .g = 14, .b = 173 },
         { .r = 178, .g = 24, .b = 137 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_xcode_dusk_IMPLEMENTATION_ONCE */

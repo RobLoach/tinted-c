@@ -77,7 +77,8 @@ const tinted_scheme base16_materia = {
         { .r = 137, .g = 221, .b = 255 },
         { .r = 130, .g = 170, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_materia_IMPLEMENTATION_ONCE */

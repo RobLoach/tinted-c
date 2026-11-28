@@ -77,7 +77,8 @@ const tinted_scheme base24_one_dark = {
         { .r = 77, .g = 196, .b = 255 },
         { .r = 222, .g = 115, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_one_dark_IMPLEMENTATION_ONCE */

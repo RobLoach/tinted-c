@@ -77,7 +77,8 @@ const tinted_scheme base16_spacemacs = {
         { .r = 79, .g = 151, .b = 215 },
         { .r = 163, .g = 29, .b = 177 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_spacemacs_IMPLEMENTATION_ONCE */

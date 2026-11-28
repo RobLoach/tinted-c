@@ -77,7 +77,8 @@ const tinted_scheme base16_tokyo_night_terminal_storm = {
         { .r = 122, .g = 162, .b = 247 },
         { .r = 187, .g = 154, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tokyo_night_terminal_storm_IMPLEMENTATION_ONCE */

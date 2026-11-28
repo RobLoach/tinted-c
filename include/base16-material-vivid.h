@@ -77,7 +77,8 @@ const tinted_scheme base16_material_vivid = {
         { .r = 33, .g = 150, .b = 243 },
         { .r = 103, .g = 58, .b = 183 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_material_vivid_IMPLEMENTATION_ONCE */

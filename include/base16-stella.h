@@ -77,7 +77,8 @@ const tinted_scheme base16_stella = {
         { .r = 165, .g = 170, .b = 212 },
         { .r = 197, .g = 148, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_stella_IMPLEMENTATION_ONCE */

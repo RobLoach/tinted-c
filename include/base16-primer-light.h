@@ -77,7 +77,8 @@ const tinted_scheme base16_primer_light = {
         { .r = 3, .g = 102, .b = 214 },
         { .r = 234, .g = 74, .b = 170 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_primer_light_IMPLEMENTATION_ONCE */

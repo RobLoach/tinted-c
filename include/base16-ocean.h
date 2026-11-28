@@ -77,7 +77,8 @@ const tinted_scheme base16_ocean = {
         { .r = 143, .g = 161, .b = 179 },
         { .r = 180, .g = 142, .b = 173 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ocean_IMPLEMENTATION_ONCE */

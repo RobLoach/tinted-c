@@ -77,7 +77,8 @@ const tinted_scheme base24_lavandula = {
         { .r = 142, .g = 134, .b = 223 },
         { .r = 166, .g = 117, .b = 223 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_lavandula_IMPLEMENTATION_ONCE */

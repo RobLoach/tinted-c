@@ -77,7 +77,8 @@ const tinted_scheme base16_noche = {
         { .r = 122, .g = 160, .b = 232 },
         { .r = 183, .g = 154, .b = 224 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_noche_IMPLEMENTATION_ONCE */

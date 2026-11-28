@@ -77,7 +77,8 @@ const tinted_scheme base24_challenger_deep = {
         { .r = 145, .g = 221, .b = 255 },
         { .r = 201, .g = 145, .b = 225 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_challenger_deep_IMPLEMENTATION_ONCE */

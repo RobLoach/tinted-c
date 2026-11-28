@@ -77,7 +77,8 @@ const tinted_scheme base16_brasa = {
         { .r = 154, .g = 166, .b = 224 },
         { .r = 230, .g = 138, .b = 162 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_brasa_IMPLEMENTATION_ONCE */

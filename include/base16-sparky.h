@@ -77,7 +77,8 @@ const tinted_scheme base16_sparky = {
         { .r = 70, .g = 152, .b = 203 },
         { .r = 213, .g = 158, .b = 215 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_sparky_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_chinoiserie_night = {
         { .r = 143, .g = 178, .b = 201 },
         { .r = 190, .g = 157, .b = 185 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_chinoiserie_night_IMPLEMENTATION_ONCE */

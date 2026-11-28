@@ -77,7 +77,8 @@ const tinted_scheme base16_snazzy = {
         { .r = 87, .g = 199, .b = 255 },
         { .r = 255, .g = 106, .b = 193 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_snazzy_IMPLEMENTATION_ONCE */

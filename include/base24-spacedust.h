@@ -77,7 +77,8 @@ const tinted_scheme base24_spacedust = {
         { .r = 103, .g = 160, .b = 205 },
         { .r = 255, .g = 138, .b = 57 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_spacedust_IMPLEMENTATION_ONCE */

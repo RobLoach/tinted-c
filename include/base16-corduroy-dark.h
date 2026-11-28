@@ -77,7 +77,8 @@ const tinted_scheme base16_corduroy_dark = {
         { .r = 220, .g = 146, .b = 163 },
         { .r = 207, .g = 152, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_corduroy_dark_IMPLEMENTATION_ONCE */

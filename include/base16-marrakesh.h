@@ -77,7 +77,8 @@ const tinted_scheme base16_marrakesh = {
         { .r = 71, .g = 124, .b = 161 },
         { .r = 136, .g = 104, .b = 179 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_marrakesh_IMPLEMENTATION_ONCE */

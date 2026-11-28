@@ -77,7 +77,8 @@ const tinted_scheme base24_dimmed_monokai = {
         { .r = 23, .g = 108, .b = 227 },
         { .r = 251, .g = 0, .b = 103 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_dimmed_monokai_IMPLEMENTATION_ONCE */

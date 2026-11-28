@@ -77,7 +77,8 @@ const tinted_scheme base24_seafoam_pastel = {
         { .r = 121, .g = 195, .b = 207 },
         { .r = 214, .g = 178, .b = 161 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_seafoam_pastel_IMPLEMENTATION_ONCE */

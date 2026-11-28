@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_plateau = {
         { .r = 114, .g = 114, .b = 202 },
         { .r = 132, .g = 100, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_plateau_IMPLEMENTATION_ONCE */

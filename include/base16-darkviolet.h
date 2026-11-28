@@ -77,7 +77,8 @@ const tinted_scheme base16_darkviolet = {
         { .r = 65, .g = 54, .b = 217 },
         { .r = 126, .g = 92, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_darkviolet_IMPLEMENTATION_ONCE */

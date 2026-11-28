@@ -77,7 +77,8 @@ const tinted_scheme base16_zenburn = {
         { .r = 124, .g = 184, .b = 187 },
         { .r = 220, .g = 140, .b = 195 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_zenburn_IMPLEMENTATION_ONCE */

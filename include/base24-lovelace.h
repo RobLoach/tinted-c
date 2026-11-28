@@ -77,7 +77,8 @@ const tinted_scheme base24_lovelace = {
         { .r = 85, .g = 111, .b = 255 },
         { .r = 176, .g = 67, .b = 209 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_lovelace_IMPLEMENTATION_ONCE */

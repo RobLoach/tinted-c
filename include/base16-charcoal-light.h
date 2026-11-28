@@ -77,7 +77,8 @@ const tinted_scheme base16_charcoal_light = {
         { .r = 37, .g = 30, .b = 15 },
         { .r = 56, .g = 46, .b = 27 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_charcoal_light_IMPLEMENTATION_ONCE */

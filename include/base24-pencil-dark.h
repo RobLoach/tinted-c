@@ -77,7 +77,8 @@ const tinted_scheme base24_pencil_dark = {
         { .r = 32, .g = 187, .b = 252 },
         { .r = 104, .g = 85, .b = 222 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_pencil_dark_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_macintosh = {
         { .r = 0, .g = 0, .b = 211 },
         { .r = 71, .g = 0, .b = 165 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_macintosh_IMPLEMENTATION_ONCE */

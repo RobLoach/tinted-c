@@ -77,7 +77,8 @@ const tinted_scheme base24_flexoki_light = {
         { .r = 58, .g = 169, .b = 159 },
         { .r = 67, .g = 133, .b = 190 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_flexoki_light_IMPLEMENTATION_ONCE */

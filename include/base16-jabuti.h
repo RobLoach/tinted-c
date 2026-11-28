@@ -77,7 +77,8 @@ const tinted_scheme base16_jabuti = {
         { .r = 63, .g = 198, .b = 222 },
         { .r = 190, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_jabuti_IMPLEMENTATION_ONCE */

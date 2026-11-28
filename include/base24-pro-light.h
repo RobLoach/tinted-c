@@ -77,7 +77,8 @@ const tinted_scheme base24_pro_light = {
         { .r = 0, .g = 129, .b = 255 },
         { .r = 255, .g = 125, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_pro_light_IMPLEMENTATION_ONCE */

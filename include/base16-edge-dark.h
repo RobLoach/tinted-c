@@ -77,7 +77,8 @@ const tinted_scheme base16_edge_dark = {
         { .r = 115, .g = 179, .b = 231 },
         { .r = 211, .g = 144, .b = 231 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_edge_dark_IMPLEMENTATION_ONCE */

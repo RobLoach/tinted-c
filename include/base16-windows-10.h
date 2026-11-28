@@ -77,7 +77,8 @@ const tinted_scheme base16_windows_10 = {
         { .r = 59, .g = 120, .b = 255 },
         { .r = 180, .g = 0, .b = 158 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_windows_10_IMPLEMENTATION_ONCE */

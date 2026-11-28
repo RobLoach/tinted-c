@@ -77,7 +77,8 @@ const tinted_scheme base16_chicago_night = {
         { .r = 82, .g = 35, .b = 152 },
         { .r = 226, .g = 126, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_chicago_night_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_railscasts = {
         { .r = 109, .g = 156, .b = 190 },
         { .r = 182, .g = 179, .b = 235 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_railscasts_IMPLEMENTATION_ONCE */

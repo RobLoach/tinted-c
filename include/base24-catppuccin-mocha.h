@@ -77,7 +77,8 @@ const tinted_scheme base24_catppuccin_mocha = {
         { .r = 116, .g = 199, .b = 236 },
         { .r = 245, .g = 194, .b = 231 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_catppuccin_mocha_IMPLEMENTATION_ONCE */

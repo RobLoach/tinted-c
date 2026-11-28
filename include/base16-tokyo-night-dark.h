@@ -77,7 +77,8 @@ const tinted_scheme base16_tokyo_night_dark = {
         { .r = 42, .g = 195, .b = 222 },
         { .r = 187, .g = 154, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tokyo_night_dark_IMPLEMENTATION_ONCE */

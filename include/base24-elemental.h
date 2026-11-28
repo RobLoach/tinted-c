@@ -77,7 +77,8 @@ const tinted_scheme base24_elemental = {
         { .r = 120, .g = 216, .b = 216 },
         { .r = 205, .g = 124, .b = 83 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_elemental_IMPLEMENTATION_ONCE */

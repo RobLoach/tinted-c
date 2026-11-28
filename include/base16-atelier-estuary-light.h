@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_estuary_light = {
         { .r = 54, .g = 161, .b = 102 },
         { .r = 95, .g = 145, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_atelier_estuary_light_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_neovim_light = {
         { .r = 0, .g = 76, .b = 115 },
         { .r = 71, .g = 0, .b = 69 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_neovim_light_IMPLEMENTATION_ONCE */

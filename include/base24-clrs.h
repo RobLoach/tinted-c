@@ -77,7 +77,8 @@ const tinted_scheme base24_clrs = {
         { .r = 21, .g = 111, .b = 254 },
         { .r = 232, .g = 0, .b = 176 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "light"
 };
 
 #endif  /* BASE24_clrs_IMPLEMENTATION_ONCE */

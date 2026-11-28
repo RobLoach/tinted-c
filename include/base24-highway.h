@@ -77,7 +77,8 @@ const tinted_scheme base24_highway = {
         { .r = 79, .g = 194, .b = 253 },
         { .r = 222, .g = 0, .b = 112 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_highway_IMPLEMENTATION_ONCE */

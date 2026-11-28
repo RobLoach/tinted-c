@@ -77,7 +77,8 @@ const tinted_scheme base24_spiderman = {
         { .r = 29, .g = 79, .b = 255 },
         { .r = 115, .g = 123, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_spiderman_IMPLEMENTATION_ONCE */

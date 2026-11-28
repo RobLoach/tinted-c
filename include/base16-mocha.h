@@ -77,7 +77,8 @@ const tinted_scheme base16_mocha = {
         { .r = 138, .g = 179, .b = 181 },
         { .r = 168, .g = 155, .b = 185 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_mocha_IMPLEMENTATION_ONCE */

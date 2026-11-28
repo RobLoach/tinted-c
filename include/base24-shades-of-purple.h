@@ -77,7 +77,8 @@ const tinted_scheme base24_shades_of_purple = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 255, .g = 118, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_shades_of_purple_IMPLEMENTATION_ONCE */

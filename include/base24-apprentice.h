@@ -77,7 +77,8 @@ const tinted_scheme base24_apprentice = {
         { .r = 135, .g = 175, .b = 215 },
         { .r = 135, .g = 135, .b = 175 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_apprentice_IMPLEMENTATION_ONCE */

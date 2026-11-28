@@ -77,7 +77,8 @@ const tinted_scheme base24_fideloper = {
         { .r = 124, .g = 132, .b = 196 },
         { .r = 91, .g = 93, .b = 178 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_fideloper_IMPLEMENTATION_ONCE */

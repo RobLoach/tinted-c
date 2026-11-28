@@ -77,7 +77,8 @@ const tinted_scheme base16_everforest_dark_hard = {
         { .r = 127, .g = 187, .b = 179 },
         { .r = 214, .g = 153, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_everforest_dark_hard_IMPLEMENTATION_ONCE */

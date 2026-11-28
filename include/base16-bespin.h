@@ -77,7 +77,8 @@ const tinted_scheme base16_bespin = {
         { .r = 94, .g = 166, .b = 234 },
         { .r = 155, .g = 133, .b = 157 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_bespin_IMPLEMENTATION_ONCE */

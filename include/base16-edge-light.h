@@ -77,7 +77,8 @@ const tinted_scheme base16_edge_light = {
         { .r = 101, .g = 135, .b = 191 },
         { .r = 184, .g = 112, .b = 206 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_edge_light_IMPLEMENTATION_ONCE */

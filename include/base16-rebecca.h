@@ -77,7 +77,8 @@ const tinted_scheme base16_rebecca = {
         { .r = 45, .g = 224, .b = 167 },
         { .r = 122, .g = 165, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_rebecca_IMPLEMENTATION_ONCE */

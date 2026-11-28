@@ -77,7 +77,8 @@ const tinted_scheme base16_hardhacker = {
         { .r = 149, .g = 166, .b = 244 },
         { .r = 255, .g = 121, .b = 198 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_hardhacker_IMPLEMENTATION_ONCE */

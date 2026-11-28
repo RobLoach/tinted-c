@@ -77,7 +77,8 @@ const tinted_scheme base16_da_one_white = {
         { .r = 88, .g = 144, .b = 248 },
         { .r = 193, .g = 115, .b = 209 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_da_one_white_IMPLEMENTATION_ONCE */

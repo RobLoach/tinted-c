@@ -77,7 +77,8 @@ const tinted_scheme base16_tango = {
         { .r = 52, .g = 101, .b = 164 },
         { .r = 117, .g = 80, .b = 123 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_tango_IMPLEMENTATION_ONCE */

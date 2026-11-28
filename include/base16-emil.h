@@ -77,7 +77,8 @@ const tinted_scheme base16_emil = {
         { .r = 71, .g = 19, .b = 151 },
         { .r = 105, .g = 22, .b = 182 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_emil_IMPLEMENTATION_ONCE */

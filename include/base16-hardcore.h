@@ -77,7 +77,8 @@ const tinted_scheme base16_hardcore = {
         { .r = 102, .g = 217, .b = 239 },
         { .r = 158, .g = 111, .b = 254 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_hardcore_IMPLEMENTATION_ONCE */

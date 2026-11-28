@@ -77,7 +77,8 @@ const tinted_scheme base16_gruber = {
         { .r = 150, .g = 166, .b = 200 },
         { .r = 158, .g = 149, .b = 199 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_gruber_IMPLEMENTATION_ONCE */

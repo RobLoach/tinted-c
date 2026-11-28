@@ -77,7 +77,8 @@ const tinted_scheme base16_selenized_white = {
         { .r = 0, .g = 84, .b = 207 },
         { .r = 107, .g = 64, .b = 195 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_selenized_white_IMPLEMENTATION_ONCE */

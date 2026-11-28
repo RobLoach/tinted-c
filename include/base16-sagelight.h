@@ -77,7 +77,8 @@ const tinted_scheme base16_sagelight = {
         { .r = 160, .g = 167, .b = 210 },
         { .r = 200, .g = 160, .b = 210 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_sagelight_IMPLEMENTATION_ONCE */

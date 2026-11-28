@@ -77,7 +77,8 @@ const tinted_scheme base16_charcoal_dark = {
         { .r = 195, .g = 169, .b = 131 },
         { .r = 168, .g = 140, .b = 98 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_charcoal_dark_IMPLEMENTATION_ONCE */

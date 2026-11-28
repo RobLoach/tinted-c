@@ -77,7 +77,8 @@ const tinted_scheme base16_atelier_dune = {
         { .r = 102, .g = 132, .b = 225 },
         { .r = 184, .g = 84, .b = 212 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_atelier_dune_IMPLEMENTATION_ONCE */

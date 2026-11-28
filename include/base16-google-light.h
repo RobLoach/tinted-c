@@ -77,7 +77,8 @@ const tinted_scheme base16_google_light = {
         { .r = 57, .g = 113, .b = 237 },
         { .r = 163, .g = 106, .b = 199 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_google_light_IMPLEMENTATION_ONCE */

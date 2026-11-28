@@ -77,7 +77,8 @@ const tinted_scheme base16_gruvbox_material_light_hard = {
         { .r = 69, .g = 112, .b = 122 },
         { .r = 148, .g = 94, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_gruvbox_material_light_hard_IMPLEMENTATION_ONCE */

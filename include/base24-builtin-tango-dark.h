@@ -77,7 +77,8 @@ const tinted_scheme base24_builtin_tango_dark = {
         { .r = 113, .g = 158, .b = 207 },
         { .r = 173, .g = 126, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_builtin_tango_dark_IMPLEMENTATION_ONCE */

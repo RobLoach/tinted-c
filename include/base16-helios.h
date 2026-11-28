@@ -77,7 +77,8 @@ const tinted_scheme base16_helios = {
         { .r = 30, .g = 139, .b = 172 },
         { .r = 190, .g = 66, .b = 100 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_helios_IMPLEMENTATION_ONCE */

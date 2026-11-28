@@ -77,7 +77,8 @@ const tinted_scheme base24_purple_rain = {
         { .r = 0, .g = 165, .b = 255 },
         { .r = 171, .g = 122, .b = 239 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_purple_rain_IMPLEMENTATION_ONCE */

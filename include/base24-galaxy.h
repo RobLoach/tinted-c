@@ -77,7 +77,8 @@ const tinted_scheme base24_galaxy = {
         { .r = 88, .g = 156, .b = 245 },
         { .r = 231, .g = 85, .b = 152 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_galaxy_IMPLEMENTATION_ONCE */

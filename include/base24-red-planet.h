@@ -77,7 +77,8 @@ const tinted_scheme base24_red_planet = {
         { .r = 96, .g = 130, .b = 126 },
         { .r = 222, .g = 72, .b = 115 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_red_planet_IMPLEMENTATION_ONCE */

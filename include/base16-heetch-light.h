@@ -77,7 +77,8 @@ const tinted_scheme base16_heetch_light = {
         { .r = 91, .g = 162, .b = 182 },
         { .r = 143, .g = 108, .b = 151 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_heetch_light_IMPLEMENTATION_ONCE */

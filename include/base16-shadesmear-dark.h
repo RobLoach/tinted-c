@@ -77,7 +77,8 @@ const tinted_scheme base16_shadesmear_dark = {
         { .r = 55, .g = 99, .b = 136 },
         { .r = 215, .g = 171, .b = 84 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_shadesmear_dark_IMPLEMENTATION_ONCE */

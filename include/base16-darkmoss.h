@@ -77,7 +77,8 @@ const tinted_scheme base16_darkmoss = {
         { .r = 73, .g = 128, .b = 145 },
         { .r = 155, .g = 192, .b = 200 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_darkmoss_IMPLEMENTATION_ONCE */

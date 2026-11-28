@@ -77,7 +77,8 @@ const tinted_scheme base16_circus = {
         { .r = 99, .g = 158, .b = 228 },
         { .r = 184, .g = 136, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_circus_IMPLEMENTATION_ONCE */

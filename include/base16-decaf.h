@@ -77,7 +77,8 @@ const tinted_scheme base16_decaf = {
         { .r = 144, .g = 190, .b = 225 },
         { .r = 239, .g = 179, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_decaf_IMPLEMENTATION_ONCE */

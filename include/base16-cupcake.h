@@ -77,7 +77,8 @@ const tinted_scheme base16_cupcake = {
         { .r = 114, .g = 151, .b = 185 },
         { .r = 187, .g = 153, .b = 180 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_cupcake_IMPLEMENTATION_ONCE */

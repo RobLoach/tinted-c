@@ -77,7 +77,8 @@ const tinted_scheme base16_github_light_high_contrast = {
         { .r = 98, .g = 44, .b = 188 },
         { .r = 160, .g = 17, .b = 31 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_github_light_high_contrast_IMPLEMENTATION_ONCE */

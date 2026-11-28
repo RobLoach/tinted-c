@@ -77,7 +77,8 @@ const tinted_scheme base24_twilight = {
         { .r = 90, .g = 93, .b = 97 },
         { .r = 208, .g = 219, .b = 142 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_twilight_IMPLEMENTATION_ONCE */

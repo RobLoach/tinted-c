@@ -1,5 +1,6 @@
 #include <assert.h>
 #include <stdio.h>
+#include <string.h>
 
 #define TINTED_IMPLEMENTATION
 
@@ -34,6 +35,8 @@ int main() {
     printf("Name: %s\n", base16_dracula.name);
     assert(base16_dracula.system == 16);
     assert(base24_dracula.system == 24);
+    assert(strcmp(base16_tomorrow.variant, "light") == 0);
+    assert(strcmp(base24_dracula.variant, "dark") == 0);
 
     /* Iterate through every available scheme. */
     assert(TINTED_COUNT > 500);
@@ -41,6 +44,7 @@ int main() {
         assert(tinted_schemes[i] != NULL);
         assert(tinted_schemes[i]->name != NULL);
         assert(tinted_schemes[i]->system == 16 || tinted_schemes[i]->system == 24);
+        assert(strcmp(tinted_schemes[i]->variant, "dark") == 0 || strcmp(tinted_schemes[i]->variant, "light") == 0);
     }
     printf("Schemes: %d\n", TINTED_COUNT);
 

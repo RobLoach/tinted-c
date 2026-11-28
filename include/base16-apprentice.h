@@ -77,7 +77,8 @@ const tinted_scheme base16_apprentice = {
         { .r = 95, .g = 135, .b = 175 },
         { .r = 95, .g = 95, .b = 135 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_apprentice_IMPLEMENTATION_ONCE */

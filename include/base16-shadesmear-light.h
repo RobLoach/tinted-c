@@ -77,7 +77,8 @@ const tinted_scheme base16_shadesmear_light = {
         { .r = 55, .g = 99, .b = 136 },
         { .r = 215, .g = 171, .b = 84 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_shadesmear_light_IMPLEMENTATION_ONCE */

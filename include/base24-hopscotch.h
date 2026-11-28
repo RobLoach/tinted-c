@@ -77,7 +77,8 @@ const tinted_scheme base24_hopscotch = {
         { .r = 152, .g = 148, .b = 152 },
         { .r = 213, .g = 211, .b = 213 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_hopscotch_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_tokyo_night_moon = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 252, .g = 167, .b = 234 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_tokyo_night_moon_IMPLEMENTATION_ONCE */

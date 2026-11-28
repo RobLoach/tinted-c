@@ -77,7 +77,8 @@ const tinted_scheme base24_shaman = {
         { .r = 97, .g = 212, .b = 185 },
         { .r = 18, .g = 152, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_shaman_IMPLEMENTATION_ONCE */

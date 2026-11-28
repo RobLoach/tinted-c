@@ -77,7 +77,8 @@ const tinted_scheme base24_the_hulk = {
         { .r = 79, .g = 106, .b = 149 },
         { .r = 114, .g = 87, .b = 157 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_the_hulk_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_kimber = {
         { .r = 83, .g = 124, .b = 156 },
         { .r = 134, .g = 202, .b = 205 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_kimber_IMPLEMENTATION_ONCE */

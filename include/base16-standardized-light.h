@@ -77,7 +77,8 @@ const tinted_scheme base16_standardized_light = {
         { .r = 49, .g = 115, .b = 197 },
         { .r = 158, .g = 87, .b = 194 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_standardized_light_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base24_laser = {
         { .r = 249, .g = 40, .b = 131 },
         { .r = 255, .g = 177, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_laser_IMPLEMENTATION_ONCE */

@@ -77,7 +77,8 @@ const tinted_scheme base16_ocote = {
         { .r = 130, .g = 166, .b = 224 },
         { .r = 197, .g = 138, .b = 224 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_ocote_IMPLEMENTATION_ONCE */

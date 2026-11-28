@@ -77,7 +77,8 @@ const tinted_scheme base16_synth_midnight_light = {
         { .r = 3, .g = 174, .b = 255 },
         { .r = 234, .g = 92, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_synth_midnight_light_IMPLEMENTATION_ONCE */

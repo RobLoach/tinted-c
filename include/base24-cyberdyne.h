@@ -77,7 +77,8 @@ const tinted_scheme base24_cyberdyne = {
         { .r = 193, .g = 227, .b = 254 },
         { .r = 255, .g = 177, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = "dark"
 };
 
 #endif  /* BASE24_cyberdyne_IMPLEMENTATION_ONCE */

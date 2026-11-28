@@ -77,7 +77,8 @@ const tinted_scheme base16_penumbra_light_contrast_plus = {
         { .r = 97, .g = 163, .b = 230 },
         { .r = 164, .g = 143, .b = 225 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "light"
 };
 
 #endif  /* BASE16_penumbra_light_contrast_plus_IMPLEMENTATION_ONCE */

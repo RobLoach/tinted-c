@@ -77,7 +77,8 @@ const tinted_scheme base16_precious_dark_eleven = {
         { .r = 104, .g = 176, .b = 238 },
         { .r = 183, .g = 153, .b = 254 }
     },
-    .system = 16
+    .system = 16,
+    .variant = "dark"
 };
 
 #endif  /* BASE16_precious_dark_eleven_IMPLEMENTATION_ONCE */
