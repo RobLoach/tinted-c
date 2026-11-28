@@ -49,6 +49,7 @@ extern const tinted_scheme base24_kibble;
 
 const tinted_scheme base24_kibble = {
     .name = "Kibble",
+    .slug = "kibble",
     .base = {
         { .r = 14, .g = 16, .b = 10 },
         { .r = 77, .g = 77, .b = 77 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_kibble = {
         { .r = 151, .g = 164, .b = 247 },
         { .r = 196, .g = 149, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_kibble_IMPLEMENTATION_ONCE */

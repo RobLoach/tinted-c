@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tinta;
 
 const tinted_scheme base16_tinta = {
     .name = "Tinta",
+    .slug = "tinta",
     .base = {
         { .r = 16, .g = 16, .b = 18 },
         { .r = 32, .g = 32, .b = 35 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tinta = {
         { .r = 138, .g = 154, .b = 176 },
         { .r = 176, .g = 160, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tinta_IMPLEMENTATION_ONCE */

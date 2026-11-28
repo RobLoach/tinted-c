@@ -49,6 +49,7 @@ extern const tinted_scheme base16_github_light_high_contrast;
 
 const tinted_scheme base16_github_light_high_contrast = {
     .name = "Github Light High Contrast",
+    .slug = "github-light-high-contrast",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 231, .g = 236, .b = 240 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_github_light_high_contrast = {
         { .r = 98, .g = 44, .b = 188 },
         { .r = 160, .g = 17, .b = 31 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_github_light_high_contrast_IMPLEMENTATION_ONCE */

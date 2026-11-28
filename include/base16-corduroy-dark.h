@@ -49,6 +49,7 @@ extern const tinted_scheme base16_corduroy_dark;
 
 const tinted_scheme base16_corduroy_dark = {
     .name = "Corduroy Dark",
+    .slug = "corduroy-dark",
     .base = {
         { .r = 20, .g = 16, .b = 22 },
         { .r = 27, .g = 21, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_corduroy_dark = {
         { .r = 220, .g = 146, .b = 163 },
         { .r = 207, .g = 152, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_corduroy_dark_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_flat;
 
 const tinted_scheme base24_flat = {
     .name = "Flat",
+    .slug = "flat",
     .base = {
         { .r = 8, .g = 40, .b = 69 },
         { .r = 29, .g = 40, .b = 69 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_flat = {
         { .r = 60, .g = 125, .b = 210 },
         { .r = 130, .g = 48, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_flat_IMPLEMENTATION_ONCE */

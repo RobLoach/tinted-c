@@ -49,6 +49,7 @@ extern const tinted_scheme base16_moonlight;
 
 const tinted_scheme base16_moonlight = {
     .name = "Moonlight",
+    .slug = "moonlight",
     .base = {
         { .r = 33, .g = 35, .b = 55 },
         { .r = 64, .g = 60, .b = 100 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_moonlight = {
         { .r = 64, .g = 255, .b = 255 },
         { .r = 185, .g = 148, .b = 241 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_moonlight_IMPLEMENTATION_ONCE */

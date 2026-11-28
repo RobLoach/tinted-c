@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ic_green_ppl;
 
 const tinted_scheme base24_ic_green_ppl = {
     .name = "IC-Green-PPL",
+    .slug = "ic-green-ppl",
     .base = {
         { .r = 44, .g = 44, .b = 44 },
         { .r = 1, .g = 68, .b = 1 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ic_green_ppl = {
         { .r = 46, .g = 250, .b = 235 },
         { .r = 80, .g = 250, .b = 250 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ic_green_ppl_IMPLEMENTATION_ONCE */

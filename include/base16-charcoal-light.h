@@ -49,6 +49,7 @@ extern const tinted_scheme base16_charcoal_light;
 
 const tinted_scheme base16_charcoal_light = {
     .name = "Charcoal Light",
+    .slug = "charcoal-light",
     .base = {
         { .r = 202, .g = 189, .b = 160 },
         { .r = 188, .g = 173, .b = 140 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_charcoal_light = {
         { .r = 37, .g = 30, .b = 15 },
         { .r = 56, .g = 46, .b = 27 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_charcoal_light_IMPLEMENTATION_ONCE */

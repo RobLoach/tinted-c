@@ -49,6 +49,7 @@ extern const tinted_scheme base16_windows_highcontrast_light;
 
 const tinted_scheme base16_windows_highcontrast_light = {
     .name = "Windows High Contrast Light",
+    .slug = "windows-highcontrast-light",
     .base = {
         { .r = 252, .g = 252, .b = 252 },
         { .r = 232, .g = 232, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_windows_highcontrast_light = {
         { .r = 0, .g = 0, .b = 128 },
         { .r = 128, .g = 0, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_windows_highcontrast_light_IMPLEMENTATION_ONCE */

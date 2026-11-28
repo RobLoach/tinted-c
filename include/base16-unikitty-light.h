@@ -49,6 +49,7 @@ extern const tinted_scheme base16_unikitty_light;
 
 const tinted_scheme base16_unikitty_light = {
     .name = "Unikitty Light",
+    .slug = "unikitty-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 225, .g = 225, .b = 226 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_unikitty_light = {
         { .r = 119, .g = 93, .b = 255 },
         { .r = 170, .g = 23, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_unikitty_light_IMPLEMENTATION_ONCE */

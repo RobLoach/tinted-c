@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gotham;
 
 const tinted_scheme base16_gotham = {
     .name = "Gotham",
+    .slug = "gotham",
     .base = {
         { .r = 12, .g = 16, .b = 20 },
         { .r = 17, .g = 21, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gotham = {
         { .r = 25, .g = 84, .b = 102 },
         { .r = 136, .g = 140, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_gotham_IMPLEMENTATION_ONCE */

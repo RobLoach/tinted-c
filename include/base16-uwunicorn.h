@@ -49,6 +49,7 @@ extern const tinted_scheme base16_uwunicorn;
 
 const tinted_scheme base16_uwunicorn = {
     .name = "UwUnicorn",
+    .slug = "uwunicorn",
     .base = {
         { .r = 36, .g = 27, .b = 38 },
         { .r = 47, .g = 42, .b = 63 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_uwunicorn = {
         { .r = 106, .g = 158, .b = 181 },
         { .r = 120, .g = 163, .b = 143 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_uwunicorn_IMPLEMENTATION_ONCE */

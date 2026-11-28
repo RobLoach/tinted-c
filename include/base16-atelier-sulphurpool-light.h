@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_sulphurpool_light;
 
 const tinted_scheme base16_atelier_sulphurpool_light = {
     .name = "Atelier Sulphurpool Light",
+    .slug = "atelier-sulphurpool-light",
     .base = {
         { .r = 245, .g = 247, .b = 255 },
         { .r = 223, .g = 226, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_sulphurpool_light = {
         { .r = 61, .g = 143, .b = 209 },
         { .r = 102, .g = 121, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_sulphurpool_light_IMPLEMENTATION_ONCE */

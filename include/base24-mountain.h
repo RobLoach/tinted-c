@@ -49,6 +49,7 @@ extern const tinted_scheme base24_mountain;
 
 const tinted_scheme base24_mountain = {
     .name = "Mountain",
+    .slug = "mountain",
     .base = {
         { .r = 15, .g = 15, .b = 15 },
         { .r = 25, .g = 25, .b = 25 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_mountain = {
         { .r = 163, .g = 158, .b = 196 },
         { .r = 196, .g = 158, .b = 196 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_mountain_IMPLEMENTATION_ONCE */

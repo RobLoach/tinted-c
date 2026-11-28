@@ -49,6 +49,7 @@ extern const tinted_scheme base16_eva_dim;
 
 const tinted_scheme base16_eva_dim = {
     .name = "Eva Dim",
+    .slug = "eva-dim",
     .base = {
         { .r = 42, .g = 59, .b = 77 },
         { .r = 61, .g = 86, .b = 111 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_eva_dim = {
         { .r = 26, .g = 225, .b = 220 },
         { .r = 156, .g = 108, .b = 211 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_eva_dim_IMPLEMENTATION_ONCE */

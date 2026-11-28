@@ -49,6 +49,7 @@ extern const tinted_scheme base24_unikitty;
 
 const tinted_scheme base24_unikitty = {
     .name = "Unikitty",
+    .slug = "unikitty",
     .base = {
         { .r = 255, .g = 122, .b = 211 },
         { .r = 12, .g = 12, .b = 12 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_unikitty = {
         { .r = 0, .g = 116, .b = 234 },
         { .r = 253, .g = 213, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_unikitty_IMPLEMENTATION_ONCE */

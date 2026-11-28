@@ -49,6 +49,7 @@ extern const tinted_scheme base16_everforest_light_hard;
 
 const tinted_scheme base16_everforest_light_hard = {
     .name = "Everforest Light (Hard)",
+    .slug = "everforest-light-hard",
     .base = {
         { .r = 255, .g = 251, .b = 239 },
         { .r = 248, .g = 245, .b = 228 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_everforest_light_hard = {
         { .r = 58, .g = 148, .b = 197 },
         { .r = 223, .g = 105, .b = 186 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_everforest_light_hard_IMPLEMENTATION_ONCE */

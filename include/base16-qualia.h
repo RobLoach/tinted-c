@@ -49,6 +49,7 @@ extern const tinted_scheme base16_qualia;
 
 const tinted_scheme base16_qualia = {
     .name = "Qualia",
+    .slug = "qualia",
     .base = {
         { .r = 16, .g = 16, .b = 16 },
         { .r = 69, .g = 69, .b = 69 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_qualia = {
         { .r = 80, .g = 202, .b = 205 },
         { .r = 224, .g = 175, .b = 133 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_qualia_IMPLEMENTATION_ONCE */

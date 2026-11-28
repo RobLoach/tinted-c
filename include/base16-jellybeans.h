@@ -49,6 +49,7 @@ extern const tinted_scheme base16_jellybeans;
 
 const tinted_scheme base16_jellybeans = {
     .name = "Jellybeans",
+    .slug = "jellybeans",
     .base = {
         { .r = 18, .g = 18, .b = 18 },
         { .r = 146, .g = 146, .b = 146 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_jellybeans = {
         { .r = 177, .g = 216, .b = 246 },
         { .r = 251, .g = 218, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_jellybeans_IMPLEMENTATION_ONCE */

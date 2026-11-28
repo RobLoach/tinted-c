@@ -49,6 +49,7 @@ extern const tinted_scheme base16_vulcan;
 
 const tinted_scheme base16_vulcan = {
     .name = "vulcan",
+    .slug = "vulcan",
     .base = {
         { .r = 4, .g = 21, .b = 35 },
         { .r = 18, .g = 35, .b = 57 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_vulcan = {
         { .r = 151, .g = 125, .b = 124 },
         { .r = 145, .g = 152, .b = 163 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_vulcan_IMPLEMENTATION_ONCE */

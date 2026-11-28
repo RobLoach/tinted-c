@@ -49,6 +49,7 @@ extern const tinted_scheme base24_alucard;
 
 const tinted_scheme base24_alucard = {
     .name = "Alucard",
+    .slug = "alucard",
     .base = {
         { .r = 255, .g = 251, .b = 235 },
         { .r = 206, .g = 204, .b = 192 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_alucard = {
         { .r = 120, .g = 98, .b = 208 },
         { .r = 191, .g = 24, .b = 90 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_alucard_IMPLEMENTATION_ONCE */

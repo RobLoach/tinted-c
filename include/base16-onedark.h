@@ -49,6 +49,7 @@ extern const tinted_scheme base16_onedark;
 
 const tinted_scheme base16_onedark = {
     .name = "OneDark",
+    .slug = "onedark",
     .base = {
         { .r = 40, .g = 44, .b = 52 },
         { .r = 53, .g = 59, .b = 69 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_onedark = {
         { .r = 97, .g = 175, .b = 239 },
         { .r = 198, .g = 120, .b = 221 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_onedark_IMPLEMENTATION_ONCE */

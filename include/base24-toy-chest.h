@@ -49,6 +49,7 @@ extern const tinted_scheme base24_toy_chest;
 
 const tinted_scheme base24_toy_chest = {
     .name = "Toy Chest",
+    .slug = "toy-chest",
     .base = {
         { .r = 35, .g = 54, .b = 74 },
         { .r = 44, .g = 63, .b = 87 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_toy_chest = {
         { .r = 51, .g = 165, .b = 217 },
         { .r = 173, .g = 107, .b = 220 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_toy_chest_IMPLEMENTATION_ONCE */

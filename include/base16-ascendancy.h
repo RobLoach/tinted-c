@@ -53,6 +53,7 @@ extern const tinted_scheme base16_ascendancy;
 
 const tinted_scheme base16_ascendancy = {
     .name = "Ascendancy",
+    .slug = "ascendancy",
     .base = {
         { .r = 40, .g = 40, .b = 40 },
         { .r = 33, .g = 47, .b = 61 },
@@ -81,7 +82,8 @@ const tinted_scheme base16_ascendancy = {
         { .r = 69, .g = 133, .b = 136 },
         { .r = 250, .g = 189, .b = 47 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_ascendancy_IMPLEMENTATION_ONCE */

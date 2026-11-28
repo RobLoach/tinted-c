@@ -49,6 +49,7 @@ extern const tinted_scheme base24_catppuccin_macchiato;
 
 const tinted_scheme base24_catppuccin_macchiato = {
     .name = "Catppuccin Macchiato",
+    .slug = "catppuccin-macchiato",
     .base = {
         { .r = 36, .g = 39, .b = 58 },
         { .r = 30, .g = 32, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_catppuccin_macchiato = {
         { .r = 125, .g = 196, .b = 228 },
         { .r = 245, .g = 189, .b = 230 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_catppuccin_macchiato_IMPLEMENTATION_ONCE */

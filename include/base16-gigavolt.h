@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gigavolt;
 
 const tinted_scheme base16_gigavolt = {
     .name = "Gigavolt",
+    .slug = "gigavolt",
     .base = {
         { .r = 32, .g = 33, .b = 38 },
         { .r = 45, .g = 48, .b = 61 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gigavolt = {
         { .r = 64, .g = 191, .b = 255 },
         { .r = 174, .g = 148, .b = 249 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_gigavolt_IMPLEMENTATION_ONCE */

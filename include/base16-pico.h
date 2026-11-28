@@ -49,6 +49,7 @@ extern const tinted_scheme base16_pico;
 
 const tinted_scheme base16_pico = {
     .name = "Pico",
+    .slug = "pico",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 29, .g = 43, .b = 83 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_pico = {
         { .r = 131, .g = 118, .b = 156 },
         { .r = 255, .g = 119, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_pico_IMPLEMENTATION_ONCE */

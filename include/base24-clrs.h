@@ -49,6 +49,7 @@ extern const tinted_scheme base24_clrs;
 
 const tinted_scheme base24_clrs = {
     .name = "CLRS",
+    .slug = "clrs",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_clrs = {
         { .r = 21, .g = 111, .b = 254 },
         { .r = 232, .g = 0, .b = 176 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_clrs_IMPLEMENTATION_ONCE */

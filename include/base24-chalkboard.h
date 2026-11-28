@@ -49,6 +49,7 @@ extern const tinted_scheme base24_chalkboard;
 
 const tinted_scheme base24_chalkboard = {
     .name = "Chalkboard",
+    .slug = "chalkboard",
     .base = {
         { .r = 41, .g = 38, .b = 47 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_chalkboard = {
         { .r = 170, .g = 170, .b = 219 },
         { .r = 219, .g = 170, .b = 218 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_chalkboard_IMPLEMENTATION_ONCE */

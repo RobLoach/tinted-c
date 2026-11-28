@@ -49,6 +49,7 @@ extern const tinted_scheme base24_night_owlish_light;
 
 const tinted_scheme base24_night_owlish_light = {
     .name = "Night Owlish Light",
+    .slug = "night-owlish-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 229, .g = 230, .b = 230 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_night_owlish_light = {
         { .r = 92, .g = 167, .b = 228 },
         { .r = 105, .g = 112, .b = 152 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_night_owlish_light_IMPLEMENTATION_ONCE */

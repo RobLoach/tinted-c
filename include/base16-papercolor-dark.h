@@ -49,6 +49,7 @@ extern const tinted_scheme base16_papercolor_dark;
 
 const tinted_scheme base16_papercolor_dark = {
     .name = "PaperColor Dark",
+    .slug = "papercolor-dark",
     .base = {
         { .r = 28, .g = 28, .b = 28 },
         { .r = 54, .g = 54, .b = 54 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_papercolor_dark = {
         { .r = 95, .g = 175, .b = 215 },
         { .r = 175, .g = 135, .b = 215 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_papercolor_dark_IMPLEMENTATION_ONCE */

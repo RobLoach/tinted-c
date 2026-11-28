@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gruvbox_material_dark_hard;
 
 const tinted_scheme base16_gruvbox_material_dark_hard = {
     .name = "Gruvbox Material Dark, Hard",
+    .slug = "gruvbox-material-dark-hard",
     .base = {
         { .r = 32, .g = 32, .b = 32 },
         { .r = 42, .g = 40, .b = 39 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gruvbox_material_dark_hard = {
         { .r = 125, .g = 174, .b = 163 },
         { .r = 211, .g = 134, .b = 155 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_gruvbox_material_dark_hard_IMPLEMENTATION_ONCE */

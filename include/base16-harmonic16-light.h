@@ -49,6 +49,7 @@ extern const tinted_scheme base16_harmonic16_light;
 
 const tinted_scheme base16_harmonic16_light = {
     .name = "Harmonic16 Light",
+    .slug = "harmonic16-light",
     .base = {
         { .r = 247, .g = 249, .b = 251 },
         { .r = 229, .g = 235, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_harmonic16_light = {
         { .r = 139, .g = 86, .b = 191 },
         { .r = 191, .g = 86, .b = 139 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_harmonic16_light_IMPLEMENTATION_ONCE */

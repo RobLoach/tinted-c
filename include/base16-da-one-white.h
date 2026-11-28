@@ -49,6 +49,7 @@ extern const tinted_scheme base16_da_one_white;
 
 const tinted_scheme base16_da_one_white = {
     .name = "Da One White",
+    .slug = "da-one-white",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 200, .g = 200, .b = 200 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_da_one_white = {
         { .r = 88, .g = 144, .b = 248 },
         { .r = 193, .g = 115, .b = 209 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_da_one_white_IMPLEMENTATION_ONCE */

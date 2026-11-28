@@ -49,6 +49,7 @@ extern const tinted_scheme base24_terminal_basic;
 
 const tinted_scheme base24_terminal_basic = {
     .name = "Terminal Basic",
+    .slug = "terminal-basic",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_terminal_basic = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_terminal_basic_IMPLEMENTATION_ONCE */

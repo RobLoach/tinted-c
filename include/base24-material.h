@@ -49,6 +49,7 @@ extern const tinted_scheme base24_material;
 
 const tinted_scheme base24_material = {
     .name = "Material",
+    .slug = "material",
     .base = {
         { .r = 234, .g = 234, .b = 234 },
         { .r = 33, .g = 33, .b = 33 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_material = {
         { .r = 83, .g = 164, .b = 243 },
         { .r = 169, .g = 77, .b = 187 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_material_IMPLEMENTATION_ONCE */

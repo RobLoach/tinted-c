@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pnevma;
 
 const tinted_scheme base24_pnevma = {
     .name = "Pnevma",
+    .slug = "pnevma",
     .base = {
         { .r = 28, .g = 28, .b = 28 },
         { .r = 47, .g = 46, .b = 45 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pnevma = {
         { .r = 161, .g = 189, .b = 206 },
         { .r = 215, .g = 190, .b = 218 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_pnevma_IMPLEMENTATION_ONCE */

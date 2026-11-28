@@ -49,6 +49,7 @@ extern const tinted_scheme base16_0x96f;
 
 const tinted_scheme base16_0x96f = {
     .name = "0x96f",
+    .slug = "0x96f",
     .base = {
         { .r = 38, .g = 36, .b = 39 },
         { .r = 59, .g = 57, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_0x96f = {
         { .r = 73, .g = 202, .b = 228 },
         { .r = 160, .g = 147, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_0x96f_IMPLEMENTATION_ONCE */

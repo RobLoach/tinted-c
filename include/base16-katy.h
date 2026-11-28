@@ -49,6 +49,7 @@ extern const tinted_scheme base16_katy;
 
 const tinted_scheme base16_katy = {
     .name = "Katy",
+    .slug = "katy",
     .base = {
         { .r = 41, .g = 45, .b = 62 },
         { .r = 68, .g = 66, .b = 103 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_katy = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 199, .g = 146, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_katy_IMPLEMENTATION_ONCE */

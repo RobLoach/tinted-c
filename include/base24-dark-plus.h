@@ -49,6 +49,7 @@ extern const tinted_scheme base24_dark_plus;
 
 const tinted_scheme base24_dark_plus = {
     .name = "Dark Plus",
+    .slug = "dark-plus",
     .base = {
         { .r = 14, .g = 14, .b = 14 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_dark_plus = {
         { .r = 59, .g = 142, .b = 234 },
         { .r = 214, .g = 112, .b = 214 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_dark_plus_IMPLEMENTATION_ONCE */

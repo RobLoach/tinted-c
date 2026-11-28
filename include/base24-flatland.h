@@ -49,6 +49,7 @@ extern const tinted_scheme base24_flatland;
 
 const tinted_scheme base24_flatland = {
     .name = "Flatland",
+    .slug = "flatland",
     .base = {
         { .r = 28, .g = 30, .b = 32 },
         { .r = 28, .g = 29, .b = 25 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_flatland = {
         { .r = 97, .g = 184, .b = 208 },
         { .r = 105, .g = 90, .b = 187 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_flatland_IMPLEMENTATION_ONCE */

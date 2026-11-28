@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_estuary_light;
 
 const tinted_scheme base16_atelier_estuary_light = {
     .name = "Atelier Estuary Light",
+    .slug = "atelier-estuary-light",
     .base = {
         { .r = 244, .g = 243, .b = 236 },
         { .r = 231, .g = 230, .b = 223 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_estuary_light = {
         { .r = 54, .g = 161, .b = 102 },
         { .r = 95, .g = 145, .b = 130 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_estuary_light_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_zenburn;
 
 const tinted_scheme base24_zenburn = {
     .name = "Zenburn",
+    .slug = "zenburn",
     .base = {
         { .r = 63, .g = 63, .b = 63 },
         { .r = 77, .g = 77, .b = 77 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_zenburn = {
         { .r = 148, .g = 191, .b = 243 },
         { .r = 236, .g = 147, .b = 211 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_zenburn_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_github_light_colorblind;
 
 const tinted_scheme base24_github_light_colorblind = {
     .name = "Github Light Colorblind",
+    .slug = "github-light-colorblind",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 246, .g = 248, .b = 250 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_github_light_colorblind = {
         { .r = 84, .g = 174, .b = 255 },
         { .r = 194, .g = 151, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_github_light_colorblind_IMPLEMENTATION_ONCE */

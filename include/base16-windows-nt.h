@@ -49,6 +49,7 @@ extern const tinted_scheme base16_windows_nt;
 
 const tinted_scheme base16_windows_nt = {
     .name = "Windows NT",
+    .slug = "windows-nt",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 42, .g = 42, .b = 42 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_windows_nt = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 255, .g = 0, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_windows_nt_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_twilight;
 
 const tinted_scheme base24_twilight = {
     .name = "Twilight",
+    .slug = "twilight",
     .base = {
         { .r = 20, .g = 20, .b = 20 },
         { .r = 20, .g = 20, .b = 20 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_twilight = {
         { .r = 90, .g = 93, .b = 97 },
         { .r = 208, .g = 219, .b = 142 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_twilight_IMPLEMENTATION_ONCE */

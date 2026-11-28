@@ -49,6 +49,7 @@ extern const tinted_scheme base16_darktooth;
 
 const tinted_scheme base16_darktooth = {
     .name = "Darktooth",
+    .slug = "darktooth",
     .base = {
         { .r = 29, .g = 32, .b = 33 },
         { .r = 50, .g = 48, .b = 47 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_darktooth = {
         { .r = 13, .g = 102, .b = 120 },
         { .r = 143, .g = 70, .b = 115 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_darktooth_IMPLEMENTATION_ONCE */

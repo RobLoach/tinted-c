@@ -49,6 +49,7 @@ extern const tinted_scheme base24_cobalt_neon;
 
 const tinted_scheme base24_cobalt_neon = {
     .name = "Cobalt Neon",
+    .slug = "cobalt-neon",
     .base = {
         { .r = 20, .g = 40, .b = 56 },
         { .r = 20, .g = 38, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_cobalt_neon = {
         { .r = 60, .g = 125, .b = 210 },
         { .r = 130, .g = 48, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_cobalt_neon_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_blueforest;
 
 const tinted_scheme base16_blueforest = {
     .name = "Blue Forest",
+    .slug = "blueforest",
     .base = {
         { .r = 20, .g = 31, .b = 46 },
         { .r = 30, .g = 92, .b = 30 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_blueforest = {
         { .r = 162, .g = 207, .b = 245 },
         { .r = 0, .g = 153, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_blueforest_IMPLEMENTATION_ONCE */

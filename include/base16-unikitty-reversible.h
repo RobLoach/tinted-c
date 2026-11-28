@@ -49,6 +49,7 @@ extern const tinted_scheme base16_unikitty_reversible;
 
 const tinted_scheme base16_unikitty_reversible = {
     .name = "Unikitty Reversible",
+    .slug = "unikitty-reversible",
     .base = {
         { .r = 46, .g = 42, .b = 49 },
         { .r = 75, .g = 72, .b = 78 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_unikitty_reversible = {
         { .r = 120, .g = 100, .b = 250 },
         { .r = 179, .g = 60, .b = 232 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_unikitty_reversible_IMPLEMENTATION_ONCE */

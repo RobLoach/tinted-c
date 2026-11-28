@@ -49,6 +49,7 @@ extern const tinted_scheme base16_sagelight;
 
 const tinted_scheme base16_sagelight = {
     .name = "Sagelight",
+    .slug = "sagelight",
     .base = {
         { .r = 248, .g = 248, .b = 248 },
         { .r = 232, .g = 232, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_sagelight = {
         { .r = 160, .g = 167, .b = 210 },
         { .r = 200, .g = 160, .b = 210 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_sagelight_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_jackie_brown;
 
 const tinted_scheme base24_jackie_brown = {
     .name = "Jackie Brown",
+    .slug = "jackie-brown",
     .base = {
         { .r = 44, .g = 28, .b = 21 },
         { .r = 44, .g = 29, .b = 22 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_jackie_brown = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_jackie_brown_IMPLEMENTATION_ONCE */

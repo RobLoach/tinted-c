@@ -49,6 +49,7 @@ extern const tinted_scheme base16_kanagawa;
 
 const tinted_scheme base16_kanagawa = {
     .name = "Kanagawa",
+    .slug = "kanagawa",
     .base = {
         { .r = 31, .g = 31, .b = 40 },
         { .r = 22, .g = 22, .b = 29 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_kanagawa = {
         { .r = 126, .g = 156, .b = 216 },
         { .r = 149, .g = 127, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_kanagawa_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_spacedust;
 
 const tinted_scheme base24_spacedust = {
     .name = "Spacedust",
+    .slug = "spacedust",
     .base = {
         { .r = 10, .g = 30, .b = 36 },
         { .r = 110, .g = 82, .b = 70 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_spacedust = {
         { .r = 103, .g = 160, .b = 205 },
         { .r = 255, .g = 138, .b = 57 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_spacedust_IMPLEMENTATION_ONCE */

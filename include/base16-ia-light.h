@@ -49,6 +49,7 @@ extern const tinted_scheme base16_ia_light;
 
 const tinted_scheme base16_ia_light = {
     .name = "iA Light",
+    .slug = "ia-light",
     .base = {
         { .r = 246, .g = 246, .b = 246 },
         { .r = 222, .g = 222, .b = 222 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_ia_light = {
         { .r = 72, .g = 186, .b = 194 },
         { .r = 169, .g = 69, .b = 152 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_ia_light_IMPLEMENTATION_ONCE */

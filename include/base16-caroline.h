@@ -49,6 +49,7 @@ extern const tinted_scheme base16_caroline;
 
 const tinted_scheme base16_caroline = {
     .name = "caroline",
+    .slug = "caroline",
     .base = {
         { .r = 28, .g = 18, .b = 19 },
         { .r = 58, .g = 36, .b = 37 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_caroline = {
         { .r = 104, .g = 76, .b = 89 },
         { .r = 166, .g = 54, .b = 80 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_caroline_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_heetch_light;
 
 const tinted_scheme base16_heetch_light = {
     .name = "Heetch Light",
+    .slug = "heetch-light",
     .base = {
         { .r = 254, .g = 255, .b = 255 },
         { .r = 222, .g = 218, .b = 226 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_heetch_light = {
         { .r = 91, .g = 162, .b = 182 },
         { .r = 143, .g = 108, .b = 151 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_heetch_light_IMPLEMENTATION_ONCE */

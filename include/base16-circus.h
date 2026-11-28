@@ -49,6 +49,7 @@ extern const tinted_scheme base16_circus;
 
 const tinted_scheme base16_circus = {
     .name = "Circus",
+    .slug = "circus",
     .base = {
         { .r = 25, .g = 25, .b = 25 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_circus = {
         { .r = 99, .g = 158, .b = 228 },
         { .r = 184, .g = 136, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_circus_IMPLEMENTATION_ONCE */

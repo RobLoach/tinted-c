@@ -49,6 +49,7 @@ extern const tinted_scheme base16_mexico_light;
 
 const tinted_scheme base16_mexico_light = {
     .name = "Mexico Light",
+    .slug = "mexico-light",
     .base = {
         { .r = 248, .g = 248, .b = 248 },
         { .r = 232, .g = 232, .b = 232 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_mexico_light = {
         { .r = 124, .g = 175, .b = 194 },
         { .r = 150, .g = 96, .b = 158 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_mexico_light_IMPLEMENTATION_ONCE */

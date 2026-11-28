@@ -49,6 +49,7 @@ extern const tinted_scheme base24_wombat;
 
 const tinted_scheme base24_wombat = {
     .name = "Wombat",
+    .slug = "wombat",
     .base = {
         { .r = 23, .g = 23, .b = 23 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_wombat = {
         { .r = 165, .g = 199, .b = 255 },
         { .r = 221, .g = 170, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_wombat_IMPLEMENTATION_ONCE */

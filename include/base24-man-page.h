@@ -49,6 +49,7 @@ extern const tinted_scheme base24_man_page;
 
 const tinted_scheme base24_man_page = {
     .name = "Man Page",
+    .slug = "man-page",
     .base = {
         { .r = 254, .g = 244, .b = 156 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_man_page = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_man_page_IMPLEMENTATION_ONCE */

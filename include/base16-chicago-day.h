@@ -49,6 +49,7 @@ extern const tinted_scheme base16_chicago_day;
 
 const tinted_scheme base16_chicago_day = {
     .name = "Chicago Day",
+    .slug = "chicago-day",
     .base = {
         { .r = 232, .g = 240, .b = 234 },
         { .r = 209, .g = 224, .b = 215 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_chicago_day = {
         { .r = 82, .g = 35, .b = 152 },
         { .r = 226, .g = 126, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_chicago_day_IMPLEMENTATION_ONCE */

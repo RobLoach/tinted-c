@@ -49,6 +49,7 @@ extern const tinted_scheme base16_evenok_dark;
 
 const tinted_scheme base16_evenok_dark = {
     .name = "Evenok Dark",
+    .slug = "evenok-dark",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_evenok_dark = {
         { .r = 0, .g = 175, .b = 242 },
         { .r = 144, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_evenok_dark_IMPLEMENTATION_ONCE */

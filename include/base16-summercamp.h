@@ -49,6 +49,7 @@ extern const tinted_scheme base16_summercamp;
 
 const tinted_scheme base16_summercamp = {
     .name = "summercamp",
+    .slug = "summercamp",
     .base = {
         { .r = 28, .g = 24, .b = 16 },
         { .r = 42, .g = 38, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_summercamp = {
         { .r = 72, .g = 155, .b = 240 },
         { .r = 255, .g = 128, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_summercamp_IMPLEMENTATION_ONCE */

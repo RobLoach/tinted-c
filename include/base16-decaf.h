@@ -49,6 +49,7 @@ extern const tinted_scheme base16_decaf;
 
 const tinted_scheme base16_decaf = {
     .name = "Decaf",
+    .slug = "decaf",
     .base = {
         { .r = 45, .g = 45, .b = 45 },
         { .r = 57, .g = 57, .b = 57 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_decaf = {
         { .r = 144, .g = 190, .b = 225 },
         { .r = 239, .g = 179, .b = 247 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_decaf_IMPLEMENTATION_ONCE */

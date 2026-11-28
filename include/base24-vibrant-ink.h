@@ -49,6 +49,7 @@ extern const tinted_scheme base24_vibrant_ink;
 
 const tinted_scheme base24_vibrant_ink = {
     .name = "Vibrant Ink",
+    .slug = "vibrant-ink",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 135, .g = 135, .b = 135 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_vibrant_ink = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 255, .g = 0, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_vibrant_ink_IMPLEMENTATION_ONCE */

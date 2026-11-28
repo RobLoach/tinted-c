@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gruvbox_dark_medium_forest;
 
 const tinted_scheme base16_gruvbox_dark_medium_forest = {
     .name = "Gruvbox Dark Medium (Forest)",
+    .slug = "gruvbox-dark-medium-forest",
     .base = {
         { .r = 40, .g = 40, .b = 40 },
         { .r = 60, .g = 56, .b = 54 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gruvbox_dark_medium_forest = {
         { .r = 184, .g = 187, .b = 38 },
         { .r = 150, .g = 189, .b = 162 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_gruvbox_dark_medium_forest_IMPLEMENTATION_ONCE */

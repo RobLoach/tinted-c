@@ -49,6 +49,7 @@ extern const tinted_scheme base24_lichen_chartreuse_light;
 
 const tinted_scheme base24_lichen_chartreuse_light = {
     .name = "Lichen Chartreuse Light",
+    .slug = "lichen-chartreuse-light",
     .base = {
         { .r = 245, .g = 247, .b = 242 },
         { .r = 236, .g = 239, .b = 231 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_lichen_chartreuse_light = {
         { .r = 59, .g = 109, .b = 134 },
         { .r = 138, .g = 79, .b = 103 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_lichen_chartreuse_light_IMPLEMENTATION_ONCE */

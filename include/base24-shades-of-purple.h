@@ -49,6 +49,7 @@ extern const tinted_scheme base24_shades_of_purple;
 
 const tinted_scheme base24_shades_of_purple = {
     .name = "Shades Of Purple",
+    .slug = "shades-of-purple",
     .base = {
         { .r = 30, .g = 29, .b = 64 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_shades_of_purple = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 255, .g = 118, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_shades_of_purple_IMPLEMENTATION_ONCE */

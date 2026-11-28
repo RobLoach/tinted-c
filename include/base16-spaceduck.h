@@ -49,6 +49,7 @@ extern const tinted_scheme base16_spaceduck;
 
 const tinted_scheme base16_spaceduck = {
     .name = "Spaceduck",
+    .slug = "spaceduck",
     .base = {
         { .r = 22, .g = 23, .b = 45 },
         { .r = 27, .g = 28, .b = 54 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_spaceduck = {
         { .r = 122, .g = 92, .b = 204 },
         { .r = 179, .g = 161, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_spaceduck_IMPLEMENTATION_ONCE */

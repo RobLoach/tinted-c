@@ -49,6 +49,7 @@ extern const tinted_scheme base24_earthsong;
 
 const tinted_scheme base24_earthsong = {
     .name = "Earthsong",
+    .slug = "earthsong",
     .base = {
         { .r = 40, .g = 36, .b = 32 },
         { .r = 17, .g = 20, .b = 23 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_earthsong = {
         { .r = 94, .g = 217, .b = 255 },
         { .r = 255, .g = 145, .b = 104 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_earthsong_IMPLEMENTATION_ONCE */

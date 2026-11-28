@@ -49,6 +49,7 @@ extern const tinted_scheme base24_builtin_tango_dark;
 
 const tinted_scheme base24_builtin_tango_dark = {
     .name = "Builtin Tango Dark",
+    .slug = "builtin-tango-dark",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_builtin_tango_dark = {
         { .r = 113, .g = 158, .b = 207 },
         { .r = 173, .g = 126, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_builtin_tango_dark_IMPLEMENTATION_ONCE */

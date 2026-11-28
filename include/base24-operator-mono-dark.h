@@ -49,6 +49,7 @@ extern const tinted_scheme base24_operator_mono_dark;
 
 const tinted_scheme base24_operator_mono_dark = {
     .name = "Operator Mono Dark",
+    .slug = "operator-mono-dark",
     .base = {
         { .r = 25, .g = 25, .b = 25 },
         { .r = 90, .g = 90, .b = 90 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_operator_mono_dark = {
         { .r = 137, .g = 211, .b = 246 },
         { .r = 254, .g = 44, .b = 121 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_operator_mono_dark_IMPLEMENTATION_ONCE */

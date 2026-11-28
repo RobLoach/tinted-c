@@ -49,6 +49,7 @@ extern const tinted_scheme base16_spacemacs;
 
 const tinted_scheme base16_spacemacs = {
     .name = "Spacemacs",
+    .slug = "spacemacs",
     .base = {
         { .r = 31, .g = 32, .b = 34 },
         { .r = 40, .g = 40, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_spacemacs = {
         { .r = 79, .g = 151, .b = 215 },
         { .r = 163, .g = 29, .b = 177 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_spacemacs_IMPLEMENTATION_ONCE */

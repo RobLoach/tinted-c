@@ -49,6 +49,7 @@ extern const tinted_scheme base16_standardized_light;
 
 const tinted_scheme base16_standardized_light = {
     .name = "standardized-light",
+    .slug = "standardized-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 238, .g = 238, .b = 238 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_standardized_light = {
         { .r = 49, .g = 115, .b = 197 },
         { .r = 158, .g = 87, .b = 194 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_standardized_light_IMPLEMENTATION_ONCE */

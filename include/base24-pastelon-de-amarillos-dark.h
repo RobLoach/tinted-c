@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pastelon_de_amarillos_dark;
 
 const tinted_scheme base24_pastelon_de_amarillos_dark = {
     .name = "Pastelón de Amarillos Dark",
+    .slug = "pastelon-de-amarillos-dark",
     .base = {
         { .r = 24, .g = 13, .b = 24 },
         { .r = 42, .g = 20, .b = 36 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pastelon_de_amarillos_dark = {
         { .r = 229, .g = 129, .b = 220 },
         { .r = 237, .g = 125, .b = 81 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_pastelon_de_amarillos_dark_IMPLEMENTATION_ONCE */

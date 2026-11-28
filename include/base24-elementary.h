@@ -49,6 +49,7 @@ extern const tinted_scheme base24_elementary;
 
 const tinted_scheme base24_elementary = {
     .name = "Elementary",
+    .slug = "elementary",
     .base = {
         { .r = 24, .g = 24, .b = 24 },
         { .r = 36, .g = 36, .b = 36 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_elementary = {
         { .r = 8, .g = 85, .b = 254 },
         { .r = 251, .g = 0, .b = 79 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_elementary_IMPLEMENTATION_ONCE */

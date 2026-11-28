@@ -49,6 +49,7 @@ extern const tinted_scheme base24_builtin_light;
 
 const tinted_scheme base24_builtin_light = {
     .name = "Builtin Light",
+    .slug = "builtin-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_builtin_light = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_builtin_light_IMPLEMENTATION_ONCE */

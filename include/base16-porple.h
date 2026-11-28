@@ -49,6 +49,7 @@ extern const tinted_scheme base16_porple;
 
 const tinted_scheme base16_porple = {
     .name = "Porple",
+    .slug = "porple",
     .base = {
         { .r = 41, .g = 44, .b = 54 },
         { .r = 51, .g = 51, .b = 68 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_porple = {
         { .r = 132, .g = 133, .b = 206 },
         { .r = 183, .g = 73, .b = 137 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_porple_IMPLEMENTATION_ONCE */

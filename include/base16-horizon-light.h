@@ -49,6 +49,7 @@ extern const tinted_scheme base16_horizon_light;
 
 const tinted_scheme base16_horizon_light = {
     .name = "Horizon Light",
+    .slug = "horizon-light",
     .base = {
         { .r = 253, .g = 240, .b = 237 },
         { .r = 250, .g = 218, .b = 209 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_horizon_light = {
         { .r = 218, .g = 16, .b = 63 },
         { .r = 29, .g = 137, .b = 145 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_horizon_light_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_slate;
 
 const tinted_scheme base24_slate = {
     .name = "Slate",
+    .slug = "slate",
     .base = {
         { .r = 33, .g = 33, .b = 33 },
         { .r = 33, .g = 33, .b = 33 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_slate = {
         { .r = 121, .g = 175, .b = 210 },
         { .r = 196, .g = 167, .b = 216 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_slate_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_borland;
 
 const tinted_scheme base24_borland = {
     .name = "Borland",
+    .slug = "borland",
     .base = {
         { .r = 0, .g = 0, .b = 164 },
         { .r = 78, .g = 78, .b = 78 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_borland = {
         { .r = 181, .g = 220, .b = 254 },
         { .r = 255, .g = 156, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_borland_IMPLEMENTATION_ONCE */

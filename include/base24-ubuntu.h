@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ubuntu;
 
 const tinted_scheme base24_ubuntu = {
     .name = "Ubuntu",
+    .slug = "ubuntu",
     .base = {
         { .r = 48, .g = 10, .b = 36 },
         { .r = 46, .g = 52, .b = 54 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ubuntu = {
         { .r = 114, .g = 159, .b = 207 },
         { .r = 173, .g = 127, .b = 168 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ubuntu_IMPLEMENTATION_ONCE */

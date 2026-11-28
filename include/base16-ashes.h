@@ -49,6 +49,7 @@ extern const tinted_scheme base16_ashes;
 
 const tinted_scheme base16_ashes = {
     .name = "Ashes",
+    .slug = "ashes",
     .base = {
         { .r = 28, .g = 32, .b = 35 },
         { .r = 57, .g = 63, .b = 69 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_ashes = {
         { .r = 174, .g = 149, .b = 199 },
         { .r = 199, .g = 149, .b = 174 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_ashes_IMPLEMENTATION_ONCE */

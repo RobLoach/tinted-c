@@ -49,6 +49,7 @@ extern const tinted_scheme base24_3024_day;
 
 const tinted_scheme base24_3024_day = {
     .name = "3024 Day",
+    .slug = "3024-day",
     .base = {
         { .r = 247, .g = 247, .b = 247 },
         { .r = 9, .g = 3, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_3024_day = {
         { .r = 128, .g = 125, .b = 124 },
         { .r = 214, .g = 213, .b = 212 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_3024_day_IMPLEMENTATION_ONCE */

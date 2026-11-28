@@ -49,6 +49,7 @@ extern const tinted_scheme base24_idea;
 
 const tinted_scheme base24_idea = {
     .name = "Idea",
+    .slug = "idea",
     .base = {
         { .r = 32, .g = 32, .b = 32 },
         { .r = 172, .g = 172, .b = 172 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_idea = {
         { .r = 108, .g = 155, .b = 237 },
         { .r = 252, .g = 126, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_idea_IMPLEMENTATION_ONCE */

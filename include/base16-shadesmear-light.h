@@ -49,6 +49,7 @@ extern const tinted_scheme base16_shadesmear_light;
 
 const tinted_scheme base16_shadesmear_light = {
     .name = "ShadeSmear Light",
+    .slug = "shadesmear-light",
     .base = {
         { .r = 219, .g = 219, .b = 219 },
         { .r = 228, .g = 228, .b = 228 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_shadesmear_light = {
         { .r = 55, .g = 99, .b = 136 },
         { .r = 215, .g = 171, .b = 84 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_shadesmear_light_IMPLEMENTATION_ONCE */

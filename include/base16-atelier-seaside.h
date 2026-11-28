@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_seaside;
 
 const tinted_scheme base16_atelier_seaside = {
     .name = "Atelier Seaside",
+    .slug = "atelier-seaside",
     .base = {
         { .r = 19, .g = 21, .b = 19 },
         { .r = 36, .g = 41, .b = 36 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_seaside = {
         { .r = 61, .g = 98, .b = 245 },
         { .r = 173, .g = 43, .b = 238 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_seaside_IMPLEMENTATION_ONCE */

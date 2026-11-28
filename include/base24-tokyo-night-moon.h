@@ -49,6 +49,7 @@ extern const tinted_scheme base24_tokyo_night_moon;
 
 const tinted_scheme base24_tokyo_night_moon = {
     .name = "Tokyo Night Moon",
+    .slug = "tokyo-night-moon",
     .base = {
         { .r = 34, .g = 36, .b = 54 },
         { .r = 30, .g = 32, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_tokyo_night_moon = {
         { .r = 130, .g = 170, .b = 255 },
         { .r = 252, .g = 167, .b = 234 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_tokyo_night_moon_IMPLEMENTATION_ONCE */

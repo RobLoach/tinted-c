@@ -49,6 +49,7 @@ extern const tinted_scheme base24_later_this_evening;
 
 const tinted_scheme base24_later_this_evening = {
     .name = "Later This Evening",
+    .slug = "later-this-evening",
     .base = {
         { .r = 33, .g = 33, .b = 33 },
         { .r = 49, .g = 49, .b = 49 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_later_this_evening = {
         { .r = 101, .g = 153, .b = 213 },
         { .r = 170, .g = 82, .b = 213 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_later_this_evening_IMPLEMENTATION_ONCE */

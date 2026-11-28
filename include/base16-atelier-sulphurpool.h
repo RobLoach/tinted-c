@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_sulphurpool;
 
 const tinted_scheme base16_atelier_sulphurpool = {
     .name = "Atelier Sulphurpool",
+    .slug = "atelier-sulphurpool",
     .base = {
         { .r = 32, .g = 39, .b = 70 },
         { .r = 41, .g = 50, .b = 86 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_sulphurpool = {
         { .r = 61, .g = 143, .b = 209 },
         { .r = 102, .g = 121, .b = 204 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_sulphurpool_IMPLEMENTATION_ONCE */

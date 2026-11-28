@@ -49,6 +49,7 @@ extern const tinted_scheme base24_pro_light;
 
 const tinted_scheme base24_pro_light = {
     .name = "Pro Light",
+    .slug = "pro-light",
     .base = {
         { .r = 254, .g = 255, .b = 255 },
         { .r = 241, .g = 241, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_pro_light = {
         { .r = 0, .g = 129, .b = 255 },
         { .r = 255, .g = 125, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_pro_light_IMPLEMENTATION_ONCE */

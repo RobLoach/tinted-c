@@ -26,7 +26,8 @@ int main() {
 ```
 
 Every scheme provides a `tinted_scheme` structure, made up of `tinted_color`
-entries. Define `TINTED_IMPLEMENTATION` in one compilation unit before
+entries, along with its `name`, a stable `slug` like `"catppuccin-mocha"`, and
+its `variant`, either `TINTED_VARIANT_DARK` or `TINTED_VARIANT_LIGHT`. Define `TINTED_IMPLEMENTATION` in one compilation unit before
 including the headers to compile the scheme data, or define
 `TINTED_HEADER_ONLY` to only have the declarations available.
 

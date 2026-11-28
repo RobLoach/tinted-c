@@ -49,6 +49,7 @@ extern const tinted_scheme base24_medallion;
 
 const tinted_scheme base24_medallion = {
     .name = "Medallion",
+    .slug = "medallion",
     .base = {
         { .r = 29, .g = 24, .b = 8 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_medallion = {
         { .r = 171, .g = 184, .b = 255 },
         { .r = 254, .g = 159, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_medallion_IMPLEMENTATION_ONCE */

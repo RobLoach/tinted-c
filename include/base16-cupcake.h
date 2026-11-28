@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cupcake;
 
 const tinted_scheme base16_cupcake = {
     .name = "Cupcake",
+    .slug = "cupcake",
     .base = {
         { .r = 251, .g = 241, .b = 242 },
         { .r = 242, .g = 241, .b = 244 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cupcake = {
         { .r = 114, .g = 151, .b = 185 },
         { .r = 187, .g = 153, .b = 180 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_cupcake_IMPLEMENTATION_ONCE */

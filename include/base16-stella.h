@@ -49,6 +49,7 @@ extern const tinted_scheme base16_stella;
 
 const tinted_scheme base16_stella = {
     .name = "Stella",
+    .slug = "stella",
     .base = {
         { .r = 43, .g = 33, .b = 60 },
         { .r = 54, .g = 43, .b = 72 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_stella = {
         { .r = 165, .g = 170, .b = 212 },
         { .r = 197, .g = 148, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_stella_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tender;
 
 const tinted_scheme base16_tender = {
     .name = "tender",
+    .slug = "tender",
     .base = {
         { .r = 40, .g = 40, .b = 40 },
         { .r = 56, .g = 56, .b = 56 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tender = {
         { .r = 179, .g = 222, .b = 239 },
         { .r = 211, .g = 185, .b = 135 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tender_IMPLEMENTATION_ONCE */

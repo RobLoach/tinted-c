@@ -49,6 +49,7 @@ extern const tinted_scheme base16_snazzy;
 
 const tinted_scheme base16_snazzy = {
     .name = "Snazzy",
+    .slug = "snazzy",
     .base = {
         { .r = 40, .g = 42, .b = 54 },
         { .r = 52, .g = 53, .b = 62 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_snazzy = {
         { .r = 87, .g = 199, .b = 255 },
         { .r = 255, .g = 106, .b = 193 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_snazzy_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_3024_night;
 
 const tinted_scheme base24_3024_night = {
     .name = "3024 Night",
+    .slug = "3024-night",
     .base = {
         { .r = 9, .g = 3, .b = 0 },
         { .r = 9, .g = 3, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_3024_night = {
         { .r = 128, .g = 125, .b = 124 },
         { .r = 214, .g = 213, .b = 212 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_3024_night_IMPLEMENTATION_ONCE */

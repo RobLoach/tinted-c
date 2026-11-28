@@ -49,6 +49,7 @@ extern const tinted_scheme base24_dimmed_monokai;
 
 const tinted_scheme base24_dimmed_monokai = {
     .name = "Dimmed Monokai",
+    .slug = "dimmed-monokai",
     .base = {
         { .r = 30, .g = 30, .b = 30 },
         { .r = 58, .g = 60, .b = 67 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_dimmed_monokai = {
         { .r = 23, .g = 108, .b = 227 },
         { .r = 251, .g = 0, .b = 103 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_dimmed_monokai_IMPLEMENTATION_ONCE */

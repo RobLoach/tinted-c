@@ -49,6 +49,7 @@ extern const tinted_scheme base24_catppuccin_frappe;
 
 const tinted_scheme base24_catppuccin_frappe = {
     .name = "Catppuccin Frappe",
+    .slug = "catppuccin-frappe",
     .base = {
         { .r = 48, .g = 52, .b = 70 },
         { .r = 41, .g = 44, .b = 60 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_catppuccin_frappe = {
         { .r = 133, .g = 193, .b = 220 },
         { .r = 244, .g = 184, .b = 228 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_catppuccin_frappe_IMPLEMENTATION_ONCE */

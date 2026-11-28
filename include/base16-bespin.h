@@ -49,6 +49,7 @@ extern const tinted_scheme base16_bespin;
 
 const tinted_scheme base16_bespin = {
     .name = "Bespin",
+    .slug = "bespin",
     .base = {
         { .r = 40, .g = 33, .b = 28 },
         { .r = 54, .g = 49, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_bespin = {
         { .r = 94, .g = 166, .b = 234 },
         { .r = 155, .g = 133, .b = 157 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_bespin_IMPLEMENTATION_ONCE */

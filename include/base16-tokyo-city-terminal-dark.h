@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tokyo_city_terminal_dark;
 
 const tinted_scheme base16_tokyo_city_terminal_dark = {
     .name = "Tokyo City Terminal Dark",
+    .slug = "tokyo-city-terminal-dark",
     .base = {
         { .r = 23, .g = 29, .b = 35 },
         { .r = 29, .g = 37, .b = 44 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tokyo_city_terminal_dark = {
         { .r = 83, .g = 154, .b = 252 },
         { .r = 182, .g = 45, .b = 101 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_tokyo_city_terminal_dark_IMPLEMENTATION_ONCE */

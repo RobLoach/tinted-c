@@ -49,6 +49,7 @@ extern const tinted_scheme base16_chicago_night;
 
 const tinted_scheme base16_chicago_night = {
     .name = "Chicago Night",
+    .slug = "chicago-night",
     .base = {
         { .r = 30, .g = 42, .b = 36 },
         { .r = 42, .g = 59, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_chicago_night = {
         { .r = 82, .g = 35, .b = 152 },
         { .r = 226, .g = 126, .b = 166 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_chicago_night_IMPLEMENTATION_ONCE */

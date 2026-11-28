@@ -49,6 +49,7 @@ extern const tinted_scheme base16_nord;
 
 const tinted_scheme base16_nord = {
     .name = "Nord",
+    .slug = "nord",
     .base = {
         { .r = 46, .g = 52, .b = 64 },
         { .r = 59, .g = 66, .b = 82 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_nord = {
         { .r = 129, .g = 161, .b = 193 },
         { .r = 180, .g = 142, .b = 173 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_nord_IMPLEMENTATION_ONCE */

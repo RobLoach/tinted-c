@@ -49,6 +49,7 @@ extern const tinted_scheme base16_danqing;
 
 const tinted_scheme base16_danqing = {
     .name = "DanQing",
+    .slug = "danqing",
     .base = {
         { .r = 45, .g = 48, .b = 47 },
         { .r = 67, .g = 72, .b = 70 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_danqing = {
         { .r = 176, .g = 164, .b = 227 },
         { .r = 204, .g = 164, .b = 227 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_danqing_IMPLEMENTATION_ONCE */

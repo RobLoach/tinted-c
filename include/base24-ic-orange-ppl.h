@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ic_orange_ppl;
 
 const tinted_scheme base24_ic_orange_ppl = {
     .name = "IC-Orange-PPL",
+    .slug = "ic-orange-ppl",
     .base = {
         { .r = 38, .g = 38, .b = 38 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ic_orange_ppl = {
         { .r = 255, .g = 189, .b = 84 },
         { .r = 252, .g = 135, .b = 79 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ic_orange_ppl_IMPLEMENTATION_ONCE */

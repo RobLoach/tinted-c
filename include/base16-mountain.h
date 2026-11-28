@@ -49,6 +49,7 @@ extern const tinted_scheme base16_mountain;
 
 const tinted_scheme base16_mountain = {
     .name = "Mountain",
+    .slug = "mountain",
     .base = {
         { .r = 15, .g = 15, .b = 15 },
         { .r = 25, .g = 25, .b = 25 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_mountain = {
         { .r = 143, .g = 138, .b = 172 },
         { .r = 172, .g = 138, .b = 172 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_mountain_IMPLEMENTATION_ONCE */

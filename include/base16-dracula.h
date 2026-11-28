@@ -49,6 +49,7 @@ extern const tinted_scheme base16_dracula;
 
 const tinted_scheme base16_dracula = {
     .name = "Dracula",
+    .slug = "dracula",
     .base = {
         { .r = 40, .g = 42, .b = 54 },
         { .r = 33, .g = 34, .b = 44 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_dracula = {
         { .r = 189, .g = 147, .b = 249 },
         { .r = 255, .g = 121, .b = 198 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_dracula_IMPLEMENTATION_ONCE */

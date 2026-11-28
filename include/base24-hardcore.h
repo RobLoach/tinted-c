@@ -49,6 +49,7 @@ extern const tinted_scheme base24_hardcore;
 
 const tinted_scheme base24_hardcore = {
     .name = "Hardcore",
+    .slug = "hardcore",
     .base = {
         { .r = 17, .g = 17, .b = 17 },
         { .r = 20, .g = 20, .b = 20 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_hardcore = {
         { .r = 51, .g = 187, .b = 255 },
         { .r = 206, .g = 187, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_hardcore_IMPLEMENTATION_ONCE */

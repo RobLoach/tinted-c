@@ -49,6 +49,7 @@ extern const tinted_scheme base24_blue_matrix;
 
 const tinted_scheme base24_blue_matrix = {
     .name = "Blue Matrix",
+    .slug = "blue-matrix",
     .base = {
         { .r = 15, .g = 17, .b = 21 },
         { .r = 16, .g = 17, .b = 22 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_blue_matrix = {
         { .r = 104, .g = 113, .b = 255 },
         { .r = 213, .g = 130, .b = 235 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_blue_matrix_IMPLEMENTATION_ONCE */

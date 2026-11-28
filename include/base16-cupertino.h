@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cupertino;
 
 const tinted_scheme base16_cupertino = {
     .name = "Cupertino",
+    .slug = "cupertino",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 192, .g = 192, .b = 192 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cupertino = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 169, .g = 13, .b = 145 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_cupertino_IMPLEMENTATION_ONCE */

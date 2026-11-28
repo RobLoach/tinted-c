@@ -49,6 +49,7 @@ extern const tinted_scheme base24_broadcast;
 
 const tinted_scheme base24_broadcast = {
     .name = "Broadcast",
+    .slug = "broadcast",
     .base = {
         { .r = 43, .g = 43, .b = 43 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_broadcast = {
         { .r = 159, .g = 206, .b = 240 },
         { .r = 255, .g = 255, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_broadcast_IMPLEMENTATION_ONCE */

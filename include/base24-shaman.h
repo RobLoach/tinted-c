@@ -49,6 +49,7 @@ extern const tinted_scheme base24_shaman;
 
 const tinted_scheme base24_shaman = {
     .name = "Shaman",
+    .slug = "shaman",
     .base = {
         { .r = 0, .g = 16, .b = 20 },
         { .r = 1, .g = 32, .b = 38 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_shaman = {
         { .r = 97, .g = 212, .b = 185 },
         { .r = 18, .g = 152, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_shaman_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_floraverse;
 
 const tinted_scheme base24_floraverse = {
     .name = "Floraverse",
+    .slug = "floraverse",
     .base = {
         { .r = 14, .g = 12, .b = 21 },
         { .r = 8, .g = 0, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_floraverse = {
         { .r = 64, .g = 164, .b = 207 },
         { .r = 241, .g = 42, .b = 174 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_floraverse_IMPLEMENTATION_ONCE */

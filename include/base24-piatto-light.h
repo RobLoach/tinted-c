@@ -49,6 +49,7 @@ extern const tinted_scheme base24_piatto_light;
 
 const tinted_scheme base24_piatto_light = {
     .name = "Piatto Light",
+    .slug = "piatto-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 241, .g = 241, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_piatto_light = {
         { .r = 60, .g = 94, .b = 168 },
         { .r = 164, .g = 84, .b = 178 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_piatto_light_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_soft_server;
 
 const tinted_scheme base16_soft_server = {
     .name = "Soft Server",
+    .slug = "soft-server",
     .base = {
         { .r = 33, .g = 30, .b = 42 },
         { .r = 44, .g = 39, .b = 55 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_soft_server = {
         { .r = 149, .g = 166, .b = 244 },
         { .r = 255, .g = 121, .b = 198 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_soft_server_IMPLEMENTATION_ONCE */

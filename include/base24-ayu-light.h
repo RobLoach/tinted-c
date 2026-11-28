@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ayu_light;
 
 const tinted_scheme base24_ayu_light = {
     .name = "Ayu Light",
+    .slug = "ayu-light",
     .base = {
         { .r = 248, .g = 249, .b = 250 },
         { .r = 237, .g = 239, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ayu_light = {
         { .r = 71, .g = 138, .b = 204 },
         { .r = 181, .g = 149, .b = 214 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_ayu_light_IMPLEMENTATION_ONCE */

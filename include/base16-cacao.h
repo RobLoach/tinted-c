@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cacao;
 
 const tinted_scheme base16_cacao = {
     .name = "Cacao",
+    .slug = "cacao",
     .base = {
         { .r = 22, .g = 15, .b = 12 },
         { .r = 36, .g = 25, .b = 19 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cacao = {
         { .r = 168, .g = 154, .b = 208 },
         { .r = 206, .g = 138, .b = 176 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_cacao_IMPLEMENTATION_ONCE */

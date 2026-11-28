@@ -49,6 +49,7 @@ extern const tinted_scheme base24_chalk;
 
 const tinted_scheme base24_chalk = {
     .name = "Chalk",
+    .slug = "chalk",
     .base = {
         { .r = 21, .g = 21, .b = 21 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_chalk = {
         { .r = 111, .g = 194, .b = 239 },
         { .r = 225, .g = 163, .b = 238 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_chalk_IMPLEMENTATION_ONCE */

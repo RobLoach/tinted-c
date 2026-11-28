@@ -49,6 +49,7 @@ extern const tinted_scheme base16_da_one_paper;
 
 const tinted_scheme base16_da_one_paper = {
     .name = "Da One Paper",
+    .slug = "da-one-paper",
     .base = {
         { .r = 250, .g = 240, .b = 220 },
         { .r = 200, .g = 200, .b = 200 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_da_one_paper = {
         { .r = 88, .g = 144, .b = 248 },
         { .r = 193, .g = 115, .b = 209 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_da_one_paper_IMPLEMENTATION_ONCE */

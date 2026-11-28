@@ -49,6 +49,7 @@ extern const tinted_scheme base16_icy;
 
 const tinted_scheme base16_icy = {
     .name = "Icy Dark",
+    .slug = "icy",
     .base = {
         { .r = 2, .g = 16, .b = 18 },
         { .r = 3, .g = 22, .b = 25 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_icy = {
         { .r = 0, .g = 188, .b = 212 },
         { .r = 0, .g = 172, .b = 193 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_icy_IMPLEMENTATION_ONCE */

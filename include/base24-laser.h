@@ -49,6 +49,7 @@ extern const tinted_scheme base24_laser;
 
 const tinted_scheme base24_laser = {
     .name = "Laser",
+    .slug = "laser",
     .base = {
         { .r = 3, .g = 13, .b = 24 },
         { .r = 97, .g = 97, .b = 97 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_laser = {
         { .r = 249, .g = 40, .b = 131 },
         { .r = 255, .g = 177, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_laser_IMPLEMENTATION_ONCE */

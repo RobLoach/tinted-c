@@ -49,6 +49,7 @@ extern const tinted_scheme base16_sakura;
 
 const tinted_scheme base16_sakura = {
     .name = "Sakura",
+    .slug = "sakura",
     .base = {
         { .r = 254, .g = 237, .b = 243 },
         { .r = 248, .g = 226, .b = 231 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_sakura = {
         { .r = 0, .g = 110, .b = 147 },
         { .r = 94, .g = 33, .b = 128 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_sakura_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_outrun_dark;
 
 const tinted_scheme base16_outrun_dark = {
     .name = "Outrun Dark",
+    .slug = "outrun-dark",
     .base = {
         { .r = 0, .g = 0, .b = 42 },
         { .r = 32, .g = 32, .b = 74 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_outrun_dark = {
         { .r = 102, .g = 176, .b = 255 },
         { .r = 241, .g = 5, .b = 150 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_outrun_dark_IMPLEMENTATION_ONCE */

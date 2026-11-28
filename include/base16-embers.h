@@ -49,6 +49,7 @@ extern const tinted_scheme base16_embers;
 
 const tinted_scheme base16_embers = {
     .name = "Embers",
+    .slug = "embers",
     .base = {
         { .r = 22, .g = 19, .b = 15 },
         { .r = 44, .g = 38, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_embers = {
         { .r = 109, .g = 87, .b = 130 },
         { .r = 130, .g = 87, .b = 109 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_embers_IMPLEMENTATION_ONCE */

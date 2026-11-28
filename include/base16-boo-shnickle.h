@@ -49,6 +49,7 @@ extern const tinted_scheme base16_boo_shnickle;
 
 const tinted_scheme base16_boo_shnickle = {
     .name = "boo-shnickle",
+    .slug = "boo-shnickle",
     .base = {
         { .r = 25, .g = 25, .b = 20 },
         { .r = 58, .g = 58, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_boo_shnickle = {
         { .r = 191, .g = 191, .b = 217 },
         { .r = 242, .g = 191, .b = 217 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_boo_shnickle_IMPLEMENTATION_ONCE */

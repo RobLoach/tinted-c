@@ -49,6 +49,7 @@ extern const tinted_scheme base24_fun_forrest;
 
 const tinted_scheme base24_fun_forrest = {
     .name = "Fun Forrest",
+    .slug = "fun-forrest",
     .base = {
         { .r = 36, .g = 18, .b = 0 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_fun_forrest = {
         { .r = 124, .g = 201, .b = 206 },
         { .r = 209, .g = 99, .b = 73 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_fun_forrest_IMPLEMENTATION_ONCE */

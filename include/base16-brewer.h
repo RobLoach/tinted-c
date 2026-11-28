@@ -49,6 +49,7 @@ extern const tinted_scheme base16_brewer;
 
 const tinted_scheme base16_brewer = {
     .name = "Brewer",
+    .slug = "brewer",
     .base = {
         { .r = 12, .g = 13, .b = 14 },
         { .r = 46, .g = 47, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_brewer = {
         { .r = 49, .g = 130, .b = 189 },
         { .r = 117, .g = 107, .b = 177 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_brewer_IMPLEMENTATION_ONCE */

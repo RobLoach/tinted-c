@@ -49,6 +49,7 @@ extern const tinted_scheme base16_3024;
 
 const tinted_scheme base16_3024 = {
     .name = "3024",
+    .slug = "3024",
     .base = {
         { .r = 9, .g = 3, .b = 0 },
         { .r = 58, .g = 52, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_3024 = {
         { .r = 1, .g = 160, .b = 228 },
         { .r = 161, .g = 106, .b = 148 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_3024_IMPLEMENTATION_ONCE */

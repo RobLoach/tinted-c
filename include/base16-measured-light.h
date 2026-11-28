@@ -49,6 +49,7 @@ extern const tinted_scheme base16_measured_light;
 
 const tinted_scheme base16_measured_light = {
     .name = "Measured Light",
+    .slug = "measured-light",
     .base = {
         { .r = 253, .g = 249, .b = 245 },
         { .r = 249, .g = 245, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_measured_light = {
         { .r = 1, .g = 88, .b = 173 },
         { .r = 102, .g = 69, .b = 194 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_measured_light_IMPLEMENTATION_ONCE */

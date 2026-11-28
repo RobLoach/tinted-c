@@ -49,6 +49,7 @@ extern const tinted_scheme base24_cobalt2;
 
 const tinted_scheme base24_cobalt2 = {
     .name = "Cobalt2",
+    .slug = "cobalt2",
     .base = {
         { .r = 18, .g = 38, .b = 55 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_cobalt2 = {
         { .r = 85, .g = 85, .b = 255 },
         { .r = 255, .g = 85, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_cobalt2_IMPLEMENTATION_ONCE */

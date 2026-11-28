@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ocean;
 
 const tinted_scheme base24_ocean = {
     .name = "Ocean",
+    .slug = "ocean",
     .base = {
         { .r = 34, .g = 79, .b = 188 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ocean = {
         { .r = 0, .g = 0, .b = 255 },
         { .r = 229, .g = 0, .b = 229 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ocean_IMPLEMENTATION_ONCE */

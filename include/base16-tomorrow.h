@@ -49,6 +49,7 @@ extern const tinted_scheme base16_tomorrow;
 
 const tinted_scheme base16_tomorrow = {
     .name = "Tomorrow",
+    .slug = "tomorrow",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 224, .g = 224, .b = 224 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_tomorrow = {
         { .r = 66, .g = 113, .b = 174 },
         { .r = 137, .g = 89, .b = 168 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_tomorrow_IMPLEMENTATION_ONCE */

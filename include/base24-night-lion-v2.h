@@ -49,6 +49,7 @@ extern const tinted_scheme base24_night_lion_v2;
 
 const tinted_scheme base24_night_lion_v2 = {
     .name = "Night Lion V2",
+    .slug = "night-lion-v2",
     .base = {
         { .r = 23, .g = 23, .b = 23 },
         { .r = 76, .g = 76, .b = 76 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_night_lion_v2 = {
         { .r = 98, .g = 202, .b = 231 },
         { .r = 255, .g = 154, .b = 245 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_night_lion_v2_IMPLEMENTATION_ONCE */

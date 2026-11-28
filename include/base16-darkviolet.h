@@ -49,6 +49,7 @@ extern const tinted_scheme base16_darkviolet;
 
 const tinted_scheme base16_darkviolet = {
     .name = "Dark Violet",
+    .slug = "darkviolet",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 35, .g = 26, .b = 64 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_darkviolet = {
         { .r = 65, .g = 54, .b = 217 },
         { .r = 126, .g = 92, .b = 230 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_darkviolet_IMPLEMENTATION_ONCE */

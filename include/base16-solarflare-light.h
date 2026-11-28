@@ -49,6 +49,7 @@ extern const tinted_scheme base16_solarflare_light;
 
 const tinted_scheme base16_solarflare_light = {
     .name = "Solar Flare Light",
+    .slug = "solarflare-light",
     .base = {
         { .r = 245, .g = 247, .b = 250 },
         { .r = 232, .g = 233, .b = 237 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_solarflare_light = {
         { .r = 51, .g = 181, .b = 225 },
         { .r = 163, .g = 99, .b = 213 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_solarflare_light_IMPLEMENTATION_ONCE */

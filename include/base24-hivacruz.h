@@ -49,6 +49,7 @@ extern const tinted_scheme base24_hivacruz;
 
 const tinted_scheme base24_hivacruz = {
     .name = "Hivacruz",
+    .slug = "hivacruz",
     .base = {
         { .r = 19, .g = 37, .b = 55 },
         { .r = 32, .g = 39, .b = 70 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_hivacruz = {
         { .r = 137, .g = 142, .b = 164 },
         { .r = 223, .g = 226, .b = 241 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_hivacruz_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_macintosh;
 
 const tinted_scheme base16_macintosh = {
     .name = "Macintosh",
+    .slug = "macintosh",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 64, .g = 64, .b = 64 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_macintosh = {
         { .r = 0, .g = 0, .b = 211 },
         { .r = 71, .g = 0, .b = 165 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_macintosh_IMPLEMENTATION_ONCE */

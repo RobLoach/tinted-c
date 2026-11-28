@@ -49,6 +49,7 @@ extern const tinted_scheme base16_brasa;
 
 const tinted_scheme base16_brasa = {
     .name = "Brasa",
+    .slug = "brasa",
     .base = {
         { .r = 26, .g = 15, .b = 10 },
         { .r = 43, .g = 28, .b = 20 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_brasa = {
         { .r = 154, .g = 166, .b = 224 },
         { .r = 230, .g = 138, .b = 162 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_brasa_IMPLEMENTATION_ONCE */

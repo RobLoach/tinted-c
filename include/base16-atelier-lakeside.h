@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_lakeside;
 
 const tinted_scheme base16_atelier_lakeside = {
     .name = "Atelier Lakeside",
+    .slug = "atelier-lakeside",
     .base = {
         { .r = 22, .g = 27, .b = 29 },
         { .r = 31, .g = 41, .b = 46 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_lakeside = {
         { .r = 37, .g = 127, .b = 173 },
         { .r = 107, .g = 107, .b = 184 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_atelier_lakeside_IMPLEMENTATION_ONCE */

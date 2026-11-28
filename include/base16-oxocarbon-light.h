@@ -49,6 +49,7 @@ extern const tinted_scheme base16_oxocarbon_light;
 
 const tinted_scheme base16_oxocarbon_light = {
     .name = "Oxocarbon Light",
+    .slug = "oxocarbon-light",
     .base = {
         { .r = 242, .g = 244, .b = 248 },
         { .r = 221, .g = 225, .b = 230 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_oxocarbon_light = {
         { .r = 15, .g = 98, .b = 254 },
         { .r = 190, .g = 149, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_oxocarbon_light_IMPLEMENTATION_ONCE */

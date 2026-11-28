@@ -49,6 +49,7 @@ extern const tinted_scheme base24_sleepy_hollow;
 
 const tinted_scheme base24_sleepy_hollow = {
     .name = "Sleepy Hollow",
+    .slug = "sleepy-hollow",
     .base = {
         { .r = 18, .g = 18, .b = 19 },
         { .r = 87, .g = 32, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_sleepy_hollow = {
         { .r = 128, .g = 133, .b = 239 },
         { .r = 225, .g = 194, .b = 186 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_sleepy_hollow_IMPLEMENTATION_ONCE */

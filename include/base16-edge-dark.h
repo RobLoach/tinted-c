@@ -49,6 +49,7 @@ extern const tinted_scheme base16_edge_dark;
 
 const tinted_scheme base16_edge_dark = {
     .name = "Edge Dark",
+    .slug = "edge-dark",
     .base = {
         { .r = 38, .g = 39, .b = 41 },
         { .r = 49, .g = 50, .b = 53 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_edge_dark = {
         { .r = 115, .g = 179, .b = 231 },
         { .r = 211, .g = 144, .b = 231 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_edge_dark_IMPLEMENTATION_ONCE */

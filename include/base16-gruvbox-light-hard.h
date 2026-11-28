@@ -49,6 +49,7 @@ extern const tinted_scheme base16_gruvbox_light_hard;
 
 const tinted_scheme base16_gruvbox_light_hard = {
     .name = "Gruvbox light, hard",
+    .slug = "gruvbox-light-hard",
     .base = {
         { .r = 249, .g = 245, .b = 215 },
         { .r = 235, .g = 219, .b = 178 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_gruvbox_light_hard = {
         { .r = 7, .g = 102, .b = 120 },
         { .r = 143, .g = 63, .b = 113 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_gruvbox_light_hard_IMPLEMENTATION_ONCE */

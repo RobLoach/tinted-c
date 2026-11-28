@@ -49,6 +49,7 @@ extern const tinted_scheme base16_papercolor_light;
 
 const tinted_scheme base16_papercolor_light = {
     .name = "PaperColor Light",
+    .slug = "papercolor-light",
     .base = {
         { .r = 238, .g = 238, .b = 238 },
         { .r = 196, .g = 196, .b = 196 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_papercolor_light = {
         { .r = 0, .g = 95, .b = 135 },
         { .r = 135, .g = 0, .b = 175 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_papercolor_light_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_pinky;
 
 const tinted_scheme base16_pinky = {
     .name = "pinky",
+    .slug = "pinky",
     .base = {
         { .r = 23, .g = 21, .b = 23 },
         { .r = 27, .g = 24, .b = 27 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_pinky = {
         { .r = 0, .g = 255, .b = 255 },
         { .r = 0, .g = 127, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_pinky_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_github_dark_dimmed;
 
 const tinted_scheme base24_github_dark_dimmed = {
     .name = "Github Dark Dimmed",
+    .slug = "github-dark-dimmed",
     .base = {
         { .r = 34, .g = 39, .b = 46 },
         { .r = 45, .g = 51, .b = 59 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_github_dark_dimmed = {
         { .r = 83, .g = 155, .b = 245 },
         { .r = 176, .g = 131, .b = 240 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_github_dark_dimmed_IMPLEMENTATION_ONCE */

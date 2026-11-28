@@ -49,6 +49,7 @@ extern const tinted_scheme base16_synth_midnight_dark;
 
 const tinted_scheme base16_synth_midnight_dark = {
     .name = "Synth Midnight Terminal Dark",
+    .slug = "synth-midnight-dark",
     .base = {
         { .r = 5, .g = 6, .b = 8 },
         { .r = 26, .g = 27, .b = 28 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_synth_midnight_dark = {
         { .r = 3, .g = 174, .b = 255 },
         { .r = 234, .g = 92, .b = 226 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_synth_midnight_dark_IMPLEMENTATION_ONCE */

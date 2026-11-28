@@ -49,6 +49,7 @@ extern const tinted_scheme base16_penumbra_light_contrast_plus_plus;
 
 const tinted_scheme base16_penumbra_light_contrast_plus_plus = {
     .name = "Penumbra Light Contrast Plus Plus",
+    .slug = "penumbra-light-contrast-plus-plus",
     .base = {
         { .r = 255, .g = 253, .b = 251 },
         { .r = 255, .g = 247, .b = 237 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_penumbra_light_contrast_plus_plus = {
         { .r = 110, .g = 178, .b = 253 },
         { .r = 182, .g = 156, .b = 246 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_penumbra_light_contrast_plus_plus_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_adventure_time;
 
 const tinted_scheme base24_adventure_time = {
     .name = "Adventure Time",
+    .slug = "adventure-time",
     .base = {
         { .r = 30, .g = 28, .b = 68 },
         { .r = 5, .g = 4, .b = 4 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_adventure_time = {
         { .r = 24, .g = 150, .b = 198 },
         { .r = 154, .g = 89, .b = 82 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_adventure_time_IMPLEMENTATION_ONCE */

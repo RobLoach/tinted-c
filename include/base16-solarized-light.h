@@ -49,6 +49,7 @@ extern const tinted_scheme base16_solarized_light;
 
 const tinted_scheme base16_solarized_light = {
     .name = "Solarized Light",
+    .slug = "solarized-light",
     .base = {
         { .r = 253, .g = 246, .b = 227 },
         { .r = 238, .g = 232, .b = 213 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_solarized_light = {
         { .r = 38, .g = 139, .b = 210 },
         { .r = 108, .g = 113, .b = 196 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_solarized_light_IMPLEMENTATION_ONCE */

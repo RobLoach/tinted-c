@@ -49,6 +49,7 @@ extern const tinted_scheme base16_darcula;
 
 const tinted_scheme base16_darcula = {
     .name = "Darcula",
+    .slug = "darcula",
     .base = {
         { .r = 43, .g = 43, .b = 43 },
         { .r = 50, .g = 50, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_darcula = {
         { .r = 152, .g = 118, .b = 170 },
         { .r = 204, .g = 120, .b = 50 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_darcula_IMPLEMENTATION_ONCE */

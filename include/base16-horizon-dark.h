@@ -49,6 +49,7 @@ extern const tinted_scheme base16_horizon_dark;
 
 const tinted_scheme base16_horizon_dark = {
     .name = "Horizon Dark",
+    .slug = "horizon-dark",
     .base = {
         { .r = 28, .g = 30, .b = 38 },
         { .r = 35, .g = 37, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_horizon_dark = {
         { .r = 223, .g = 82, .b = 115 },
         { .r = 176, .g = 114, .b = 209 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_horizon_dark_IMPLEMENTATION_ONCE */

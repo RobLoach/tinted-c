@@ -49,6 +49,7 @@ extern const tinted_scheme base24_arthur;
 
 const tinted_scheme base24_arthur = {
     .name = "Arthur",
+    .slug = "arthur",
     .base = {
         { .r = 28, .g = 28, .b = 28 },
         { .r = 61, .g = 53, .b = 42 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_arthur = {
         { .r = 135, .g = 206, .b = 235 },
         { .r = 153, .g = 102, .b = 0 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_arthur_IMPLEMENTATION_ONCE */

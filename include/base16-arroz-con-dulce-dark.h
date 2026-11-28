@@ -49,6 +49,7 @@ extern const tinted_scheme base16_arroz_con_dulce_dark;
 
 const tinted_scheme base16_arroz_con_dulce_dark = {
     .name = "Arroz con Dulce Dark",
+    .slug = "arroz-con-dulce-dark",
     .base = {
         { .r = 33, .g = 20, .b = 15 },
         { .r = 44, .g = 26, .b = 19 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_arroz_con_dulce_dark = {
         { .r = 185, .g = 154, .b = 200 },
         { .r = 213, .g = 138, .b = 180 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_arroz_con_dulce_dark_IMPLEMENTATION_ONCE */

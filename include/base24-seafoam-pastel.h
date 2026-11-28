@@ -49,6 +49,7 @@ extern const tinted_scheme base24_seafoam_pastel;
 
 const tinted_scheme base24_seafoam_pastel = {
     .name = "Seafoam Pastel",
+    .slug = "seafoam-pastel",
     .base = {
         { .r = 36, .g = 52, .b = 52 },
         { .r = 117, .g = 117, .b = 117 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_seafoam_pastel = {
         { .r = 121, .g = 195, .b = 207 },
         { .r = 214, .g = 178, .b = 161 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_seafoam_pastel_IMPLEMENTATION_ONCE */

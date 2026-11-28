@@ -49,6 +49,7 @@ extern const tinted_scheme base16_classic_dark;
 
 const tinted_scheme base16_classic_dark = {
     .name = "Classic Dark",
+    .slug = "classic-dark",
     .base = {
         { .r = 21, .g = 21, .b = 21 },
         { .r = 32, .g = 32, .b = 32 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_classic_dark = {
         { .r = 106, .g = 159, .b = 181 },
         { .r = 170, .g = 117, .b = 159 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_classic_dark_IMPLEMENTATION_ONCE */

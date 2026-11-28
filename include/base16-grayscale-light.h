@@ -49,6 +49,7 @@ extern const tinted_scheme base16_grayscale_light;
 
 const tinted_scheme base16_grayscale_light = {
     .name = "Grayscale Light",
+    .slug = "grayscale-light",
     .base = {
         { .r = 247, .g = 247, .b = 247 },
         { .r = 227, .g = 227, .b = 227 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_grayscale_light = {
         { .r = 104, .g = 104, .b = 104 },
         { .r = 116, .g = 116, .b = 116 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_grayscale_light_IMPLEMENTATION_ONCE */

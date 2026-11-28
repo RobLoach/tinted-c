@@ -49,6 +49,7 @@ extern const tinted_scheme base16_isotope;
 
 const tinted_scheme base16_isotope = {
     .name = "Isotope",
+    .slug = "isotope",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 64, .g = 64, .b = 64 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_isotope = {
         { .r = 0, .g = 102, .b = 255 },
         { .r = 204, .g = 0, .b = 255 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_isotope_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_one_dark;
 
 const tinted_scheme base24_one_dark = {
     .name = "One Dark",
+    .slug = "one-dark",
     .base = {
         { .r = 40, .g = 44, .b = 52 },
         { .r = 63, .g = 68, .b = 81 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_one_dark = {
         { .r = 77, .g = 196, .b = 255 },
         { .r = 222, .g = 115, .b = 255 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_one_dark_IMPLEMENTATION_ONCE */

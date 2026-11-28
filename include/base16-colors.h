@@ -49,6 +49,7 @@ extern const tinted_scheme base16_colors;
 
 const tinted_scheme base16_colors = {
     .name = "Colors",
+    .slug = "colors",
     .base = {
         { .r = 17, .g = 17, .b = 17 },
         { .r = 51, .g = 51, .b = 51 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_colors = {
         { .r = 0, .g = 116, .b = 217 },
         { .r = 177, .g = 13, .b = 201 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_colors_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_purplepeter;
 
 const tinted_scheme base24_purplepeter = {
     .name = "Purplepeter",
+    .slug = "purplepeter",
     .base = {
         { .r = 42, .g = 26, .b = 74 },
         { .r = 10, .g = 4, .b = 31 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_purplepeter = {
         { .r = 121, .g = 218, .b = 237 },
         { .r = 185, .g = 145, .b = 212 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_purplepeter_IMPLEMENTATION_ONCE */

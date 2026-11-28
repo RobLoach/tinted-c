@@ -49,6 +49,7 @@ extern const tinted_scheme base24_builtin_tango_light;
 
 const tinted_scheme base24_builtin_tango_light = {
     .name = "Builtin Tango Light",
+    .slug = "builtin-tango-light",
     .base = {
         { .r = 255, .g = 255, .b = 255 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_builtin_tango_light = {
         { .r = 113, .g = 158, .b = 207 },
         { .r = 173, .g = 126, .b = 167 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_builtin_tango_light_IMPLEMENTATION_ONCE */

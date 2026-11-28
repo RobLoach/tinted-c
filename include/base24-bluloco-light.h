@@ -49,6 +49,7 @@ extern const tinted_scheme base24_bluloco_light;
 
 const tinted_scheme base24_bluloco_light = {
     .name = "Bluloco Light",
+    .slug = "bluloco-light",
     .base = {
         { .r = 247, .g = 247, .b = 247 },
         { .r = 203, .g = 204, .b = 212 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_bluloco_light = {
         { .r = 16, .g = 133, .b = 217 },
         { .r = 192, .g = 12, .b = 178 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_bluloco_light_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base24_treehouse;
 
 const tinted_scheme base24_treehouse = {
     .name = "Treehouse",
+    .slug = "treehouse",
     .base = {
         { .r = 25, .g = 25, .b = 25 },
         { .r = 50, .g = 18, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_treehouse = {
         { .r = 133, .g = 207, .b = 236 },
         { .r = 224, .g = 75, .b = 90 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_treehouse_IMPLEMENTATION_ONCE */

@@ -49,6 +49,7 @@ extern const tinted_scheme base16_valua;
 
 const tinted_scheme base16_valua = {
     .name = "Valua",
+    .slug = "valua",
     .base = {
         { .r = 19, .g = 31, .b = 31 },
         { .r = 33, .g = 49, .b = 50 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_valua = {
         { .r = 78, .g = 210, .b = 210 },
         { .r = 168, .g = 116, .b = 224 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_valua_IMPLEMENTATION_ONCE */

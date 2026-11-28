@@ -49,6 +49,7 @@ extern const tinted_scheme base24_flexoki_light;
 
 const tinted_scheme base24_flexoki_light = {
     .name = "Flexoki Light",
+    .slug = "flexoki-light",
     .base = {
         { .r = 255, .g = 252, .b = 240 },
         { .r = 242, .g = 240, .b = 229 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_flexoki_light = {
         { .r = 58, .g = 169, .b = 159 },
         { .r = 67, .g = 133, .b = 190 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_flexoki_light_IMPLEMENTATION_ONCE */

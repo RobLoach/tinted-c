@@ -49,6 +49,7 @@ extern const tinted_scheme base16_cerulean_signal_dark;
 
 const tinted_scheme base16_cerulean_signal_dark = {
     .name = "Cerulean Signal Dark",
+    .slug = "cerulean-signal-dark",
     .base = {
         { .r = 16, .g = 23, .b = 34 },
         { .r = 19, .g = 28, .b = 41 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_cerulean_signal_dark = {
         { .r = 125, .g = 211, .b = 255 },
         { .r = 255, .g = 116, .b = 212 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_cerulean_signal_dark_IMPLEMENTATION_ONCE */

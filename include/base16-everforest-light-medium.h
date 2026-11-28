@@ -49,6 +49,7 @@ extern const tinted_scheme base16_everforest_light_medium;
 
 const tinted_scheme base16_everforest_light_medium = {
     .name = "Everforest Light (Medium)",
+    .slug = "everforest-light-medium",
     .base = {
         { .r = 253, .g = 246, .b = 227 },
         { .r = 244, .g = 240, .b = 217 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_everforest_light_medium = {
         { .r = 58, .g = 148, .b = 197 },
         { .r = 223, .g = 105, .b = 186 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_everforest_light_medium_IMPLEMENTATION_ONCE */

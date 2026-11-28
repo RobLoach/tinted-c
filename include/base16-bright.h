@@ -49,6 +49,7 @@ extern const tinted_scheme base16_bright;
 
 const tinted_scheme base16_bright = {
     .name = "Bright",
+    .slug = "bright",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 48, .g = 48, .b = 48 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_bright = {
         { .r = 111, .g = 179, .b = 210 },
         { .r = 211, .g = 129, .b = 195 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_bright_IMPLEMENTATION_ONCE */

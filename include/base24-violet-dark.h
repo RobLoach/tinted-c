@@ -49,6 +49,7 @@ extern const tinted_scheme base24_violet_dark;
 
 const tinted_scheme base24_violet_dark = {
     .name = "Violet Dark",
+    .slug = "violet-dark",
     .base = {
         { .r = 27, .g = 29, .b = 31 },
         { .r = 86, .g = 89, .b = 92 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_violet_dark = {
         { .r = 32, .g = 117, .b = 199 },
         { .r = 198, .g = 27, .b = 110 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_violet_dark_IMPLEMENTATION_ONCE */

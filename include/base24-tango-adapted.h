@@ -49,6 +49,7 @@ extern const tinted_scheme base24_tango_adapted;
 
 const tinted_scheme base24_tango_adapted = {
     .name = "Tango Adapted",
+    .slug = "tango-adapted",
     .base = {
         { .r = 254, .g = 255, .b = 255 },
         { .r = 241, .g = 241, .b = 241 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_tango_adapted = {
         { .r = 136, .g = 201, .b = 255 },
         { .r = 232, .g = 166, .b = 225 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE24_tango_adapted_IMPLEMENTATION_ONCE */

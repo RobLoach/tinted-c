@@ -49,6 +49,7 @@ extern const tinted_scheme base16_atelier_cave_light;
 
 const tinted_scheme base16_atelier_cave_light = {
     .name = "Atelier Cave Light",
+    .slug = "atelier-cave-light",
     .base = {
         { .r = 239, .g = 236, .b = 244 },
         { .r = 226, .g = 223, .b = 231 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_atelier_cave_light = {
         { .r = 87, .g = 109, .b = 219 },
         { .r = 149, .g = 90, .b = 231 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_LIGHT
 };
 
 #endif  /* BASE16_atelier_cave_light_IMPLEMENTATION_ONCE */

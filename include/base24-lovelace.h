@@ -49,6 +49,7 @@ extern const tinted_scheme base24_lovelace;
 
 const tinted_scheme base24_lovelace = {
     .name = "Lovelace",
+    .slug = "lovelace",
     .base = {
         { .r = 29, .g = 31, .b = 40 },
         { .r = 40, .g = 42, .b = 54 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_lovelace = {
         { .r = 85, .g = 111, .b = 255 },
         { .r = 176, .g = 67, .b = 209 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_lovelace_IMPLEMENTATION_ONCE */

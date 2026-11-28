@@ -49,6 +49,7 @@ extern const tinted_scheme base24_builtin_pastel_dark;
 
 const tinted_scheme base24_builtin_pastel_dark = {
     .name = "Builtin Pastel Dark",
+    .slug = "builtin-pastel-dark",
     .base = {
         { .r = 0, .g = 0, .b = 0 },
         { .r = 78, .g = 78, .b = 78 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_builtin_pastel_dark = {
         { .r = 181, .g = 220, .b = 254 },
         { .r = 255, .g = 156, .b = 254 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_builtin_pastel_dark_IMPLEMENTATION_ONCE */

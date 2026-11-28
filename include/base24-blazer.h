@@ -49,6 +49,7 @@ extern const tinted_scheme base24_blazer;
 
 const tinted_scheme base24_blazer = {
     .name = "Blazer",
+    .slug = "blazer",
     .base = {
         { .r = 13, .g = 25, .b = 38 },
         { .r = 0, .g = 0, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_blazer = {
         { .r = 189, .g = 189, .b = 219 },
         { .r = 219, .g = 189, .b = 219 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_blazer_IMPLEMENTATION_ONCE */

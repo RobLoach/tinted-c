@@ -49,6 +49,7 @@ extern const tinted_scheme base16_chinoiserie_midnight;
 
 const tinted_scheme base16_chinoiserie_midnight = {
     .name = "Chinoiserie Midnight",
+    .slug = "chinoiserie-midnight",
     .base = {
         { .r = 29, .g = 29, .b = 29 },
         { .r = 40, .g = 40, .b = 40 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_chinoiserie_midnight = {
         { .r = 129, .g = 162, .b = 162 },
         { .r = 207, .g = 137, .b = 151 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_chinoiserie_midnight_IMPLEMENTATION_ONCE */

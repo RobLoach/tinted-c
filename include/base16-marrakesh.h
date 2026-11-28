@@ -49,6 +49,7 @@ extern const tinted_scheme base16_marrakesh;
 
 const tinted_scheme base16_marrakesh = {
     .name = "Marrakesh",
+    .slug = "marrakesh",
     .base = {
         { .r = 32, .g = 22, .b = 2 },
         { .r = 48, .g = 46, .b = 0 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_marrakesh = {
         { .r = 71, .g = 124, .b = 161 },
         { .r = 136, .g = 104, .b = 179 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_marrakesh_IMPLEMENTATION_ONCE */

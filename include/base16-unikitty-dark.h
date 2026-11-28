@@ -49,6 +49,7 @@ extern const tinted_scheme base16_unikitty_dark;
 
 const tinted_scheme base16_unikitty_dark = {
     .name = "Unikitty Dark",
+    .slug = "unikitty-dark",
     .base = {
         { .r = 46, .g = 42, .b = 49 },
         { .r = 74, .g = 70, .b = 77 },
@@ -77,7 +78,8 @@ const tinted_scheme base16_unikitty_dark = {
         { .r = 121, .g = 106, .b = 245 },
         { .r = 187, .g = 96, .b = 234 }
     },
-    .system = 16
+    .system = 16,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE16_unikitty_dark_IMPLEMENTATION_ONCE */

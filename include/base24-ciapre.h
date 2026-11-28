@@ -49,6 +49,7 @@ extern const tinted_scheme base24_ciapre;
 
 const tinted_scheme base24_ciapre = {
     .name = "Ciapre",
+    .slug = "ciapre",
     .base = {
         { .r = 24, .g = 28, .b = 39 },
         { .r = 24, .g = 24, .b = 24 },
@@ -77,7 +78,8 @@ const tinted_scheme base24_ciapre = {
         { .r = 47, .g = 151, .b = 198 },
         { .r = 211, .g = 48, .b = 96 }
     },
-    .system = 24
+    .system = 24,
+    .variant = TINTED_VARIANT_DARK
 };
 
 #endif  /* BASE24_ciapre_IMPLEMENTATION_ONCE */
